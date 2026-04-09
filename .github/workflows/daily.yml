@@ -1,0 +1,45 @@
+name: Daily Hormuz Tracker
+
+on:
+  schedule:
+    # 01:00 UTC = 09:00 北京时间
+    # 注意：GitHub Actions cron 高峰期可能延迟 5-30 分钟，属正常现象
+    - cron: '0 1 * * *'
+  workflow_dispatch:  # 允许手动触发用于调试
+
+permissions:
+  contents: write  # 允许 commit 回仓库
+
+jobs:
+  fetch-and-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run tracker
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          FEISHU_WEBHOOK_URL: ${{ secrets.FEISHU_WEBHOOK_URL }}
+          FEISHU_SECRET: ${{ secrets.FEISHU_SECRET }}
+        run: python tracker.py
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add history/ docs/data.json
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Daily update $(date -u +%Y-%m-%d)"
+            git push
+          fi
