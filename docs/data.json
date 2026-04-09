@@ -1,5 +1,62 @@
 {
-  "updated_at": "2026-04-09T00:00:00+00:00",
-  "report_count": 0,
-  "reports": []
+  "updated_at": "2026-04-09T16:24:47.242257+00:00",
+  "report_count": 1,
+  "reports": [
+    {
+      "report_date": "2026-04-09",
+      "data_window": "April 8-9, 2026",
+      "daily_transits": {
+        "count": 5,
+        "inbound": 0,
+        "outbound": 5,
+        "source": "Windward AI (April 8 Maritime Intelligence Daily) / Bloomberg / Kpler",
+        "confidence": "medium"
+      },
+      "cross_validation": [
+        {
+          "source": "Windward",
+          "count": 11,
+          "note": "April 7: 11 vessels (4 inbound sanctioned tankers + 7 outbound via IRGC Northern Corridor); April 8 midday: 5 bulk carriers outbound only, traffic unchanged post-ceasefire"
+        },
+        {
+          "source": "Bloomberg / Kpler",
+          "count": 3,
+          "note": "Bloomberg: 'just three ships observed leaving on Wednesday (Apr 8)'; Kpler: only 5 bulk carriers crossed on Wednesday, no oil/gas tankers; pre-war baseline ~135/day"
+        },
+        {
+          "source": "Lloyd's List",
+          "count": 72,
+          "note": "Week of Mar 30–Apr 5 had 72 transits total (busiest since war began), ~90% below normal; 80% Iran-connected, 13% China-owned"
+        }
+      ],
+      "milestones": {
+        "bluechip_operators_returning": "no — Maersk issued cautious statement: 'not making any changes to specific services'; Windward confirms 'No blue-chip operators present, major oil majors absent'",
+        "war_risk_premium_status": "peak — Lloyd's List reports 2.5% standard and up to 5% for US/UK/Israeli-nexus vessels; hull war cover at 1%+ of ship value; P&I clubs still partially withdrawn; no measurable decline post-ceasefire",
+        "non_iran_inbound_share_pct": 0,
+        "negotiation_progress": "Pakistan-mediated 2-week ceasefire announced April 7–8; US-Iran direct talks scheduled Islamabad April 10; US team led by VP Vance/Witkoff/Kushner; ceasefire fragile — Iran parliament speaker alleges violations, Lebanese operations ongoing; Iran's 10-point proposal accepted as 'workable basis'; nuclear enrichment remains key sticking point",
+        "iran_toll_status": "negotiating — Iran reportedly plans crypto toll demands (per CNBC/Windward); Iran's 10-point proposal includes 'dominance and oversight' of Hormuz; White House demands opening 'without limitation, including tolls'"
+      },
+      "recovery_score": {
+        "transit_volume_score": 1,
+        "balance_score": 0,
+        "non_iran_share_score": 0,
+        "bluechip_score": 0,
+        "insurance_score": 0,
+        "total": 1
+      },
+      "market_signals": {
+        "brent_spot": 98.26,
+        "brent_change_pct": 3.7,
+        "wti_midland_premium": null,
+        "defense_stocks_note": "Apr 9: RTX +2.40% ($202.68), NOC -0.38% ($687.85), LMT -1.60% ($627.70) — defense stocks broadly lower on ceasefire relief rally reversing; RTX outperforms on missile/interceptor demand; LMT down as war-pause reduces near-term strike contract urgency; defense sector still up ~38% YTD"
+      },
+      "trading_signal": "Ceasefire announced April 7–8 triggered 15%+ oil price crash (Brent ~$93–96), but Apr 9 oil rebounded +4–7% as market recognized Hormuz remains IRGC-controlled and physically closed to mainstream shipping. Iran confirmed ships must coordinate with IRGC; ADNOC CEO stated strait 'has not opened to ship traffic.' Goldman Sachs flagged $100+ Brent if closure persists another month. Ceasefire is fragile (Vance: 'ceasefires are always messy'); Israel-Lebanon operations ongoing complicate Iran buy-in. Islamabad talks (Apr 10) are the next critical catalyst.",
+      "verdict": "霍尔木兹海峡名义停火、实质仍受伊斯兰革命卫队管控，每日通航量仅约5艘（正常135艘的3.7%），零蓝筹船公司复航，战争险保费维持峰值，恢复评分1/100，属于'受监管暂停'而非真正重开。",
+      "key_news": [
+        "2026-04-07/08 美伊巴基斯坦斡旋下达成两周停火，伊朗外长宣布霍尔木兹可通行但须'与伊朗武装力量协调'，IRGC北部走廊管控不变",
+        "彭博/Kpler数据：4月8日仅3-5艘船（全为散货轮）通过，零油轮/LNG船，零蓝筹运营商；超800艘船只（含近800艘油轮/货船）仍困于海湾内等候",
+        "停火脆弱性高：伊朗议会议长指美国违反停火协议（黎巴嫩打击持续），ADNOC CEO 4月9日确认海峡'未对船舶交通开放'，油价当日反弹逾6%至WTI$100+；伊斯兰堡谈判(4月10日)为下一关键节点"
+      ]
+    }
+  ]
 }
