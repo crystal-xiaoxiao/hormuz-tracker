@@ -101,12 +101,14 @@ gcaptain.com。同时关注 Brent 油价、WTI Midland 价差、防务股 (LMT/R
 
 **语言要求（必须严格执行）**：所有面向展示的字段必须用**简体中文**输出，即使来源是英文新闻：
 - `verdict`：中文一句话判断
-- `key_news`：每一条必须是中文。如原始新闻是英文，翻译其核心含义后写中文，可在末尾括号内保留英文关键词（例："伊朗拒绝开放海峡除非解除制裁（Iran rejects opening without sanctions relief）"）
+- `key_news`：每一条必须是中文翻译。如原始新闻是英文，翻译其核心含义后写成中文，可在句末用一对圆括号附上英文关键词作为参考。例如写成：伊朗拒绝开放海峡除非解除制裁 (Iran rejects Hormuz opening without sanctions relief)。注意括号和其内容都属于字符串的一部分，不要在字符串内部使用 ASCII 双引号
 - `cross_validation` 的 `note`：中文描述
 - `milestones` 的各字段文字部分：中文（除了枚举值如 yes/no/partial、peak/elevated 等保留英文）
 - `trading_signal`：中文
-- `data_window`：保持英文日期格式即可（例 "April 8-9, 2026"）
-- 具体公司名、船名、货币代号等专有名词保留英文原文"""
+- `data_window`：保持英文日期格式即可，例如 April 8-9, 2026
+- 具体公司名、船名、货币代号等专有名词保留英文原文
+
+**JSON 格式严格规范**：输出必须是合法的 JSON。字符串内如需包含双引号必须转义为 \\"。字符串内优先使用中文标点（「」『』）或圆括号 () 代替内嵌的 ASCII 双引号。不要输出任何 JSON 之外的文字、注释或 markdown 代码块。"""
 
 
 # ─────────────────────── 抓取 ───────────────────────
@@ -123,7 +125,18 @@ def fetch_report() -> dict:
         text = text.split("```json", 1)[1].split("```", 1)[0]
     elif "```" in text:
         text = text.split("```", 1)[1].split("```", 1)[0]
-    return json.loads(text.strip())
+    text = text.strip()
+    try:
+        return json.loads(text)
+    except json.JSONDecodeError as e:
+        print(f"[error] JSON parse failed at pos {e.pos}: {e.msg}", file=sys.stderr)
+        print(f"[error] Context around error (200 chars):", file=sys.stderr)
+        start = max(0, e.pos - 100)
+        end = min(len(text), e.pos + 100)
+        print(text[start:end], file=sys.stderr)
+        print(f"[error] Full raw text (first 3000 chars):", file=sys.stderr)
+        print(text[:3000], file=sys.stderr)
+        raise
 
 
 # ─────────────────────── 持久化 ───────────────────────
