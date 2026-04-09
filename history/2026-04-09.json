@@ -2,55 +2,57 @@
   "report_date": "2026-04-09",
   "data_window": "April 8-9, 2026",
   "daily_transits": {
-    "count": 5,
-    "inbound": 0,
-    "outbound": 5,
-    "source": "Windward AI (April 8 Maritime Intelligence Daily) / Bloomberg / Kpler",
+    "count": 3,
+    "inbound": null,
+    "outbound": 3,
+    "source": "Bloomberg ship-tracking data（4月8日当日观测，仅3艘船只离开海湾）",
     "confidence": "medium"
   },
   "cross_validation": [
     {
-      "source": "Windward",
-      "count": 11,
-      "note": "April 7: 11 vessels (4 inbound sanctioned tankers + 7 outbound via IRGC Northern Corridor); April 8 midday: 5 bulk carriers outbound only, traffic unchanged post-ceasefire"
-    },
-    {
-      "source": "Bloomberg / Kpler",
-      "count": 3,
-      "note": "Bloomberg: 'just three ships observed leaving on Wednesday (Apr 8)'; Kpler: only 5 bulk carriers crossed on Wednesday, no oil/gas tankers; pre-war baseline ~135/day"
-    },
-    {
-      "source": "Lloyd's List",
+      "source": "Lloyd's List / Kpler",
       "count": 72,
-      "note": "Week of Mar 30–Apr 5 had 72 transits total (busiest since war began), ~90% below normal; 80% Iran-connected, 13% China-owned"
+      "note": "3月30日至4月5日整周合计72艘通过，为战争爆发以来最繁忙的一周，但仍较正常水平低约90%；其中约80%与伊朗有关联，13%为中国船主"
+    },
+    {
+      "source": "Bloomberg ship-tracking",
+      "count": 3,
+      "note": "4月8日（停火宣布次日）Bloomberg追踪数据显示仅3艘船只离开海湾，停火后通航量并未改善"
+    },
+    {
+      "source": "Iranian state media (Fars/Tasnim)",
+      "count": null,
+      "note": "伊朗IRGC声称以色列在黎巴嫩违反停火协议后，已再度停止霍尔木兹海峡油轮通行；伊朗港口和海事组织发布了安全通道指引（经Larak岛北侧进、南侧出），但实际执行受IRGC审批管控"
     }
   ],
   "milestones": {
-    "bluechip_operators_returning": "no — Maersk issued cautious statement: 'not making any changes to specific services'; Windward confirms 'No blue-chip operators present, major oil majors absent'",
-    "war_risk_premium_status": "peak — Lloyd's List reports 2.5% standard and up to 5% for US/UK/Israeli-nexus vessels; hull war cover at 1%+ of ship value; P&I clubs still partially withdrawn; no measurable decline post-ceasefire",
-    "non_iran_inbound_share_pct": 0,
-    "negotiation_progress": "Pakistan-mediated 2-week ceasefire announced April 7–8; US-Iran direct talks scheduled Islamabad April 10; US team led by VP Vance/Witkoff/Kushner; ceasefire fragile — Iran parliament speaker alleges violations, Lebanese operations ongoing; Iran's 10-point proposal accepted as 'workable basis'; nuclear enrichment remains key sticking point",
-    "iran_toll_status": "negotiating — Iran reportedly plans crypto toll demands (per CNBC/Windward); Iran's 10-point proposal includes 'dominance and oversight' of Hormuz; White House demands opening 'without limitation, including tolls'"
+    "bluechip_operators_returning": "no — Hapag-Lloyd CEO表示至少还需六周才能恢复正常网络，MSC、Maersk、CMA CGM等主要班轮公司仍暂停海湾航线；NYK Line等仅表示「密切关注」",
+    "war_risk_premium_status": "peak — 战争险保费仍处峰值区间，霍尔木兹通行约为船舶价值的1.5%至3%（美/英/以色列关联船只高达5%），远高于战前0.125%基准；Lloyd's List最新报价集中在2.5%区间",
+    "non_iran_inbound_share_pct": 20,
+    "negotiation_progress": "巴基斯坦斡旋达成两周停火（4月7日宣布）：美伊均已原则接受，但伊朗以以色列在黎巴嫩的军事行动为由宣称停火条款遭破坏。美国副总统Vance率领Witkoff与Kushner赴伊斯兰堡，首轮正式谈判定于4月10日（当地时间周六上午）举行。双方解读分歧明显——伊朗提出包含制裁全面解除、核浓缩权利及战争赔偿等十点计划，美方称仅以第二版十点方案作为「谈判基础」",
+    "iran_toll_status": "negotiating — 伊朗议会正推进立法，拟对过境船只收取加密货币计价的通行费，伊朗和阿曼据报均将对船只征收过境费；IMO总干事4月9日警告称此举将开创「危险且不可接受的先例」，美国白宫坚持要求「无任何限制（包括通行费）地」开放海峡"
   },
   "recovery_score": {
     "transit_volume_score": 1,
     "balance_score": 0,
-    "non_iran_share_score": 0,
+    "non_iran_share_score": 4,
     "bluechip_score": 0,
     "insurance_score": 0,
-    "total": 1
+    "total": 5
   },
   "market_signals": {
     "brent_spot": 98.26,
     "brent_change_pct": 3.7,
     "wti_midland_premium": null,
-    "defense_stocks_note": "Apr 9: RTX +2.40% ($202.68), NOC -0.38% ($687.85), LMT -1.60% ($627.70) — defense stocks broadly lower on ceasefire relief rally reversing; RTX outperforms on missile/interceptor demand; LMT down as war-pause reduces near-term strike contract urgency; defense sector still up ~38% YTD"
+    "defense_stocks_note": "RTX +2.81%、NOC -0.44%；停火消息令防务板块4月8日短暂承压（Brent单日暴跌逾15%，Dow +1000点），但4月9日油价强势反弹（WTI重上100美元）显示市场对停火持续性存疑，防务股整体仍受战争级国防预算（FY2027拟议1.5万亿美元）支撑，LMT年内涨幅约28.7%"
   },
-  "trading_signal": "Ceasefire announced April 7–8 triggered 15%+ oil price crash (Brent ~$93–96), but Apr 9 oil rebounded +4–7% as market recognized Hormuz remains IRGC-controlled and physically closed to mainstream shipping. Iran confirmed ships must coordinate with IRGC; ADNOC CEO stated strait 'has not opened to ship traffic.' Goldman Sachs flagged $100+ Brent if closure persists another month. Ceasefire is fragile (Vance: 'ceasefires are always messy'); Israel-Lebanon operations ongoing complicate Iran buy-in. Islamabad talks (Apr 10) are the next critical catalyst.",
-  "verdict": "霍尔木兹海峡名义停火、实质仍受伊斯兰革命卫队管控，每日通航量仅约5艘（正常135艘的3.7%），零蓝筹船公司复航，战争险保费维持峰值，恢复评分1/100，属于'受监管暂停'而非真正重开。",
+  "trading_signal": "停火协议宣布后24小时内霍尔木兹实际通航量仅3艘，远未达到「完全开放」标准；伊朗以黎巴嫩停火遭违为由再次限制油轮通行，油价4月9日强力反弹（Brent +约4%至98美元）揭示市场对停火有效性的深度疑虑。伊斯兰堡谈判（4月10日）成为短期关键催化剂：若谈判破裂或伊朗拒绝无条件开放海峡，油价可能重回110美元以上；若达成实质性通航协议，Brent存在快速回落至85-90美元区间的空间。战争险保费仍处峰值，蓝筹航运公司零返航，恢复评分极低（5/100），投资者应维持防御性能源多头与航运空头组合，并密切跟踪IRGC官方通告及MarineTraffic实时AIS数据",
+  "verdict": "停火协议名存实亡——4月8至9日霍尔木兹通航量仅约3艘/日（正常水平135艘的2.2%），伊朗持续以IRGC审批管控通道，蓝筹航运公司无一复航，海峡恢复程度极低（5/100分）",
   "key_news": [
-    "2026-04-07/08 美伊巴基斯坦斡旋下达成两周停火，伊朗外长宣布霍尔木兹可通行但须'与伊朗武装力量协调'，IRGC北部走廊管控不变",
-    "彭博/Kpler数据：4月8日仅3-5艘船（全为散货轮）通过，零油轮/LNG船，零蓝筹运营商；超800艘船只（含近800艘油轮/货船）仍困于海湾内等候",
-    "停火脆弱性高：伊朗议会议长指美国违反停火协议（黎巴嫩打击持续），ADNOC CEO 4月9日确认海峡'未对船舶交通开放'，油价当日反弹逾6%至WTI$100+；伊斯兰堡谈判(4月10日)为下一关键节点"
+    "美伊两周停火宣布后霍尔木兹实际仍近乎封闭，4月8日Bloomberg追踪仅3艘船只离港，Kpler分析师称停火公告后通航量并无改善 (Hormuz remains largely blocked post-ceasefire)",
+    "伊朗IRGC宣布以色列在黎巴嫩军事行动违反停火条款，随即再次停止油轮通行；美方坚称停火不涵盖黎巴嫩战线 (IRGC halts tanker traffic citing Lebanon ceasefire breach)",
+    "副总统Vance携Witkoff与Kushner赴伊斯兰堡，首轮美伊正式谈判定于4月10日举行，巴基斯坦居中斡旋 (Vance leads US delegation to Islamabad talks April 10)",
+    "IMO总干事警告伊朗拟征收的霍尔木兹通行费「危险且不可接受」，将开创全球航运恶劣先例 (IMO warns Iran Hormuz toll sets dangerous precedent)",
+    "Hapag-Lloyd CEO表示即便部分船只很快能驶出海湾，公司恢复正常网络至少需要六周，估计约1000艘商船仍困于波斯湾，每周损失约5500万美元 (Hapag-Lloyd CEO: at least 6 weeks to restore normal network)"
   ]
 }
