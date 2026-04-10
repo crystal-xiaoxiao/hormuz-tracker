@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-04-09T17:21:29.607388+00:00",
-  "report_count": 1,
+  "updated_at": "2026-04-10T04:11:31.668092+00:00",
+  "report_count": 2,
   "reports": [
     {
       "report_date": "2026-04-09",
@@ -58,6 +58,65 @@
         "副总统Vance携Witkoff与Kushner赴伊斯兰堡，首轮美伊正式谈判定于4月10日举行，巴基斯坦居中斡旋 (Vance leads US delegation to Islamabad talks April 10)",
         "IMO总干事警告伊朗拟征收的霍尔木兹通行费「危险且不可接受」，将开创全球航运恶劣先例 (IMO warns Iran Hormuz toll sets dangerous precedent)",
         "Hapag-Lloyd CEO表示即便部分船只很快能驶出海湾，公司恢复正常网络至少需要六周，估计约1000艘商船仍困于波斯湾，每周损失约5500万美元 (Hapag-Lloyd CEO: at least 6 weeks to restore normal network)"
+      ]
+    },
+    {
+      "report_date": "2026-04-10",
+      "data_window": "April 8-9, 2026",
+      "daily_transits": {
+        "count": 9,
+        "inbound": null,
+        "outbound": null,
+        "source": "S&P Global Market Intelligence（4月8-9日累计9艘）；MarineTraffic确认5艘散货船通过；Bloomberg记录4月8日3艘出港；战前正常水平约135艘/天",
+        "confidence": "low"
+      },
+      "cross_validation": [
+        {
+          "source": "Windward",
+          "count": null,
+          "note": "本次检索未发现Windward近48小时独立日报数据，无法交叉核验"
+        },
+        {
+          "source": "Lloyd's List / Kpler",
+          "count": 72,
+          "note": "Kpler数据：3月30日至4月5日整周共72艘通行，为开战以来最高周值，但仍较正常水平低约90%；MarineTraffic确认4月8日两艘（NJ Earth、Daytona Beach）散货船通过"
+        },
+        {
+          "source": "Iranian state media (Fars/Tasnim)",
+          "count": null,
+          "note": "伊朗国家通讯社Fars报道：以色列轰炸贝鲁特后，伊朗IRGC宣布再度停止油轮通行；Tasnim声称伊朗「迫使美国接受10点计划」，并继续主张对霍尔木兹海峡的管控权"
+        }
+      ],
+      "milestones": {
+        "bluechip_operators_returning": "partial — Maersk表示「谨慎乐观」但未变更服务计划；Hapag-Lloyd CEO表示即便停火亦需至少6周才能恢复正常网络，估计约1000艘商船仍滞留波斯湾；CMA CGM旗下3艘船（CMA Everglade、CMA CGM Galapagos、CMA CGM Manaus）已驶向出口方向，法国船东被认为是欧洲主要班轮中首个获得伊朗安全通行保证的；MSC、COSCO尚无明确复航信号",
+        "war_risk_premium_status": "peak — 战前约0.02%-0.05%船体价值/航次，冲突爆发后跳升至0.5%-1%（Caixin Global报告为船体价值1%，7天续保）；Lloyd's List报告霍尔木兹过境报价最高达2.5%，美/英/以色列关联船只高达5%；停火后保费略有回落但仍处峰值区间，P&I俱乐部战争险覆盖尚未全面恢复",
+        "non_iran_inbound_share_pct": 20,
+        "negotiation_progress": "4月8日美伊宣布巴基斯坦斡旋下达成两周停火协议；4月10日（今日）伊斯兰堡直接谈判按计划举行，美方由副总统JD Vance、特使Steve Witkoff和Jared Kushner带队，伊方已确认参与；但伊朗议会议长Ghalibaf指控以色列轰炸黎巴嫩构成停火违约，IRGC随即宣布重新停止油轮通行；停火极度脆弱，谈判进入「关键敏感阶段」",
+        "iran_toll_status": "negotiating — 伊朗提出收取过境费（曾提人民币、后改为加密货币），伊朗10点方案明确「继续对霍尔木兹海峡的控制权」；美国坚持「不得附加任何限制包括过路费」；阿曼否认将联合收费；具体收费金额和程序尚未公开确认"
+      },
+      "recovery_score": {
+        "transit_volume_score": 2,
+        "balance_score": 0,
+        "non_iran_share_score": 4,
+        "bluechip_score": 5,
+        "insurance_score": 0,
+        "total": 11
+      },
+      "market_signals": {
+        "brent_spot": 96.51,
+        "brent_change_pct": 1.9,
+        "wti_midland_premium": -2.25,
+        "defense_stocks_note": "4月9日收盘：RTX +2.81%，NOC +0.45%，LMT数据有限（YTD -3.6%，年初至今跑输）；RTX因导弹/防空系统需求激增年内累计涨幅领先；NOC年初至今+5.4%；停火消息公布后防务股整体出现短暂回调，但市场预期冲突延续支撑中长期订单，LMT与Honeywell已获五角大楼框架协议用于增产防务系统"
+      },
+      "trading_signal": "停火协议极脆弱：IRGC已以黎巴嫩停火违约为由再度叫停油轮通行；通行量较战前仍低逾90%；今日伊斯兰堡谈判为2周窗口期内关键节点——若谈判破裂油价将重回100美元以上区间，若达成明确通行协议Brent可能进一步回落至85-90美元；Maersk/Hapag-Lloyd等蓝筹班轮尚未实质复航，战争险保费仍处峰值，市场应密切跟踪伊斯兰堡谈判进展及IRGC是否重开油轮通道",
+      "verdict": "停火后第二日霍尔木兹海峡仍处近全面封锁状态，仅零星散货船通过，蓝筹船东持观望态度，伊斯兰堡谈判今日开启但停火协议极度脆弱，通航实质性恢复尚未发生",
+      "key_news": [
+        "美伊两周停火协议于4月8日生效，巴基斯坦居间斡旋，美方由副总统Vance领衔代表团于今日（4月10日）赴伊斯兰堡展开直接谈判 (US-Iran two-week ceasefire, Islamabad talks)",
+        "停火宣布后48小时内通行量仍极低迷：S&P Global统计4月8-9日仅9艘船通过，较战前正常135艘/天低逾90%，Maersk和Hapag-Lloyd拒绝立即复航 (transit volume still 90% below pre-war normal)",
+        "IRGC以以色列轰炸贝鲁特为由宣布再度停止油轮通行，伊朗议会议长称停火协议已遭三处违约，停火协议陷入危机 (IRGC halts tanker traffic citing Lebanon ceasefire breach)",
+        "伊朗坚持对霍尔木兹海峡征收过境费（加密货币计价）并主张对海峡的持续控制权，美国和欧洲领导人明确反对任何过路费 (Iran toll demand vs US/Europe opposition)",
+        "Brent原油4月8日因停火暴跌逾15%至约93美元，4月9日反弹至95.92美元，当前报约96.51美元，仍远高于战前约70美元水平 (Brent plunged 15% on ceasefire, partial recovery to $96.51)",
+        "战争险保费仍处峰值：对比战前0.02%-0.05%的船体价值，目前霍尔木兹过境报价高达2.5%-5%（美/英/以色列关联船只），P&I俱乐部战争险覆盖尚未恢复 (war risk premium at 2.5-5% vs pre-war 0.02-0.05%)"
       ]
     }
   ]
