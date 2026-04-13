@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-04-10T04:11:31.668092+00:00",
-  "report_count": 2,
+  "updated_at": "2026-04-13T16:58:56.981870+00:00",
+  "report_count": 3,
   "reports": [
     {
       "report_date": "2026-04-09",
@@ -117,6 +117,64 @@
         "伊朗坚持对霍尔木兹海峡征收过境费（加密货币计价）并主张对海峡的持续控制权，美国和欧洲领导人明确反对任何过路费 (Iran toll demand vs US/Europe opposition)",
         "Brent原油4月8日因停火暴跌逾15%至约93美元，4月9日反弹至95.92美元，当前报约96.51美元，仍远高于战前约70美元水平 (Brent plunged 15% on ceasefire, partial recovery to $96.51)",
         "战争险保费仍处峰值：对比战前0.02%-0.05%的船体价值，目前霍尔木兹过境报价高达2.5%-5%（美/英/以色列关联船只），P&I俱乐部战争险覆盖尚未恢复 (war risk premium at 2.5-5% vs pre-war 0.02-0.05%)"
+      ]
+    },
+    {
+      "report_date": "2026-04-13",
+      "data_window": "April 11-13, 2026",
+      "daily_transits": {
+        "count": 7,
+        "inbound": 1,
+        "outbound": 6,
+        "source": "Windward Maritime AI™ / Kpler / Seatrade Maritime（4月11日数据：含两艘中国油轮入港、多艘出港；4月12日多艘尝试后折返；4月13日美军封锁生效后数据极度有限，以4月11日最近可信完整日数据为准）",
+        "confidence": "low"
+      },
+      "cross_validation": [
+        {
+          "source": "Windward",
+          "count": 7,
+          "note": "4月11日：两艘伊拉克原油中国油轮入境（各约191万桶），两艘巴基斯坦油轮出境，另有其他出港散货轮，估计全日通行约7艘；4月12日多艘船只在拉拉克岛附近掉头折返，实际完成通行极少"
+        },
+        {
+          "source": "Kpler",
+          "count": 7,
+          "note": "4月9日（周四）数据为7艘，4月8日（周三）仅5艘；4月11日与Windward数据基本吻合；评估停火期间每日上限10-15艘，实际远未达到"
+        },
+        {
+          "source": "Iranian state media (Fars/Tasnim)",
+          "count": null,
+          "note": "伊朗官方媒体未公布具体过境数字；IRGC宣称对MSC Ishyka发动无人机袭击（4月4日，未核实），并警告美国驱逐舰停火期间穿越海峡为「最后警告」，未提供通行量数据"
+        }
+      ],
+      "milestones": {
+        "bluechip_operators_returning": "no + 无主要西方航运巨头（马士基MSC、达飞CMA CGM、赫伯罗特Hapag-Lloyd等）重返，仅中国国有船东（中远COSCO旗下VLCCs Cospearl Lake、He Rong Hai）及部分巴基斯坦、菲律宾等国小型船东通行",
+        "war_risk_premium_status": "peak + 战前约0.025%-0.05%船值，危机高峰升至1%-10%乃至更高；Lloyd's List报告特定情形下报价高达10%；停火后McGill & Partners称出现「明显费率修正」但仍属「极高风险区域」，整体仍处峰值区间",
+        "non_iran_inbound_share_pct": null,
+        "negotiation_progress": "巴基斯坦斡旋的伊斯兰堡谈判（4月11-12日）以失败告终——美方指责伊朗拒绝限制核野心，伊方要求控制海峡、战争赔偿、黎巴嫩停火及解冻海外资产。副总统万斯（Vance）离开伊斯兰堡后，特朗普于4月12日宣布自4月13日上午10时（美东时间）起对伊朗港口实施美国海军封锁",
+        "iran_toll_status": "implementing + 伊朗IRGC对每艘油轮收取超百万美元过境费，接受人民币或加密货币支付，西方国家明确反对，特朗普宣布拦截已缴纳伊朗通行费的船只"
+      },
+      "recovery_score": {
+        "transit_volume_score": 2,
+        "balance_score": 2,
+        "non_iran_share_score": 0,
+        "bluechip_score": 0,
+        "insurance_score": 0,
+        "total": 4
+      },
+      "market_signals": {
+        "brent_spot": 101.82,
+        "brent_change_pct": 6.95,
+        "wti_midland_premium": null,
+        "defense_stocks_note": "LMT约621美元（+1.25%），RTX约202美元（+0.42%），NOC（+1.32%）；美国海军封锁宣布推动防务股温和上涨；Morgan Stanley维持Q2 Brent目标价110美元/桶；OPEC报告3月产量骤降27%至2079万桶/日"
+      },
+      "trading_signal": "局势急剧恶化：伊斯兰堡谈判破裂→美国海军封锁4月13日生效→Brent单日暴涨约7%重返100美元以上→WTI期货盘中触及105美元以上→多艘入境油轮掉头撤离→过境量事实上归零。停火濒临崩溃，伊朗IRGC警告任何军事船只接近海峡将遭「严厉回应」，能源市场风险溢价大幅抬升，航运恢复时间表全面推迟，Morgan Stanley基准情形预测5-7月才能恢复约70%通行量",
+      "verdict": "伊斯兰堡谈判破裂、美国封锁今日生效，霍尔木兹海峡恢复进程全面逆转，实际通行量逼近历史低点，短期内彻底正常化几无可能。",
+      "key_news": [
+        "伊斯兰堡谈判4月12日宣告失败，美副总统万斯离开后特朗普宣布自4月13日上午10时起对伊朗所有港口实施美国海军封锁 (Islamabad talks collapse, US naval blockade of Iranian ports begins April 13)",
+        "美国海军驱逐舰USS Frank E. Petersen与USS Michael Murphy于4月11日高调穿越海峡开启排雷行动，IRGC发出「最后警告」并据报发射无人机警示 (USS destroyers transit Hormuz for mine clearance, IRGC issues last warning)",
+        "Brent原油4月13日单日暴涨约7%至约101-102美元/桶，OPEC公布3月OPEC成员国产量骤降27%，Morgan Stanley维持Q2目标价110美元/桶 (Brent surges 7% above $101, OPEC reports 27% March output collapse)",
+        "Kpler数据显示停火后每日过境量5-11艘，远低于战前每日135艘基准；Lloyd's List确认过境量仍不足正常水平10% (Daily transits 5-11 vessels vs 135 pre-war baseline, still below 10% normal flow per Lloyd's List)",
+        "战争险保费仍处峰值：停火后出现小幅费率修正但海峡仍被列为「极高风险区域」，VLCC单次过境报价最高达船值10%，约合1000-1400万美元 (War risk premiums remain at peak, VLCC Hormuz transit quotes up to 10% of hull value)"
       ]
     }
   ]
