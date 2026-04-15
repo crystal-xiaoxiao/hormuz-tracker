@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-04-13T16:58:56.981870+00:00",
-  "report_count": 3,
+  "updated_at": "2026-04-15T04:12:06.753744+00:00",
+  "report_count": 4,
   "reports": [
     {
       "report_date": "2026-04-09",
@@ -175,6 +175,62 @@
         "Brent原油4月13日单日暴涨约7%至约101-102美元/桶，OPEC公布3月OPEC成员国产量骤降27%，Morgan Stanley维持Q2目标价110美元/桶 (Brent surges 7% above $101, OPEC reports 27% March output collapse)",
         "Kpler数据显示停火后每日过境量5-11艘，远低于战前每日135艘基准；Lloyd's List确认过境量仍不足正常水平10% (Daily transits 5-11 vessels vs 135 pre-war baseline, still below 10% normal flow per Lloyd's List)",
         "战争险保费仍处峰值：停火后出现小幅费率修正但海峡仍被列为「极高风险区域」，VLCC单次过境报价最高达船值10%，约合1000-1400万美元 (War risk premiums remain at peak, VLCC Hormuz transit quotes up to 10% of hull value)"
+      ]
+    },
+    {
+      "report_date": "2026-04-15",
+      "data_window": "April 13-15, 2026",
+      "daily_transits": {
+        "count": 3,
+        "inbound": 2,
+        "outbound": 1,
+        "source": "Windward Maritime AI / Kpler / LSEG（4月14日首个美国封锁执行日数据）",
+        "confidence": "medium"
+      },
+      "cross_validation": [
+        {
+          "source": "Windward",
+          "count": 3,
+          "note": "4月14日识别出两艘受制裁油轮（RICH STARRY出港、MURLIKISHAN入港）及第三艘Panama旗Peace Gulf入港，共3艘，另有4艘异常行为船只（2艘关闭AIS、2艘掉头）"
+        },
+        {
+          "source": "Lloyd's List 或 Kpler",
+          "count": 3,
+          "note": "Kpler与LSEG数据确认4月14日至少3艘船只通过海峡，其中RICH STARRY从UAE出发，不受封锁约束；另报告封锁实施首日6艘船遵令返回伊朗港口"
+        },
+        {
+          "source": "Iranian state media (Fars/Tasnim)",
+          "count": null,
+          "note": "未检索到4月14至15日伊朗官方媒体对通行数量的具体表态；伊朗将封锁定性为「海盗行为」，IRGC称继续控制海峡"
+        }
+      ],
+      "milestones": {
+        "bluechip_operators_returning": "no 主要蓝筹航运商（MSC、马士基、中远海运等大型西方/中立船东）仍未恢复常规运营；通行船只均为受制裁或伊朗认可的亚洲旗帜船（RICH STARRY由Shanghai Xuanrun Shipping运营，MURLIKISHAN为化学品油轮）",
+        "war_risk_premium_status": "peak 战争险保费仍处峰值，Lloyd's报告单次通行保费高达船舶价值5%甚至更高，每航次可达1000至1400万美元；预战前水平约为0.125%至0.25%",
+        "non_iran_inbound_share_pct": null,
+        "negotiation_progress": "伊斯兰堡谈判（周末）破裂，美方指控伊朗拒绝限制核野心，伊朗要求战争赔偿、制裁解除及更广泛地区停火；Trump宣布自4月13日起实施海军封锁，但表示谈判可能在「两天内」重启，伊朗据报正考虑临时暂停某些船只通行以推进协议",
+        "iran_toll_status": "implemented 伊朗IRGC已向通行船只收取高达200万美元过路费，支付方式为人民币或加密货币；Trump警告已缴费船只将在公海遭到拦截"
+      },
+      "recovery_score": {
+        "transit_volume_score": 1,
+        "balance_score": 13,
+        "non_iran_share_score": 0,
+        "bluechip_score": 0,
+        "insurance_score": 0,
+        "total": 14
+      },
+      "market_signals": {
+        "brent_spot": 94.99,
+        "brent_change_pct": -4.4,
+        "wti_midland_premium": null,
+        "defense_stocks_note": "LMT约621.44美元（+1.25%，4月14日数据）；RTX约202.40美元（+0.42%）；NOC同期走强（+1.32%），受益于持续军事需求与PAC-3导弹加速生产合同（47亿美元）；但4月7日美伊停火宣布后防务股曾短暂下跌，随后因封锁升级重新走强"
+      },
+      "trading_signal": "美国封锁4月13日正式生效后，霍尔木兹通行量跌至单日仅3艘（较停火初期峰值11艘大幅回落）；WTI因美伊谈判可能重启暗示下跌逾7%至约91美元（4月14日），Brent跌至约95美元；封锁与谈判预期之间的拉锯导致油价剧烈震荡，防务股走强；伊朗收费机制+美国封锁形成双重阻断，蓝筹船东仍无复航迹象，恢复进程处于最低水平",
+      "verdict": "霍尔木兹海峡在美国海军封锁首日仅录得3艘通行，较战前日均逾100艘的水平恢复率不足3%，双重管制（伊朗收费+美国封锁）使正式复航遥遥无期",
+      "key_news": [
+        "美国海军封锁4月13日正式实施，CENTCOM宣布首日6艘商船遵令掉头，封锁范围限定为进出伊朗港口船只，自由通行权理论上适用于其他船只 (US naval blockade of Iranian ports takes effect April 13, six ships turned around)",
+        "伊斯兰堡谈判破裂，特朗普宣布封锁后仍称可能「两天内」重启谈判，伊朗据报正考虑临时暂停通行以换取协议空间，WTI因此暴跌逾7% (Islamabad talks collapse, Trump blockade announced, WTI plunges 7% on renewed talks hopes)",
+        "Windward确认两艘受制裁油轮（RICH STARRY、MURLIKISHAN）于封锁首日通过海峡，均未前往伊朗港口，中国与伊朗就独立能源过境协议达成默契并警告美国勿干涉 (Windward confirms RICH STARRY and MURLIKISHAN transit on blockade day one, China warns US not to interfere with its Iran oil deal)"
       ]
     }
   ]
