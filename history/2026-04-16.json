@@ -1,0 +1,56 @@
+{
+  "report_date": "2026-04-16",
+  "data_window": "April 14-15, 2026",
+  "daily_transits": {
+    "count": 11,
+    "inbound": null,
+    "outbound": null,
+    "source": "Bloomberg / CNBC (4月15日船舶追踪数据)",
+    "confidence": "medium"
+  },
+  "cross_validation": [
+    {
+      "source": "Bloomberg",
+      "count": 11,
+      "note": "4月15日（周二）观测到11艘商船通过，周末均值为16艘/天"
+    },
+    {
+      "source": "Lloyd's List Intelligence / Kpler",
+      "count": 6,
+      "note": "4月14日（周一，美国封锁首日）仅录得6次通行，Kpler数据显示周日（4月12日）为14次"
+    },
+    {
+      "source": "Iranian state media (Fars/Tasnim)",
+      "count": null,
+      "note": "伊朗官方媒体将美国封锁定性为「非法行为」，未公布独立过境数字；IRGC继续声称控制海峡"
+    }
+  ],
+  "milestones": {
+    "bluechip_operators_returning": "no — 主要蓝筹航运公司（MSC、Maersk、Hapag-Lloyd、CMA CGM等）仍将所有霍尔木兹过境暂停，全舰队绕行好望角，部分携带伊朗收费路线（Larak Island）的暗船为中国或受制裁船只",
+    "war_risk_premium_status": "peak — 战争险保费仍处峰值，Lloyd's List报告最高达船舶价值5%（美国/英国/以色列关联船只），一般船只亦达2.5%；战前基准仅0.125–0.25%，当前约为战前的10–20倍",
+    "non_iran_inbound_share_pct": null,
+    "negotiation_progress": "伊斯兰堡谈判（4月11–12日）历经21小时三轮磋商后破裂，无协议达成；VP JD Vance率领美方代表团，伊方由议长Ghalibaf率领；主要分歧为核问题、海峡控制权与制裁解除。美国随即于4月13日实施伊朗港口海上封锁（CENTCOM）。截至4月15日，第二轮谈判讨论中，Trump表示「倾向再赴伊斯兰堡」，巴基斯坦PM Sharif赴沙特、卡塔尔和土耳其寻求支持；停火协议将于4月21–22日到期",
+    "iran_toll_status": "implemented — 伊朗继续通过Larak岛收费路线（经IRGC文件审查并收取过路费，有时要求加密货币支付），4月6日至13日共72次通行中50次使用该收费路线（Lloyd's List Intelligence）；美国封锁后将收费支付定性为潜在封锁违规"
+  },
+  "recovery_score": {
+    "transit_volume_score": 2,
+    "balance_score": 0,
+    "non_iran_share_score": 0,
+    "bluechip_score": 0,
+    "insurance_score": 0,
+    "total": 2
+  },
+  "market_signals": {
+    "brent_spot": 94.89,
+    "brent_change_pct": -0.04,
+    "wti_midland_premium": null,
+    "defense_stocks_note": "LMT与NOC在4月7日停火宣布后当日一度下跌；LMT年初至今下跌约3.6%，持续承压于五角大楼F-35采购削减报道；RTX在「全球重新武装超级周期」叙事下表现较强，近期交易区间$185–$205；Motley Fool数据（4月15日）显示NOC当日跌0.23%，RTX跌2.01%；Trump FY2027国防预算请求大幅提高，对LMT/RTX/NOC长期订单形成支撑"
+  },
+  "trading_signal": "霍尔木兹海峡处于「双重封锁」困境——伊朗控制准入收费+美国封锁伊朗港口——两力叠加使商业通行降至战前水平约5–10%。Brent从4月14日高点$100.19急跌至4月16日$94.89（两日跌幅约5%），反映市场对伊斯兰堡第二轮谈判重启持谨慎乐观；EIA预测2Q26均价$115/桶峰值仍在前方。停火于4月21–22日到期，若无第二轮协议，油价和防务股将面临新一轮双向冲击。战争险保费峰值未见松动，蓝筹航运商全面缺席，当日恢复评分极低（2/100）。",
+  "verdict": "霍尔木兹海峡通航仍处于极度受限状态（战前水平不足10%），「美国封锁+伊朗收费」双重管控叠加，恢复实质性进展有赖第二轮伊斯兰堡谈判突破，近期基本面不支持航运恢复乐观押注。",
+  "key_news": [
+    "美国自4月13日起对伊朗港口实施海上封锁，封锁令由CENTCOM执行，规定「对所有国籍船只一视同仁」，但同时承诺不阻碍目的地为非伊朗港口的船只自由通行 (US naval blockade of Iranian ports effective April 13)",
+    "伊斯兰堡和谈破裂后无协议达成——VP JD Vance率300人美方代表团与伊朗议长Ghalibaf进行21小时直接谈判，核问题与海峡控制权僵局导致双方无法成交；第二轮谈判讨论中，停火4月21日到期 (Islamabad Talks collapse, no deal, second round under discussion)",
+    "Brent原油从4月14日$100.19/桶骤降至4月16日$94.89/桶（跌幅逾5%），原因为市场押注谈判重启可能带来海峡部分解封；EIA预测若冲突不超过4月则2Q26均价峰值约$115/桶 (Brent drop from $100 to $95 on resumed talk hopes, EIA forecasts $115 Q2 peak)"
+  ]
+}
