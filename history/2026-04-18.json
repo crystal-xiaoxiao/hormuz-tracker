@@ -1,0 +1,56 @@
+{
+  "report_date": "2026-04-18",
+  "data_window": "April 17-18, 2026",
+  "daily_transits": {
+    "count": 8,
+    "inbound": 5,
+    "outbound": 3,
+    "source": "Windward Daily Intelligence (insights.windward.ai)",
+    "confidence": "high"
+  },
+  "cross_validation": [
+    {
+      "source": "Windward",
+      "count": 8,
+      "note": "4月17日记录8艘船通过霍尔木兹海峡，其中5艘入境、3艘出境，未观测到关闭AIS的「暗渡」行为"
+    },
+    {
+      "source": "Lloyd's List Intelligence",
+      "count": 6,
+      "note": "4月14日（周一）仅追踪到6艘，为美国宣布封锁伊朗港口后通行量骤降的数据；4月6日至13日共追踪到72次通行"
+    },
+    {
+      "source": "Kpler",
+      "count": 14,
+      "note": "4月13日（周日）追踪到14次通行，为美国宣布封锁前的周末高峰；4月9日记录14次，4月8日记录11次"
+    }
+  ],
+  "milestones": {
+    "bluechip_operators_returning": "partial — Hapag-Lloyd表示「可能很快通过」并召开危机委员会会议；Maersk持谨慎态度密切监察，尚未发出复航指令；CMA CGM及Frontline拒绝置评，均未正式复航",
+    "war_risk_premium_status": "elevated — 高峰期保费曾高达船舶价值的5%以上（Lloyd's数据：霍尔木兹过境报价2.5%-5%），战前基准为0.15%-0.25%；4月17日伊朗宣布开放后保费开始下降，具体新数字尚未公开，仍显著高于战前水平",
+    "non_iran_inbound_share_pct": null,
+    "negotiation_progress": "伊斯兰堡谈判（Islamabad Talks）于4月12日宣告失败，特朗普随即宣布美国海军封锁伊朗港口（4月13日起生效）；此后伊朗外长Araghchi于4月17日宣布在黎巴嫩停火期间海峡「完全开放」；英法两国于4月17日举行多边线上峰会讨论联合护航机制；美伊双方均表示有意在停火期结束前就扩大通行安排进行第二轮谈判",
+    "iran_toll_status": "negotiating — 4月6日至13日共72次通行中有50次使用经伊朗Larak岛的付费路线（Lloyd's List数据），伊朗最高收费曾达200万美元；4月17日伊朗宣布开放后，声明要求经IRGC协调路线通行，是否仍收过路费尚不明确；特朗普警告「缴纳非法过路费者在公海不会有安全通行」"
+  },
+  "recovery_score": {
+    "transit_volume_score": 2,
+    "balance_score": 14,
+    "non_iran_share_score": 0,
+    "bluechip_score": 5,
+    "insurance_score": 5,
+    "total": 26
+  },
+  "market_signals": {
+    "brent_spot": 90.38,
+    "brent_change_pct": -9.1,
+    "wti_midland_premium": null,
+    "defense_stocks_note": "4月17日防务股普遍下跌反映战争溢价消退：LMT下跌约1.57%，NOC下跌约0.68%，RTX上涨约1.12%；整体防务板块自停火消息以来持续承压，但伊朗宣布开放海峡当日大盘（S&P 500、纳斯达克）双双创历史新高，市场风险偏好明显回升"
+  },
+  "trading_signal": "伊朗外长4月17日宣布海峡「完全开放」触发油价单日暴跌逾9%（Brent收于90.38美元），为战争爆发以来最大单日跌幅之一；但实物通行量仍极低（4月17日仅8艘），Maersk/CMA CGM/Frontline等蓝筹运营商尚未复航，雷区威胁与IRGC协调路线要求令市场预期与实际物流恢复之间存在重大背离；防务股随战争溢价退潮小幅回落；Polymarket预测市场隐含霍尔木兹恢复正常概率达88.5%（6月底前），但实际日通行量距正常水平（约135艘/日）仍相差逾94%",
+  "verdict": "伊朗外长声明引发油价暴跌与股市大涨，政治信号极具震撼力，但实物通行量仅为战前的约6%，蓝筹船东仍在评估雷区与IRGC管控路线风险，海峡恢复程度停留于『声明开放、实质受限』阶段",
+  "key_news": [
+    "伊朗外长Araghchi于4月17日正式宣布霍尔木兹海峡在黎巴嫩停火期间「完全开放」供商业船只通行，Brent原油当日暴跌逾9%至90.38美元，创战争爆发以来最大单日跌幅之一 (Iran FM declares Hormuz completely open, Brent crashes 9%)",
+    "Windward日报显示4月17日仅8艘船通过海峡（入境5艘、出境3艘），Hapag-Lloyd召开危机委员会评估复航但尚未确认，Maersk及Frontline持谨慎立场，蓝筹运营商集体缺席表明实物恢复远滞后于外交声明 (only 8 transits Apr 17, bluechip operators still absent)",
+    "美国海军自4月13日起封锁所有进出伊朗港口的船只，并已着手清除伊朗在海峡布设的水雷；伊斯兰堡谈判破裂后美伊双方均有意续谈，但雷区不确定性与IRGC强制协调路线要求令主流船东继续回避 (US blockade of Iranian ports active, mine-clearing ongoing, Islamabad talks failed)"
+  ]
+}
