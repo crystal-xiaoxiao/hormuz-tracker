@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-04-18T03:51:23.164372+00:00",
-  "report_count": 7,
+  "updated_at": "2026-04-19T04:18:01.831284+00:00",
+  "report_count": 8,
   "reports": [
     {
       "report_date": "2026-04-09",
@@ -399,6 +399,62 @@
         "伊朗外长Araghchi于4月17日正式宣布霍尔木兹海峡在黎巴嫩停火期间「完全开放」供商业船只通行，Brent原油当日暴跌逾9%至90.38美元，创战争爆发以来最大单日跌幅之一 (Iran FM declares Hormuz completely open, Brent crashes 9%)",
         "Windward日报显示4月17日仅8艘船通过海峡（入境5艘、出境3艘），Hapag-Lloyd召开危机委员会评估复航但尚未确认，Maersk及Frontline持谨慎立场，蓝筹运营商集体缺席表明实物恢复远滞后于外交声明 (only 8 transits Apr 17, bluechip operators still absent)",
         "美国海军自4月13日起封锁所有进出伊朗港口的船只，并已着手清除伊朗在海峡布设的水雷；伊斯兰堡谈判破裂后美伊双方均有意续谈，但雷区不确定性与IRGC强制协调路线要求令主流船东继续回避 (US blockade of Iranian ports active, mine-clearing ongoing, Islamabad talks failed)"
+      ]
+    },
+    {
+      "report_date": "2026-04-19",
+      "data_window": "April 17-18, 2026",
+      "daily_transits": {
+        "count": 8,
+        "inbound": 5,
+        "outbound": 3,
+        "source": "Windward Daily Intelligence（4月17日数据，4月18日伊朗再次关闭后锐减）",
+        "confidence": "medium"
+      },
+      "cross_validation": [
+        {
+          "source": "Windward",
+          "count": 8,
+          "note": "4月17日记录8艘船过境——5艘入湾、3艘出湾，无暗行（AIS关闭）过境事件被观测到"
+        },
+        {
+          "source": "Kpler",
+          "count": 19,
+          "note": "4月17日（周五）至18日（周六）早间短暂开放窗口内共约19艘船通过，随后伊朗宣布再次关闭、炮击印度旗帜船只，通行量骤降至接近零"
+        },
+        {
+          "source": "Iranian state media (Fars/Tasnim)",
+          "count": null,
+          "note": "伊朗革命卫队（IRGC）18日通过国家媒体宣布海峡「恢复此前状态」，并向所有船只广播VHF无线电封锁令，未披露具体过境数字"
+        }
+      ],
+      "milestones": {
+        "bluechip_operators_returning": "no — Maersk、Hapag-Lloyd、CMA CGM、MSC均未恢复过境；4月18日CMA CGM旗下4艘船在接近伊朗检查站Larak岛时掉头撤离",
+        "war_risk_premium_status": "peak — 战争险保费仍处峰值区间，Lloyd's市场船体战争险报价高达船值的5%–10%；4月18日伊朗炮击事件后保险公司暂停报价或要求48小时重新评估，美国DFC已建立400亿美元再保险设施但商业市场覆盖率极低",
+        "non_iran_inbound_share_pct": null,
+        "negotiation_progress": "巴基斯坦斡旋的伊斯兰堡谈判（4月11-12日）破裂、未达成协议；4月17日伊朗宣布在黎巴嫩停火期间完全开放海峡，特朗普随即声明美国港口封锁「全面维持」；伊朗于4月18日以美方拒绝解除封锁为由再次关闭海峡并开枪；巴基斯坦官员表示正努力在4月22日停火截止日前促成新一轮谈判",
+        "iran_toll_status": "rejected — 美国已将伊朗Larak岛收费路线是否触发封锁列为执法判断事项；4月18日伊朗关闭海峡并炮击船只，收费过境机制事实上已中止"
+      },
+      "recovery_score": {
+        "transit_volume_score": 2,
+        "balance_score": 14,
+        "non_iran_share_score": 0,
+        "bluechip_score": 0,
+        "insurance_score": 0,
+        "total": 16
+      },
+      "market_signals": {
+        "brent_spot": 96.0,
+        "brent_change_pct": 6.2,
+        "wti_midland_premium": null,
+        "defense_stocks_note": "4月17日（最新收盘）：LMT 592.19美元（-2.52%），RTX 196.42美元（+0.29%），NOC小幅收跌（-0.68%）。防务股整体因停火乐观情绪承压；然而4月18日伊朗炮击事件及海峡再关闭消息或将推动防务板块在下周开盘时反弹。自伊朗战争爆发以来防务ETF已累计下跌约8%，市场正在消化短期停火预期"
+      },
+      "trading_signal": "4月17日伊朗宣布开放海峡触发油价单日暴跌约9%–11%（Brent从约$99跌至$90附近），股市大涨；但4月18日伊朗炮击印度旗帜船只并宣布再次关闭海峡，Brent在周末消息影响下反弹至约$96附近。关键信号：「开放-关闭」24小时内闪回，表明任何单一外交声明均不构成可交易的恢复信号；只有美国解除港口封锁或伊朗接受核谈条件，才能打开持续回归通道。防务股短期看多，油价极度波动，航运保险处于峰值冻结状态",
+      "verdict": "霍尔木兹海峡4月18日已再度关闭并发生炮击事件，过境量从短暂峰值骤降至接近零，美伊双重封锁格局僵持、蓝筹航运公司全员缺席，恢复程度极低",
+      "key_news": [
+        "伊朗4月17日宣布海峡对所有商船完全开放，油价随即暴跌9%-11%，股市大涨（Iran declares Hormuz open during Lebanon ceasefire）",
+        "特朗普宣布美国对伊朗港口的海上封锁「全面维持」，伊朗随即于4月18日以此为由再次关闭海峡、炮击印度旗帜船只，海峡在不足24小时内完成「开放-关闭」闪回（Iran closes Hormuz again, fires on Indian-flagged vessels）",
+        "印度召见伊朗大使抗议炮击事件，CMA CGM旗下四艘船在Larak岛检查站附近掉头撤离，Maersk与Hapag-Lloyd维持回避通行指令，蓝筹运营商复航时间表再度清零（CMA CGM vessels reverse course, major carriers still avoid strait）"
       ]
     }
   ]
