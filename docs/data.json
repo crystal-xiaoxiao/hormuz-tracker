@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-04-19T04:18:01.831284+00:00",
-  "report_count": 8,
+  "updated_at": "2026-04-20T04:23:50.761427+00:00",
+  "report_count": 9,
   "reports": [
     {
       "report_date": "2026-04-09",
@@ -455,6 +455,64 @@
         "伊朗4月17日宣布海峡对所有商船完全开放，油价随即暴跌9%-11%，股市大涨（Iran declares Hormuz open during Lebanon ceasefire）",
         "特朗普宣布美国对伊朗港口的海上封锁「全面维持」，伊朗随即于4月18日以此为由再次关闭海峡、炮击印度旗帜船只，海峡在不足24小时内完成「开放-关闭」闪回（Iran closes Hormuz again, fires on Indian-flagged vessels）",
         "印度召见伊朗大使抗议炮击事件，CMA CGM旗下四艘船在Larak岛检查站附近掉头撤离，Maersk与Hapag-Lloyd维持回避通行指令，蓝筹运营商复航时间表再度清零（CMA CGM vessels reverse course, major carriers still avoid strait）"
+      ]
+    },
+    {
+      "report_date": "2026-04-20",
+      "data_window": "April 18-20, 2026",
+      "daily_transits": {
+        "count": 6,
+        "inbound": null,
+        "outbound": null,
+        "source": "Lloyd's List Intelligence / Kpler（4月14日数据，为近48小时内可引用的最新AIS追踪数字；4月18日伊朗重新关闭后实际通行量急剧下降至接近零）",
+        "confidence": "low"
+      },
+      "cross_validation": [
+        {
+          "source": "Kpler",
+          "count": 14,
+          "note": "4月13日（周日，美国封锁生效前一天）单日通行量为14艘，此后因美国封锁与伊朗重新关闭双重压力，数量骤降"
+        },
+        {
+          "source": "Lloyd's List Intelligence",
+          "count": 6,
+          "note": "4月14日（周一）追踪到6次通行，另有AIS关闭的「暗船」可能未被计入；4月6日至13日期间共72次通行中有50次使用伊朗Larak岛收费航道"
+        },
+        {
+          "source": "Iranian state media (Tasnim/Fars)",
+          "count": null,
+          "note": "伊朗官媒4月17日宣布海峡「完全开放」，但4月18日IRGC又宣布重新封锁，并警告任何接近海峡的船只将被视为「与敌人合作」并遭到打击；数字未公开"
+        }
+      ],
+      "milestones": {
+        "bluechip_operators_returning": "no — Maersk、CMA CGM（CMA CGM Everglade于4月18日遭火箭弹攻击受损）、Hapag-Lloyd均未恢复常规运营；主流班轮公司仍保持观望",
+        "war_risk_premium_status": "peak — 战争险保费仍处于峰值区间，Lloyd's联合战争委员会将整个波斯湾列为「高风险」区，Beazley牵头成立10亿美元海上战争险联营体应急；当前溢价估计仍高达船舶价值的1%-5%以上（战前基准为0.125%-0.25%）",
+        "non_iran_inbound_share_pct": null,
+        "negotiation_progress": "巴基斯坦斡旋的第二轮伊斯兰堡谈判尚未最终确认：特朗普宣布美方代表团将于4月21日赴巴，但伊朗官方通讯社IRNA称因「美方过度要求、持续海上封锁」而拒绝参与；巴基斯坦外长Ishaq Dar、陆军参谋长Munir持续穿梭外交；停火协议将于4月23日（周三）到期，核问题与海峡控制权仍是核心分歧",
+        "iran_toll_status": "implemented — 伊朗此前实施Larak岛收费航道（每船最高200万美元），4月18日重新封锁后官方再次要求「收费证书+IRGC批准+指定路线」三重管控，美国警告将扣押曾缴纳过路费船只"
+      },
+      "recovery_score": {
+        "transit_volume_score": 1,
+        "balance_score": 0,
+        "non_iran_share_score": 0,
+        "bluechip_score": 0,
+        "insurance_score": 0,
+        "total": 1
+      },
+      "market_signals": {
+        "brent_spot": 95.64,
+        "brent_change_pct": 5.8,
+        "wti_midland_premium": null,
+        "defense_stocks_note": "LMT于4月17日收报约$592，下跌2.52%（停火消息令军工股承压）；RTX同期报约$196，微涨+0.29%；NOC具体价格未获最新数据，但防务股整体在停火预期升温时走低、在海峡再度封锁后小幅反弹；LMT将于4月23日公布Q1财报，RTX定于4月21日"
+      },
+      "trading_signal": "4月18日伊朗宣布重新封锁霍尔木兹海峡，IRGC炮击印度籍油轮并以火箭弹击伤法国CMA CGM Everglade，美军随即扣押伊朗货轮Touska，双重封锁格局重新固化。油价在周日开盘急涨（Brent+5.8%至95.64美元、WTI+6.4%至87.90美元），Polymarket预测市场对「4月底前恢复正常」概率评估仅21.5%。停火协议4月23日到期、巴基斯坦第二轮谈判前景不明，建议做多Brent近月合约、持有防务板块跌势中的逢低买入机会（尤其RTX/LMT Q1财报前），同时警惕一旦谈判突破油价将迅速大幅回落的尾部风险。",
+      "verdict": "伊朗于4月18日重新关闭霍尔木兹海峡并炮击过境船只，当日通行量跌至近零，双重封锁态势严峻，恢复程度评分仅1分（满分100），海峡实质性重开仍有待美伊停火谈判根本性突破。",
+      "key_news": [
+        "伊朗于4月17日宣布海峡「完全开放」，随后因特朗普拒绝解除伊朗港口封锁，IRGC于4月18日重新封锁海峡，警告任何船只接近将被击沉 (Iran re-closes Hormuz April 18 after US maintains port blockade)",
+        "IRGC炮艇4月18日炮击印度籍油轮VLCC「Sanmar Herald」，并以火箭弹击伤法国CMA CGM Everglade集装箱船，UKMTO将波斯湾风险级别升至「Critical」最高级 (IRGC gunboats fire on tankers, UKMTO declares Hormuz 「critical」)",
+        "美军驱逐舰于4月19日（周日）在阿曼海对伊朗货轮Touska发动拦截、击穿机舱并将其扣押，为封锁以来首次强制拿捕行动，伊朗军方警告将予报复 (US Navy seizes Iranian cargo ship Touska, Iran vows retaliation)",
+        "特朗普宣布美方代表团将赴巴基斯坦进行第二轮谈判，但伊朗官方媒体IRNA以「美方最大主义立场」为由拒绝参与，停火协议4月23日到期前局势高度不确定 (Iran rejects second Islamabad talks round as ceasefire nears expiry)",
+        "Brent原油周日开盘急涨5.8%至95.64美元、WTI涨6.4%至87.90美元；Beazley牵头伦敦保险市场设立10亿美元战争险联营体，但战争险溢价仍处历史峰值区间（船值1%-5%以上，战前为0.125%-0.25%） (Brent surges 5.8%, London war risk consortium launched at still-peak premiums)"
       ]
     }
   ]
