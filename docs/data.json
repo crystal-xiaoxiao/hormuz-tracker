@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-04-20T04:23:50.761427+00:00",
-  "report_count": 9,
+  "updated_at": "2026-04-21T04:15:16.126551+00:00",
+  "report_count": 10,
   "reports": [
     {
       "report_date": "2026-04-09",
@@ -513,6 +513,64 @@
         "美军驱逐舰于4月19日（周日）在阿曼海对伊朗货轮Touska发动拦截、击穿机舱并将其扣押，为封锁以来首次强制拿捕行动，伊朗军方警告将予报复 (US Navy seizes Iranian cargo ship Touska, Iran vows retaliation)",
         "特朗普宣布美方代表团将赴巴基斯坦进行第二轮谈判，但伊朗官方媒体IRNA以「美方最大主义立场」为由拒绝参与，停火协议4月23日到期前局势高度不确定 (Iran rejects second Islamabad talks round as ceasefire nears expiry)",
         "Brent原油周日开盘急涨5.8%至95.64美元、WTI涨6.4%至87.90美元；Beazley牵头伦敦保险市场设立10亿美元战争险联营体，但战争险溢价仍处历史峰值区间（船值1%-5%以上，战前为0.125%-0.25%） (Brent surges 5.8%, London war risk consortium launched at still-peak premiums)"
+      ]
+    },
+    {
+      "report_date": "2026-04-21",
+      "data_window": "April 19-21, 2026",
+      "daily_transits": {
+        "count": 7,
+        "inbound": null,
+        "outbound": null,
+        "source": "CNBC / LSEG / Kpler综合：周六约20艘后周日骤降至0，周一回升至约7艘",
+        "confidence": "medium"
+      },
+      "cross_validation": [
+        {
+          "source": "Kpler / LSEG",
+          "count": 20,
+          "note": "4月19日(周六)单日最高达20艘，油轮FPMC C Lord携200万桶沙特原油过境，随后周日因船舶遭袭降至零"
+        },
+        {
+          "source": "Lloyd's List Intelligence",
+          "count": 6,
+          "note": "4月14日(周一)记录到6次过境；4月6日至13日共72次过境中有50次使用伊朗指定的Larak岛航路"
+        },
+        {
+          "source": "Tasnim News (伊朗官方媒体)",
+          "count": null,
+          "note": "Tasnim援引伊斯兰革命卫队相关消息称，商船须经伊朗军方协调方可通行，与敌对国家相关船只禁止通过；4月18日伊朗宣布再度关闭海峡"
+        }
+      ],
+      "milestones": {
+        "bluechip_operators_returning": "no 无主流蓝筹航运公司返回；BIMCO建议船只避开海峡，大型船东仍持观望态度",
+        "war_risk_premium_status": "peak 战争险保费仍处峰值，当前达船舶价值的5%甚至更高(战前约0.125%-0.25%)；Lloyd's联合战争委员会将整个波斯湾列为高风险区，部分承保人已暂停承保",
+        "non_iran_inbound_share_pct": null,
+        "negotiation_progress": "伊斯兰堡第一轮谈判(4月11-12日)历时21小时无果而终；美方由副总统Vance主导，伊方由议长Ghalibaf和外长Araghchi出席。核心分歧为：核浓缩弃权与海峡控制权。伊朗4月20日宣布暂不参加第二轮谈判，但伊巴两国外长通话显示外交渠道尚未断绝；停火协议于4月21日到期，是否延续尚不明朗",
+        "iran_toll_status": "negotiating 伊朗坚持通过Larak岛航路须向伊斯兰革命卫队提交文件并在部分情况下缴费，美方尚未明确表态该收费是否触发封锁条款"
+      },
+      "recovery_score": {
+        "transit_volume_score": 2,
+        "balance_score": 0,
+        "non_iran_share_score": 0,
+        "bluechip_score": 0,
+        "insurance_score": 0,
+        "total": 2
+      },
+      "market_signals": {
+        "brent_spot": 95.42,
+        "brent_change_pct": 5.58,
+        "wti_midland_premium": null,
+        "defense_stocks_note": "LMT约592美元(-2.52%)，RTX约196美元(+0.29%)，NOC当日小幅下跌约-1.12%；防务股整体自伊朗战争以来承压，ETF较战争前下跌约8%；LMT年初至今涨幅约26%；RTX将于4月21日发布财报，LMT将于4月23日发布财报"
+      },
+      "trading_signal": "海峡实质性通航已再度崩溃：周六短暂峰值20艘后周日归零，美国扣押伊朗船只触发新一轮对抗，布伦特油价单日反弹逾5.5%至95美元以上。停火于今日(4月21日)到期，第二轮伊美谈判前景不明，伊朗明确拒绝在美国维持封锁期间开放海峡，市场应高度警惕停火破裂后油价重回100美元以上的尾部风险；防务股短期仍受地缘博弈不确定性压制",
+      "verdict": "霍尔木兹海峡通航实质仍处崩溃状态，周六短暂峰值昙花一现，美伊双重封锁与谈判僵局叠加，恢复之路遥遥无期",
+      "key_news": [
+        "美军扣押伊朗旗船致过境量周日骤降至零，布伦特油价单日飙涨逾5.5%至95美元以上 (US seizure of Iranian vessel triggers Hormuz standstill, Brent surges 5.5%+)",
+        "伊朗4月18日宣布再度关闭海峡，并以美国拒绝解除海上封锁为由取消原定4月17日的开放承诺 (Iran closes Hormuz again April 18 citing US refusal to lift naval blockade)",
+        "伊斯兰堡第一轮美伊谈判历时21小时破裂，核心分歧在于核浓缩权与海峡控制权，伊朗4月20日宣布拒绝参加第二轮谈判 (Islamabad round-one talks collapse after 21 hours; Iran declines second round as of April 20)",
+        "停火协议4月21日到期，Lloyd's联合战争委员会维持整个波斯湾「高风险区」认定，战争险保费仍高达船值5%，BIMCO继续建议船只避开海峡 (Ceasefire expires April 21; Lloyd's JWC maintains entire Persian Gulf high-risk designation, war risk premium remains at ~5% of hull value)",
+        "LMT获美国政府47亿美元PAC-3导弹合同加速生产订单，RTX将于今日发布一季度财报，防务板块整体受战争走向摆动左右 (LMT secures $4.7B PAC-3 accelerated production contract; RTX Q1 earnings due April 21)"
       ]
     }
   ]
