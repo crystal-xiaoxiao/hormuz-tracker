@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-04-21T04:15:16.126551+00:00",
-  "report_count": 10,
+  "updated_at": "2026-04-22T04:11:46.910197+00:00",
+  "report_count": 11,
   "reports": [
     {
       "report_date": "2026-04-09",
@@ -571,6 +571,65 @@
         "伊斯兰堡第一轮美伊谈判历时21小时破裂，核心分歧在于核浓缩权与海峡控制权，伊朗4月20日宣布拒绝参加第二轮谈判 (Islamabad round-one talks collapse after 21 hours; Iran declines second round as of April 20)",
         "停火协议4月21日到期，Lloyd's联合战争委员会维持整个波斯湾「高风险区」认定，战争险保费仍高达船值5%，BIMCO继续建议船只避开海峡 (Ceasefire expires April 21; Lloyd's JWC maintains entire Persian Gulf high-risk designation, war risk premium remains at ~5% of hull value)",
         "LMT获美国政府47亿美元PAC-3导弹合同加速生产订单，RTX将于今日发布一季度财报，防务板块整体受战争走向摆动左右 (LMT secures $4.7B PAC-3 accelerated production contract; RTX Q1 earnings due April 21)"
+      ]
+    },
+    {
+      "report_date": "2026-04-22",
+      "data_window": "April 19-22, 2026",
+      "daily_transits": {
+        "count": 3,
+        "inbound": 1,
+        "outbound": 2,
+        "source": "Windward Maritime AI™ Platform（4月19日数据，为截至报告日最新已确认日报）",
+        "confidence": "high"
+      },
+      "cross_validation": [
+        {
+          "source": "Windward",
+          "count": 3,
+          "note": "4月19日仅3艘过境，为封锁开始以来最低水平；1艘入港（ATLANTIC HARMONY，香港旗货船），2艘出港（GSUMMER 安哥拉旗油轮、AL SALIMI 1 斯里兰卡旗货船）；无暗转记录"
+        },
+        {
+          "source": "Bloomberg / Kpler",
+          "count": 3,
+          "note": "Bloomberg 4月21日报道3艘船（两艘货船、一艘燃料油轮）尝试过境，可见流量接近零；4月18日短暂激增至35艘后迅速崩塌"
+        },
+        {
+          "source": "伊朗官方媒体 (Tasnim/IRNA)",
+          "count": null,
+          "note": "伊朗方面声称自4月13日封锁以来已出口约1100万桶原油，但标准AIS显示霍尔木兹以东区域石油出口为零；官方媒体未披露具体过境数字"
+        }
+      ],
+      "milestones": {
+        "bluechip_operators_returning": "no——Maersk、MSC、CMA CGM、Hapag-Lloyd 等主流蓝筹运营商仍全面暂停霍尔木兹服务，仅影子船队及风险较高旗帜船只偶有过境",
+        "war_risk_premium_status": "peak——战前约0.25%船值，危机初期飙升至1%甚至拒绝承保；目前 Lloyd's JWC 仍将整个波斯湾列为高风险区；London Beazley 财团4月17日启动10亿美元战争险方案，但整体保费仍处峰值区间（约1%~3%船值）",
+        "non_iran_inbound_share_pct": null,
+        "negotiation_progress": "2026年4月21日，特朗普宣布无限期延长停火，等待伊朗提交「统一方案」；副总统万斯赴伊斯兰堡出席第二轮谈判的行程被取消；伊朗方面坚持美国须先解除海军封锁方可重返谈判桌；第一轮伊斯兰堡谈判（4月11-12日，历时21小时）无果而终，核问题与海峡控制权仍是最大分歧；习近平4月21日通话沙特王储时表示霍尔木兹海峡应向正常航行开放",
+        "iran_toll_status": "negotiating——伊朗仍要求船只通过拉腊克岛走廊时向IRGC提交材料并在某些情况下缴纳通行费；美方警告任何缴纳伊朗过路费的船只将面临截扣风险（Trump声明）；实际执行状态模糊"
+      },
+      "recovery_score": {
+        "transit_volume_score": 1,
+        "balance_score": 12,
+        "non_iran_share_score": 0,
+        "bluechip_score": 0,
+        "insurance_score": 0,
+        "total": 13
+      },
+      "market_signals": {
+        "brent_spot": 98.48,
+        "brent_change_pct": 3.1,
+        "wti_midland_premium": null,
+        "defense_stocks_note": "4月21日（最近交易日）：LMT约592.19美元（-2.52%）；RTX约187.17美元（-4.40%）；NOC约611.13美元（-6.98%）。防务股普遍下跌，反映停火延长后市场对武装冲突烈度预期降低；同日停火延长消息出炉前标普500下跌0.6%、道指跌293点，Vance访巴取消令市场情绪再度走弱"
+      },
+      "trading_signal": "停火无限期延长提振了油价（Brent 4月21日收于98.48美元，+3.1%），但第二轮伊斯兰堡谈判实质性取消、US封锁持续、伊朗拒绝解除封锁前谈判，三重负面因素令霍尔木兹通道恢复预期极低；过境量跌至封锁以来最低（3艘/日），Polymarket预测市场显示4月底恢复正常概率仅约29.5%；防务股受停火延长利空下跌，油价在「停火但封锁不止」格局下维持高位波动",
+      "verdict": "霍尔木兹海峡处于「有停火、无通航」的极度抑制状态——4月19日实际过境量仅3艘（正常水平约2.2%），双重封锁（美国拦截伊朗港口来往船只、伊朗拒绝非授权船只通行）加上战争险保费仍处峰值、蓝筹航运商集体缺席，综合恢复评分仅13/100，短期内通航实质性恢复概率极低",
+      "key_news": [
+        "特朗普宣布无限期延长停火，等待伊朗提交统一提案，但美国海军封锁伊朗港口措施同步维持，谈判实质进展几乎为零 (Trump extends ceasefire indefinitely, blockade remains)",
+        "4月19日霍尔木兹过境量跌至仅3艘，为封锁启动以来最低纪录，远低于正常水平约135艘/日 (transit collapses to 3 vessels, lowest since blockade began)",
+        "BIMCO警告海峡尚未宣布对过境安全，伊朗仍要求船只经拉腊克岛走廊并向IRGC申报；多艘船只4月18日尝试出港后被迫折返 (BIMCO warns strait not safe, vessels turned back April 18)",
+        "美军在阿曼湾截扣OFAC制裁在列伊朗旗货船TOUSKA（距恰巴哈尔约45海里），为封锁启动以来首次在海峡外实施拦截，表明美方执法地理范围正在扩大 (US intercepts sanctioned Iranian vessel TOUSKA in Gulf of Oman, first extra-strait interdiction)",
+        "Windward卫星图像在恰巴哈尔港附近发现7艘VLCC及一对船对船转运船只，伊朗疑在霍尔木兹以东开辟替代出口通道，估计装载能力约1400万桶 (7 VLCCs detected off Chabahar, Iran developing eastern export bypass)",
+        "Brent原油4月21日收于98.48美元（+3.1%），全年累计涨幅约43%，油价高位震荡反映市场对海峡恢复仍持深度悲观预期 (Brent settles at $98.48 +3.1%, up ~43% year-on-year)"
       ]
     }
   ]
