@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-04-22T04:11:46.910197+00:00",
-  "report_count": 11,
+  "updated_at": "2026-04-23T04:16:24.985724+00:00",
+  "report_count": 12,
   "reports": [
     {
       "report_date": "2026-04-09",
@@ -630,6 +630,64 @@
         "美军在阿曼湾截扣OFAC制裁在列伊朗旗货船TOUSKA（距恰巴哈尔约45海里），为封锁启动以来首次在海峡外实施拦截，表明美方执法地理范围正在扩大 (US intercepts sanctioned Iranian vessel TOUSKA in Gulf of Oman, first extra-strait interdiction)",
         "Windward卫星图像在恰巴哈尔港附近发现7艘VLCC及一对船对船转运船只，伊朗疑在霍尔木兹以东开辟替代出口通道，估计装载能力约1400万桶 (7 VLCCs detected off Chabahar, Iran developing eastern export bypass)",
         "Brent原油4月21日收于98.48美元（+3.1%），全年累计涨幅约43%，油价高位震荡反映市场对海峡恢复仍持深度悲观预期 (Brent settles at $98.48 +3.1%, up ~43% year-on-year)"
+      ]
+    },
+    {
+      "report_date": "2026-04-23",
+      "data_window": "April 21-22, 2026",
+      "daily_transits": {
+        "count": 7,
+        "inbound": 1,
+        "outbound": 6,
+        "source": "Windward MIOC（4月21日最新日报）；IMF Portwatch显示4月22日约5艘",
+        "confidence": "medium"
+      },
+      "cross_validation": [
+        {
+          "source": "Windward",
+          "count": 7,
+          "note": "4月21日全部7艘经北部走廊通行，其中6艘出境中5艘关闭AIS走暗，仅1艘入境（Mali旗高风险油轮PACIFIC EXPLORER），为当月最低通行日"
+        },
+        {
+          "source": "Lloyd's List 或 Kpler",
+          "count": 5,
+          "note": "IMF Portwatch数据显示4月22日仅约5艘，Lloyd's List Intelligence此前指出正常通行能力上限约每日10-15艘（停火若持续），当前交通量仍不足正常水平的10%"
+        },
+        {
+          "source": "Iranian state media (Fars/Tasnim)",
+          "count": null,
+          "note": "伊朗官方媒体未公布具体过境数字；Tasnim援引伊朗最高国家安全委员会消息称，商船须遵循德黑兰指定路线并与IRGC协调，与敌对国有关联的船只禁止通过"
+        }
+      ],
+      "milestones": {
+        "bluechip_operators_returning": "no — 无蓝筹航运公司返回，Windward明确指出「没有蓝筹运营商在场，大型石油公司缺席」；BIMCO仍建议船舶避开该区域",
+        "war_risk_premium_status": "peak — 战争险保费仍处峰值区间；危机前约0.125%-0.25%，目前高达5%甚至更高（约为战前20倍），London Beazley主导的10亿美元战争险联合体虽已推出但覆盖有限，Lloyd's JWC仍将整个波斯湾列为高风险区",
+        "non_iran_inbound_share_pct": null,
+        "negotiation_progress": "巴基斯坦斡旋的伊斯兰堡谈判实质破裂：副总统Vance取消赴伊斯兰堡行程，伊朗通过巴基斯坦告知美国拒绝参加会谈；特朗普延长停火期但维持美国海军封锁；伊朗明确表示在美国不解除封锁前不重开海峡；4月22日伊朗扣押两艘集装箱船并袭击第三艘（希腊籍货船Epaminondas），局势再度升级",
+        "iran_toll_status": "negotiating — 伊朗要求船只经Larak岛走廊并向IRGC报备，部分情况需缴费；正式收费机制尚未实施，大多数合规船东拒绝接受此条件"
+      },
+      "recovery_score": {
+        "transit_volume_score": 2,
+        "balance_score": 0,
+        "non_iran_share_score": 0,
+        "bluechip_score": 0,
+        "insurance_score": 0,
+        "total": 2
+      },
+      "market_signals": {
+        "brent_spot": 101.65,
+        "brent_change_pct": 3.22,
+        "wti_midland_premium": null,
+        "defense_stocks_note": "LMT 4月22日报收554.78美元（-3.04%），4月23日将发布Q1财报；RTX报收187.17美元（-4.40%）；NOC报收611.13美元（-6.98%）——停火延长消息导致战争溢价回吐，三只防务股全线下跌"
+      },
+      "trading_signal": "Brent原油突破101美元/桶（+3.22%），反映4月22日伊朗再度扣押船只、巴基斯坦谈判破裂的双重冲击；防务股因停火延长预期回调；Polymarket预测市场显示4月底前通航恢复正常概率仅6.5%，极端低通量（每日5-7艘，正常值约8%）已构成持续供应中断风险，需求破坏估计接近每日400-500万桶",
+      "verdict": "霍尔木兹海峡实质封闭未变——4月22日伊朗再度扣船袭船、美国坚持海军封锁、巴基斯坦斡旋谈判破裂，日均通行量仅为危机前约5%，恢复评分2/100，短期内无实质复通信号",
+      "key_news": [
+        "4月22日伊朗扣押两艘集装箱船并袭击第三艘（希腊籍货船Epaminondas遭枪击和火箭弹），尽管此前已给予通行许可（Iran seizes two container ships, attacks third despite prior clearance on April 22）",
+        "副总统Vance取消赴伊斯兰堡谈判行程，德黑兰通过巴基斯坦告知美方拒绝参与会谈，巴基斯坦斡旋的外交进程实质破裂（Vance cancels Islamabad trip after Iran refuses to participate in Pakistan-mediated talks）",
+        "特朗普延长停火期但维持美国海军封锁，伊朗重申「封锁不解除则海峡不重开」，Brent油价突破101美元/桶，较去年同期上涨逾37%（Trump extends ceasefire but keeps naval blockade; Iran reiterates Hormuz closure; Brent tops $101/bbl）",
+        "Windward日报显示4月21日仅7艘船通行（1入6出），为当月最低，5/6艘出境船只关闭AIS走暗，无任何蓝筹航运公司参与（Windward: April 21 sees only 7 transits, monthly low, 5 of 6 outbound went dark, zero blue-chip operators）",
+        "伦敦保险商Beazley牵头推出10亿美元霍尔木兹战争险联合体，但战争险保费仍高达船值5%以上，Lloyd's JWC继续将整个波斯湾列为高风险区（London Beazley-led $1bn war-risk consortium launched; premiums remain at peak above 5% of hull value）"
       ]
     }
   ]
