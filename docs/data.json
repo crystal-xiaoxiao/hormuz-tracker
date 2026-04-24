@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-04-23T04:16:24.985724+00:00",
-  "report_count": 12,
+  "updated_at": "2026-04-24T04:20:59.577954+00:00",
+  "report_count": 13,
   "reports": [
     {
       "report_date": "2026-04-09",
@@ -688,6 +688,64 @@
         "特朗普延长停火期但维持美国海军封锁，伊朗重申「封锁不解除则海峡不重开」，Brent油价突破101美元/桶，较去年同期上涨逾37%（Trump extends ceasefire but keeps naval blockade; Iran reiterates Hormuz closure; Brent tops $101/bbl）",
         "Windward日报显示4月21日仅7艘船通行（1入6出），为当月最低，5/6艘出境船只关闭AIS走暗，无任何蓝筹航运公司参与（Windward: April 21 sees only 7 transits, monthly low, 5 of 6 outbound went dark, zero blue-chip operators）",
         "伦敦保险商Beazley牵头推出10亿美元霍尔木兹战争险联合体，但战争险保费仍高达船值5%以上，Lloyd's JWC继续将整个波斯湾列为高风险区（London Beazley-led $1bn war-risk consortium launched; premiums remain at peak above 5% of hull value）"
+      ]
+    },
+    {
+      "report_date": "2026-04-24",
+      "data_window": "April 22-23, 2026",
+      "daily_transits": {
+        "count": 9,
+        "inbound": 6,
+        "outbound": 3,
+        "source": "Windward Maritime AI™ Platform (insights.windward.ai), 2026-04-22 日报",
+        "confidence": "medium"
+      },
+      "cross_validation": [
+        {
+          "source": "Windward",
+          "count": 9,
+          "note": "4月22日记录9艘船通过——6艘入湾、3艘出湾，AIS可见5艘、暗船1艘；出湾3艘均经由北走廊，其中包括被IRGC袭击后状态存疑的MSC EUPHORIA和遭扣押的MSC FRANCESCA"
+        },
+        {
+          "source": "LSEG / CNBC",
+          "count": 8,
+          "note": "CNBC引用LSEG数据，4月22日（周三）至少8艘船通过，含3艘油轮；与Windward计数接近，差异源于暗船及计数口径不同"
+        },
+        {
+          "source": "Iranian state media (Fars/Tasnim)",
+          "count": null,
+          "note": "塔斯尼姆通讯社4月22日报道IRGC以「未经授权」为由扣押两艘集装箱船（MSC FRANCESCA已确认被带入伊朗领水，EPAMINONDAS扣押存争议），未公布独立过境总量数据"
+        }
+      ],
+      "milestones": {
+        "bluechip_operators_returning": "no——蓝筹航运商（MSC、马士基、达飞、赫伯罗特等）均未恢复常规挂靠；MSC旗下船只反遭IRGC袭击并扣押（MSC FRANCESCA被没收），进一步打击复航意愿",
+        "war_risk_premium_status": "peak——战争险保费处于历史峰值区间，Marsh Risk报告最高曾达船值10%，目前回落至2%-6%，仍远高于战前0.25%水平；IRGC恢复登船没收战术将再度推高定价",
+        "non_iran_inbound_share_pct": null,
+        "negotiation_progress": "伊斯兰堡谈判已于4月11-12日破裂，美方副总统万斯无协议离开；伊朗拒绝参加第二轮谈判，指美国海上封锁违反停火协议；4月22日特朗普宣布延长停火但继续封锁；4月23日特朗普下令美国海军击毁任何在霍尔木兹铺设水雷的伊朗船只；第二轮伊斯兰堡会谈前景不明，伊朗要求解除制裁作为谈判前提",
+        "iran_toll_status": "negotiating——伊朗曾要求过境船只联系IRGC提交文件并在部分情况下缴费，并在伊斯兰堡谈判中坚持「对霍尔木兹过境船只收费的权利」，但因美国拒绝、及4月18日宣布再次关闭海峡，收费系统实际已中断"
+      },
+      "recovery_score": {
+        "transit_volume_score": 2,
+        "balance_score": 13,
+        "non_iran_share_score": 0,
+        "bluechip_score": 0,
+        "insurance_score": 0,
+        "total": 15
+      },
+      "market_signals": {
+        "brent_spot": 103.09,
+        "brent_change_pct": 2.46,
+        "wti_midland_premium": 6.64,
+        "defense_stocks_note": "4月22日（周二）防务股随停火延长消息下跌：LMT约-3.1%（约$554），NOC约-4.2%（约$585），RTX约-3.5%（约$180）；LMT于4月23日发布Q1财报，EPS $6.44、营收$180亿，因固定价格合同成本高企致利润下滑，股价承压；LMT年初至今仍累涨约20%，NOC/RTX年初至今均有回调"
+      },
+      "trading_signal": "IRGC于4月22日重启登船扣押战术（自2024年MSC ARIES事件以来首次），MSC FRANCESCA被没收并押入伊朗领水，标志着风险从远程动能打击升级为实物扣船；战争险将再次重定价，宪章方及船东面临额外的船员安全与合同违约敞口。Brent突破$103/桶（4月23日），WTI Midland溢价约$6.64；第二轮伊斯兰堡谈判陷入僵局，特朗普下令击毁水雷船只，伊朗继续封锁海峡，短期内恢复通航的可能性极低，油价上行风险与防务需求维持高位",
+      "verdict": "霍尔木兹海峡通航严重受阻：4月22日仅9艘船次通过（战前正常水平约135艘/日的7%），IRGC升级为扣押集装箱船战术，伊美谈判再度破裂，通航恢复评分仅15/100，局势处于危机深度阶段",
+      "key_news": [
+        "IRGC于4月22日扣押MSC FRANCESCA（巴拿马籍，MSC所有），押入伊朗领水，另一艘EPAMINONDAS遭声索但希腊方面否认，标志着自2024年以来首次恢复登船没收战术 (IRGC seizes MSC FRANCESCA, first vessel seizure since MSC ARIES 2024)",
+        "特朗普于4月22日宣布延长停火但维持对伊朗港口的海上封锁，并于4月23日下令美国海军「击毁」任何在霍尔木兹铺设水雷的伊朗船只 (Trump extends ceasefire, orders Navy to destroy Iranian mine-laying boats)",
+        "美伊第二轮伊斯兰堡谈判陷入僵局：副总统万斯取消赴伊斯兰堡行程，伊朗拒绝派遣代表团，核问题与海峡控制权仍是核心分歧 (Second Islamabad talks stalled; Iran refuses to send delegation, Vance cancels trip)",
+        "Brent原油4月23日触及$103.09/桶（日涨约2.5%），WTI Midland溢价约$6.64；国际能源署警告欧洲航空燃油储备仅余约六周，霍尔木兹中断造成全球需求损毁估计近400-500万桶/日 (Brent hits $103/bbl; IEA warns Europe has ~6 weeks of jet fuel; demand destruction 4-5 mb/d)",
+        "Windward卫星图像显示恰巴哈尔锚地（霍尔木兹以东）聚集6艘VLCC+2艘苏伊士型油轮（总潜在装载量约1400万桶），显示伊朗正探索绕道封锁的东线出口替代路线 (Windward satellite imagery: 6 VLCCs+2 Suezmax staging at Chabahar, ~14M bbl capacity, potential blockade workaround)"
       ]
     }
   ]
