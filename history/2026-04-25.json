@@ -1,0 +1,56 @@
+{
+  "report_date": "2026-04-25",
+  "data_window": "April 23-24, 2026",
+  "daily_transits": {
+    "count": 5,
+    "inbound": 1,
+    "outbound": 4,
+    "source": "Windward MIOC (2026-04-23日报) + Reuters/Lloyd's List Intelligence (2026-04-24)",
+    "confidence": "high"
+  },
+  "cross_validation": [
+    {
+      "source": "Windward",
+      "count": 5,
+      "note": "2026年4月23日：共5艘船过境，1艘入湾、4艘出湾，全部走北部走廊，所有船只均关闭AIS信号（暗行）"
+    },
+    {
+      "source": "Lloyd's List / Kpler",
+      "count": 7,
+      "note": "4月22日至23日初统计7艘，其中6艘与伊朗相关贸易；4月24日Reuters确认24小时内仅5艘，含1艘受美制裁伊朗油品轮Niki"
+    },
+    {
+      "source": "Iranian state media (Fars/Tasnim)",
+      "count": null,
+      "note": "伊朗国家媒体（Tasnim）宣称美国封锁开始后仍有≥1100万桶油通过Sea of Oman出口，但未披露海峡过境具体艘次"
+    }
+  ],
+  "milestones": {
+    "bluechip_operators_returning": "partial — Hapag-Lloyd证实旗下一艘船已过境，但未披露时间及细节；Maersk、CMA CGM仍暂停过境",
+    "war_risk_premium_status": "peak — 战争险保费从战前0.25%飙至峰值约10%，近期回落至2%-6%区间（Marsh数据），仍远高于战前，保持peak级别",
+    "non_iran_inbound_share_pct": 14,
+    "negotiation_progress": "巴基斯坦斡旋的伊斯兰堡谈判4月12日宣告失败；美国随即于4月13日宣布对伊朗港口实施海军封锁，形成「双重封锁」；4月24日报道伊朗外长Araghchi拟抵达伊斯兰堡，消息人士称「谈判可能取得突破」，油价随之小幅回落，但正式谈判尚未恢复",
+    "iran_toll_status": "implemented"
+  },
+  "recovery_score": {
+    "transit_volume_score": 1,
+    "balance_score": 10,
+    "non_iran_share_score": 3,
+    "bluechip_score": 5,
+    "insurance_score": 0,
+    "total": 19
+  },
+  "market_signals": {
+    "brent_spot": 106.01,
+    "brent_change_pct": 2.25,
+    "wti_midland_premium": null,
+    "defense_stocks_note": "LMT当周因Q1财报EPS不及预期（6.44美元）下跌约2.5%；NOC同期跌约4%；RTX报告期内小幅上涨+0.29%；防务板块整体自伊朗战争爆发以来ETF累计跌约8%，因停火预期压制军事溢价"
+  },
+  "trading_signal": "Brent现货达106美元/桶，较战前上涨约59%，极度期货升水（EIA确认现货较近月期货溢价逾25美元/桶）反映市场对短期供应极度紧张的定价；伊朗外长拟赴伊斯兰堡的外交信号导致WTI小幅回落至94.88美元并终止四连涨，但Polymarket预测市场以98%概率押注海峡4月底前无法恢复正常；战争险保费仍处峰值区间，主流船东自我威慑效应显著，当前唯一入市动力为外交突破预期",
+  "verdict": "霍尔木兹海峡实质性封锁依旧，每日过境量仅为战前约3.5%，所有商业船只暗行、非伊朗入湾份额极低，双重封锁格局下恢复评分为19/100，属于深度危机未解状态",
+  "key_news": [
+    "Reuters确认4月24日24小时内仅5艘船过境霍尔木兹海峡，包含1艘受美制裁伊朗油品轮Niki，远低于战前每日约140艘的水平 (only 5 transits in 24 hours vs pre-war ~140 daily)",
+    "Windward MIOC日报：4月23日5艘过境船只全部关闭AIS信号暗行，呈现「市场自我威慑」特征，累计攻击事件达34起（28次实际攻击+6次险情），4月22日IRGC三连击后无新动能事件 (all transits AIS-dark, total 34 attack incidents)",
+    "伊朗外长Araghchi拟抵达伊斯兰堡寻求谈判突破，WTI回落至94.88美元终止四连涨，但正式对话框架尚未确立，Polymarket押注4月底前恢复正常的概率仅2% (Araghchi expected Islamabad, WTI pulls back, Polymarket 98% no-recovery by April 30)"
+  ]
+}
