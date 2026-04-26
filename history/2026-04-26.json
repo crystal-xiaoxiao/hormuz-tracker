@@ -1,0 +1,59 @@
+{
+  "report_date": "2026-04-26",
+  "data_window": "April 23-25, 2026",
+  "daily_transits": {
+    "count": 5,
+    "inbound": 1,
+    "outbound": 4,
+    "source": "Windward Maritime AI™ Platform（4月23日数据）；Reuters/Lloyd's List Intelligence（4月24日5艘确认）",
+    "confidence": "high"
+  },
+  "cross_validation": [
+    {
+      "source": "Windward",
+      "count": 5,
+      "note": "4月23日共5艘船通过霍尔木兹海峡，均走北部走廊，全部关闭AIS信号（暗船运行），1艘入境、4艘出境"
+    },
+    {
+      "source": "Lloyd's List / Kpler",
+      "count": 6,
+      "note": "4月22日至23日初，共7艘船过境，其中6艘涉及伊朗相关贸易（Lloyd's List Intelligence数据）；4月24日Reuters确认24小时内仅5艘通过"
+    },
+    {
+      "source": "Iranian state media (Fars/Tasnim)",
+      "count": null,
+      "note": "伊朗国家媒体声称尽管美国封锁，石油出口仍持续，自4月13日封锁启动以来已流通逾1100万桶，通过阿曼海路线绕行；未提供具体过境船只数字"
+    }
+  ],
+  "milestones": {
+    "bluechip_operators_returning": "partial Hapag-Lloyd（4月24日确认一艘船只过境，但公司未披露具体情况和时间；Maersk、MSC、CMA CGM仍暂停过境）",
+    "war_risk_premium_status": "peak 战争险保费仍处极端高位：从战前0.25%飙升至峰值10%，近期略有回落至2%-6%区间（Marsh Risk数据），远高于战前水平，仍属峰值区间",
+    "non_iran_inbound_share_pct": 0,
+    "negotiation_progress": "伊斯兰堡第二轮谈判于4月25日彻底破裂：伊朗外长阿拉格齐抵达伊斯兰堡后仅与巴基斯坦官员会面，拒绝与美方代表直接接触，随后离境；特朗普随即宣布取消Witkoff和Kushner赴巴行程，改称可电话联系，谈判陷入僵局；伊朗坚持美国须先解除封锁方可谈判，美方拒绝在达成协议前取消封锁",
+    "iran_toll_status": "implemented"
+  },
+  "recovery_score": {
+    "transit_volume_score": 1,
+    "balance_score": 0,
+    "non_iran_share_score": 0,
+    "bluechip_score": 5,
+    "insurance_score": 0,
+    "total": 6
+  },
+  "market_signals": {
+    "brent_spot": 105.33,
+    "brent_change_pct": 0.25,
+    "wti_midland_premium": 10.93,
+    "defense_stocks_note": "4月25日防务股集体下跌：LMT -3.08%（约592美元）、RTX -2.81%（约174美元）、NOC -2.14%（约575美元），跌势或与巴基斯坦谈判破裂、市场短暂产生和谈乐观情绪后回落有关；LMT Q1财报利润下滑但销售持平（180亿美元），仍获秘鲁F-16Block 70新合同"
+  },
+  "trading_signal": "4月25日伊斯兰堡第二轮谈判彻底破裂，伊朗拒绝直接与美方对话，特朗普取消使节赴巴行程——这是迄今最明确的外交失败信号。海峡日均通行量仅5艘（正常水平约135艘，降幅>96%），所有过境均为暗船模式，蓝筹运营商仅Hapag-Lloyd有孤例过境且信息不透明；战争险保费仍在峰值区段（2%-6%船值），美国海军封锁自4月13日持续至今。五角大楼评估扫雷或需长达六个月。Brent收于105.33美元（周涨16%），WTI周涨约13%，供应溢价持续。防务股当日回调反映市场短暂押注谈判乐观情绪后落空。综合判断：外交通道几近完全关闭，海峡实质性恢复遥遥无期，能源供应紧张溢价料将持续。",
+  "verdict": "霍尔木兹海峡恢复程度极低（综合评分6/100）：外交谈判二度破裂、双重封锁持续、蓝筹运营商实质缺席、暗船模式主导仅余5艘/日过境，短期内通航正常化几无可能。",
+  "key_news": [
+    "伊斯兰堡第二轮和谈于4月25日破裂：伊朗外长与巴基斯坦官员会面后离境，拒绝与美方直接谈判，特朗普随即取消Witkoff和Kushner赴巴行程 (Islamabad Round 2 talks collapse, Iran FM leaves without meeting US envoys)",
+    "4月23-24日霍尔木兹海峡过境量跌至仅5艘/日，全部采用暗船模式，正常水平约135艘，跌幅逾96%；Windward确认无AIS可见过境 (Hormuz transits collapse to 5 vessels/day, all dark AIS, Windward MIOC)",
+    "Hapag-Lloyd确认一艘船只于4月24日过境霍尔木兹海峡，但未披露具体情况；Maersk、MSC、CMA CGM仍维持暂停过境决定 (Hapag-Lloyd confirms one ship crossed Hormuz, details undisclosed, peers still suspended)",
+    "战争险保费峰值持续：从战前0.25%飙升至当前2%-6%区间，此前最高触及10%；Lloyd's市场联合战争委员会将整个波斯湾列为高风险区 (War risk premiums at 2%-6% of hull value, peak was 10%, vs 0.25% pre-war; JWC high-risk entire Gulf)",
+    "伊朗坚持美国须先解除海军封锁方可谈判；美国拒绝；五角大楼内部评估扫除霍尔木兹海峡水雷或需长达六个月 (Iran demands blockade lifted before talks; Pentagon estimates 6 months to clear Hormuz mines)",
+    "Brent原油收于105.33美元/桶（周涨约16%），WTI为94.40美元/桶（周涨约13%），Dated Brent现货相对期货溢价逾25美元/桶，反映极度近期供应紧张 (Brent $105.33 +16% WoW, WTI $94.40 +13% WoW, Dated Brent spot premium >$25/bbl over futures)"
+  ]
+}
