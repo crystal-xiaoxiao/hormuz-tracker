@@ -1,0 +1,58 @@
+{
+  "report_date": "2026-04-27",
+  "data_window": "April 25-27, 2026",
+  "daily_transits": {
+    "count": 19,
+    "inbound": 5,
+    "outbound": 14,
+    "source": "Windward Maritime AI (insights.windward.ai), 数据截至2026年4月25日UTC",
+    "confidence": "high"
+  },
+  "cross_validation": [
+    {
+      "source": "Windward",
+      "count": 19,
+      "note": "2026年4月25日共19艘通过，5入14出，全部AIS可见，无暗船记录，为4月下旬低谷后小幅反弹"
+    },
+    {
+      "source": "Kpler / LSEG",
+      "count": 8,
+      "note": "Kpler数据显示4月22日（周三）至少8艘过境（含3艘油轮），与Windward口径存在计算方式差异，均远低于战前正常水平"
+    },
+    {
+      "source": "伊朗官方媒体 (Fars/Tasnim)",
+      "count": null,
+      "note": "Tasnim报道IRGC于4月22日以「未经授权」为由扣押两艘集装箱船，伊朗官方未公布通行数量，封锁立场未变"
+    }
+  ],
+  "milestones": {
+    "bluechip_operators_returning": "no — 蓝筹航运公司（如Maersk、MSC、CMA CGM等）尚未恢复正常通行；仅有一艘由TotalEnergies控制的油轮PEACE GULF（巴拿马旗）出现在出行名单中，属于个例，未代表大规模回归",
+    "war_risk_premium_status": "peak — 战争险保费仍处峰值区间，单次过境费率从战前0.25%暴涨至最高10%，当前维持在2%-6%船体价值区间（来源：Marsh Risk），Lloyd's JWC已将整个波斯湾列为高风险区，美国DFC已介入提供再保险但尚未拉低市场费率",
+    "non_iran_inbound_share_pct": 60,
+    "negotiation_progress": "伊斯兰堡谈判已于4月12日破裂，4月25-26日伊朗外长Araghchi再赴巴基斯坦但Trump取消了Witkoff和Kushner的出行计划，直接会谈落空；Araghchi随后转赴阿曼并将前往俄罗斯会见普京；伊朗坚持要求美国先解除海上封锁方可重开谈判，双方立场高度对立，外交进展严重受阻",
+    "iran_toll_status": "rejected — 美国已明确宣布拦截支付伊朗过路费的船只，将其纳入封锁范围；伊朗拉拉克岛收费走廊在美国封锁令后实际上已被强制叫停"
+  },
+  "recovery_score": {
+    "transit_volume_score": 4,
+    "balance_score": 5,
+    "non_iran_share_score": 12,
+    "bluechip_score": 0,
+    "insurance_score": 0,
+    "total": 21
+  },
+  "market_signals": {
+    "brent_spot": 100.4,
+    "brent_change_pct": 1.27,
+    "wti_midland_premium": null,
+    "defense_stocks_note": "4月27日防务股普遍走软：LMT约-3.1%、RTX约-2.81%、NOC约-2.14%，回调或与和谈可能性短暂升温相关（市场短暂定价外交风险溢价下降），但整体防务板块自2月28日冲突爆发以来涨幅仍显著"
+  },
+  "trading_signal": "霍尔木兹海峡通行量处于历史性低位（仅正常水平约14%），美伊「双重封锁」格局持续，外交谈判在Trump取消特使赴巴基斯坦后再度陷入僵局；Brent油价重新站上100美元，期货市场呈强backwardation结构（现货较期货溢价逾25美元/桶），WTI上周单周涨幅达13%；Polymarket预测市场以99.6%概率押注4月底前通行无法恢复正常；关注风险：LPG SEVAN被美国海军拦截标志着制裁执法向印度洋延伸，影子油轮运输风险显著上升；防务股短线回调并非根本转向，仍是地缘风险溢价标配仓位",
+  "verdict": "霍尔木兹海峡仍处于史上最严重封锁状态，日通行量仅及战前约14%，美伊外交谈判在Trump临阵取消特使出行后再度破局，短期内实质性恢复通行几无可能",
+  "key_news": [
+    "Windward数据显示4月25日共19艘船只过境霍尔木兹（5入14出），为4月下旬低谷后小幅回升，但仍远低于战前每日逾130艘的正常水平 (Windward daily transit count Apr 25: 19 vessels)",
+    "Trump在最后关头取消Witkoff和Kushner赴巴基斯坦谈判计划，伊朗外长Araghchi两次访巴后无果而返并已飞赴俄罗斯会见普京，美伊和谈再度陷入僵局 (Trump cancels Witkoff/Kushner Pakistan trip; Araghchi departs for Russia)",
+    "美国海军在巴基斯坦以南约200海里公海拦截受OFAC制裁的巴拿马旗LPG油轮LPG SEVAN，此举标志着美国制裁执法范围已扩展至印度洋，影子船队运输风险急剧上升 (US Navy intercepts LPG SEVAN ~200nm south of Pakistan)",
+    "Brent原油期货当日重返100美元以上（盘中约100.4美元/桶，+1.27%），EIA数据显示Dated Brent现货较期货溢价逾25美元/桶，呈极度backwardation，反映市场对近端供应极度紧张的定价 (Brent above $100, extreme backwardation >$25/bbl spot-futures spread)",
+    "Polymarket预测市场以99.6%概率押注4月底前霍尔木兹通行无法恢复正常（以IMF Portwatch 7日均值低于60次为依据），赌注规模已逾3000万美元 (Polymarket 99.6% probability Hormuz will NOT normalize by April 30)"
+  ]
+}
