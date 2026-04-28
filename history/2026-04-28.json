@@ -1,0 +1,56 @@
+{
+  "report_date": "2026-04-28",
+  "data_window": "April 25-27, 2026",
+  "daily_transits": {
+    "count": 19,
+    "inbound": 5,
+    "outbound": 14,
+    "source": "Windward Maritime AI Platform (insights.windward.ai) — 2026-04-25数据",
+    "confidence": "high"
+  },
+  "cross_validation": [
+    {
+      "source": "Windward",
+      "count": 19,
+      "note": "4月25日共19艘过境，5艘入向、14艘出向，全程AIS可见，零暗航次"
+    },
+    {
+      "source": "Lloyd's List / Kpler",
+      "count": null,
+      "note": "Kpler在4月10日数据显示过境量约5至11艘/天，处于极低水平；4月25日无独立计数，但Lloyd's List Intelligence确认过境量仍不足战前10%"
+    },
+    {
+      "source": "Iranian state media (Fars/Tasnim)",
+      "count": null,
+      "note": "Tasnim 4月22日报道IRGC扣押两艘未经授权过境的集装箱船；伊朗官方未公布独立过境计数"
+    }
+  ],
+  "milestones": {
+    "bluechip_operators_returning": "no — Maersk持续暂停过境（仅研究「过境机会」），CMA CGM及Frontline拒绝置评，无蓝筹船东确认复航",
+    "war_risk_premium_status": "peak — 保费从战前0.25%飙升至峰值约10%，目前仍处2%至6%区间（Marsh Risk估计），远超战前正常水平",
+    "non_iran_inbound_share_pct": 60,
+    "negotiation_progress": "4月25至27日外交局势：伊朗外长Araghchi赴巴基斯坦、阿曼、俄罗斯展开穿梭外交；伊朗通过巴基斯坦调停人提交新提案，提出只要美国解除对伊朗港口封锁并结束战争即可重开海峡，核谈判推迟；但特朗普取消Witkoff和Kushner赴伊斯兰堡之行，第二轮谈判告吹，伊斯兰堡安保检查站已撤除，谈判陷入僵局",
+    "iran_toll_status": "negotiating — 伊朗积极游说阿曼支持海峡过路费征收机制，特朗普明确反对，双方仍在交涉中"
+  },
+  "recovery_score": {
+    "transit_volume_score": 4,
+    "balance_score": 4,
+    "non_iran_share_score": 12,
+    "bluechip_score": 0,
+    "insurance_score": 0,
+    "total": 20
+  },
+  "market_signals": {
+    "brent_spot": 108.11,
+    "brent_change_pct": 2.64,
+    "wti_midland_premium": 11.74,
+    "defense_stocks_note": "4月26至27日防务股普跌：LMT约-3.08%（因Q1盈利低于预期、现金流转负），RTX约-2.81%，NOC约-2.14%；市场出现「谈判希望→防务抛压」逻辑，但整体仍处历史高位，因战争险需求及政府合同支撑"
+  },
+  "trading_signal": "布伦特原油4月27日触及108.11美元/桶（同比+2.64%），因美伊第二轮谈判破裂后油价跳涨；伊朗提交新提案消息短暂令油价回落至106美元区间，显示市场对外交突破高度敏感。WTI维持约96至97美元，布伦特/WTI价差约11.7美元反映海峡封锁导致的中东现货升水。防务三巨头同日普跌，揭示「谈判预期改善→防务减配」的对冲交易逻辑。战争险保费仍处峰值（2%至6%舰值），蓝筹船东零复航，过境量仅为战前约14%，4月底前恢复正常概率接近零（Polymarket隐含概率0.3%）。",
+  "verdict": "霍尔木兹海峡通航恢复极为有限：4月25日仅19艘过境（约为战前14%），蓝筹船东全面缺席，战争险保费仍处峰值区间，美伊伊斯兰堡第二轮谈判告吹、双重封锁僵局持续，短期内实质性恢复无望。",
+  "key_news": [
+    "伊朗提出新方案：只要美国解除封锁并结束战争即可重开海峡，核谈判推迟，但特朗普取消特使赴伊斯兰堡之行，外交陷入僵局 (Iran new proposal: Hormuz reopening conditional on US lifting blockade; Trump cancels envoy trip to Islamabad)",
+    "布伦特原油4月27日突破108美元、同比+2.64%，因和谈破裂令市场担忧供应缺口持续，IEA将本次危机定性为「有史以来最大能源供应冲击」 (Brent tops $108 on failed peace talks; IEA calls crisis 'largest energy supply shock on record')",
+    "Windward数据显示4月25日仅19艘船过境（5入/14出），无暗航次，但IRGC于4月22日扣押MSC Francesca等两艘集装箱船，并截获LPG SEVAN影子油轮，安全形势依然严峻 (Windward: 19 transits April 25; IRGC seized two container ships April 22; US Navy intercepted LPG SEVAN shadow tanker)"
+  ]
+}
