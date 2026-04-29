@@ -1,0 +1,59 @@
+{
+  "report_date": "2026-04-29",
+  "data_window": "April 27-29, 2026",
+  "daily_transits": {
+    "count": 8,
+    "inbound": 4,
+    "outbound": 4,
+    "source": "Windward Daily Intelligence (insights.windward.ai)，覆盖2026年4月26日数据",
+    "confidence": "high"
+  },
+  "cross_validation": [
+    {
+      "source": "Windward",
+      "count": 8,
+      "note": "4月26日记录8次穿越（4进4出），全部AIS可见，零暗航，旗国以Panama、Comoros、Marshall Islands为主，均为高风险或中等风险小型散货船及油品船"
+    },
+    {
+      "source": "Lloyd's List Intelligence",
+      "count": null,
+      "note": "截至4月5日当周76次（3月30日至4月5日为开战以来最繁忙一周），之后因美国封锁（4月13日起）再度骤降，具体4月28-29日数据未公开；Lloyd's List指出通行量仍不足正常日均量的10%"
+    },
+    {
+      "source": "Iranian state media (Fars/Tasnim)",
+      "count": null,
+      "note": "IRGC官方媒体确认4月22日扣押Epaminondas及MSC Francesca，伊朗国家媒体未发布4月28-29日具体通行计数；Tasnim发布扣船视频佐证IRGC仍实施严格管控"
+    }
+  ],
+  "milestones": {
+    "bluechip_operators_returning": "no——Maersk（全球第二大集装箱航运商）明确表示海峡「过于危险和不稳定」，尚未恢复任何服务；CMA CGM、Frontline、MSC均拒绝置评或暂停运营；4月22日MSC旗下MSC Francesca被IRGC扣押，进一步打消蓝筹运营商返航意愿",
+    "war_risk_premium_status": "peak——战前约0.25%（船体价值），冲突爆发后最高飙至10%；Marsh Risk最新报价区间为2%-6%（已从峰值小幅回落但仍为战前的8-24倍）；4月22日IRGC扣船事件后Lloyd's已重新上调评级，DFC提供最高400亿美元再保险兜底",
+    "non_iran_inbound_share_pct": null,
+    "negotiation_progress": "伊斯兰堡第二轮谈判完全破裂：特朗普4月26日叫停Witkoff与Kushner赴巴基斯坦计划；伊朗外长Araghchi4月26-27日两度赴伊斯兰堡通过巴基斯坦中间人提交新方案——先解决海峡和封锁问题、核谈判推迟进行——白宫收到提案但态度怀疑；特朗普定于4月28日（周一）召开情报室会议讨论伊朗局势；伊朗总统Pezeshkian要求美国先解除封锁方可恢复谈判",
+    "iran_toll_status": "rejected——美国国务卿Rubio明确表示伊朗提出的「过境须在其管控下进行」方案不构成真正开放，美方拒绝接受伊朗主权收费方案；伊朗IRGC收费/协调机制已因4月22日扣押持证通行船只而彻底信誉破产"
+  },
+  "recovery_score": {
+    "transit_volume_score": 2,
+    "balance_score": 20,
+    "non_iran_share_score": 0,
+    "bluechip_score": 0,
+    "insurance_score": 0,
+    "total": 22
+  },
+  "market_signals": {
+    "brent_spot": 111.26,
+    "brent_change_pct": 2.71,
+    "wti_midland_premium": null,
+    "defense_stocks_note": "LMT（Lockheed Martin）近期因Q1盈利低于预期及五角大楼F-35订单削减消息承压，4月17日前后约-2.5%；RTX（RTX Corporation）相对稳健，约+0.3%；NOC（Northrop Grumman）小幅走软约-2.1%；LMT获47亿美元PAC-3 MSE加速生产合同，战时军备需求持续支撑防务板块整体估值"
+  },
+  "trading_signal": "Brent原油4月28日结算价飙升至111.26美元/桶（+2.71%），WTI突破100美元关口（收99.93美元）——两大基准同步突破整数关口，显示市场消化「美伊第二轮谈判彻底破裂」且海峡实质封闭至少持续至2026年H2的现实；Windward数据显示通行量仍在8艘/天极低水平（正常约135-178艘/天），叠加MSC Francesca被扣、矿清需6个月等利空，油价短期支撑强烈；防务股LMT/RTX/NOC因战时合同（PAC-3、导弹库存重建）维持结构性高估值，但个股间分化加大；Polymarket预测市场给出月底前恢复正常通行概率仅0.4%",
+  "verdict": "海峡实质处于双重封锁最严峻阶段——每日仅8艘小型高风险船只穿越（正常量不足6%），蓝筹航运商全面回避，战争险保费仍在危机峰值区间，伊美第二轮谈判破裂且无新会谈时间表，恢复通航最早需等待矿清完成和政治突破，判定当日海峡恢复程度极低（总分22/100）",
+  "key_news": [
+    "Windward日报：4月26日海峡通行仅8艘次（进4出4），全部AIS可见，无暗航，以高风险小型散货船和油品船为主，湾区内停留船只920艘（Windward Daily Intelligence）",
+    "美伊第二轮谈判彻底搁浅：特朗普叫停Witkoff-Kushner赴巴基斯坦行程，伊朗通过巴基斯坦提交「先解决海峡和封锁、核谈判留待后续」新方案，美国怀疑论者占上风，特朗普4月28日召开情报室会议讨论下一步 (US-Iran second round talks collapse, Iran Hormuz-first proposal via Pakistan)",
+    "Brent原油4月28日结算价升至111.26美元/桶（+2.71%），WTI突破100美元大关，创2026年3月以来高位，反映市场对海峡无法在短期内恢复通航的定价 (Brent surges to $111.26, WTI tops $100 on stalled Hormuz negotiations)",
+    "IRGC于4月22日扣押MSC Francesca（全球最大集装箱航运商MSC旗下）及希腊籍Epaminondas，两船均持有有效通行许可证仍遭袭击扣押，彻底摧毁伊朗「通行协调机制」公信力，战争险保费再度上调 (IRGC seizes MSC Francesca and Epaminondas despite valid clearances, war-risk premiums surge)",
+    "日本首艘大型油轮Idemitsu Maru（载沙特原油200万桶）完成穿越，为开战以来日本油轮首次成功出境，但属孤例，后无蓝筹船东跟进 (Japanese VLCC Idemitsu Maru completes rare Hormuz transit carrying Saudi crude)",
+    "美国国防融资公司（DFC）宣布提供最高400亿美元政治风险再保险兜底，推动私人保险商重返市场，但分析师指出安全问题而非保险成本才是船主最大顾虑 (US DFC provides up to $40B war-risk reinsurance backstop for Hormuz transits)"
+  ]
+}
