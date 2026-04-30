@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-04-29T04:34:23.573329+00:00",
-  "report_count": 18,
+  "updated_at": "2026-04-30T04:36:34.728019+00:00",
+  "report_count": 19,
   "reports": [
     {
       "report_date": "2026-04-09",
@@ -1034,6 +1034,66 @@
         "IRGC于4月22日扣押MSC Francesca（全球最大集装箱航运商MSC旗下）及希腊籍Epaminondas，两船均持有有效通行许可证仍遭袭击扣押，彻底摧毁伊朗「通行协调机制」公信力，战争险保费再度上调 (IRGC seizes MSC Francesca and Epaminondas despite valid clearances, war-risk premiums surge)",
         "日本首艘大型油轮Idemitsu Maru（载沙特原油200万桶）完成穿越，为开战以来日本油轮首次成功出境，但属孤例，后无蓝筹船东跟进 (Japanese VLCC Idemitsu Maru completes rare Hormuz transit carrying Saudi crude)",
         "美国国防融资公司（DFC）宣布提供最高400亿美元政治风险再保险兜底，推动私人保险商重返市场，但分析师指出安全问题而非保险成本才是船主最大顾虑 (US DFC provides up to $40B war-risk reinsurance backstop for Hormuz transits)"
+      ]
+    },
+    {
+      "report_date": "2026-04-30",
+      "data_window": "April 28-30, 2026",
+      "daily_transits": {
+        "count": 13,
+        "inbound": 4,
+        "outbound": 9,
+        "source": "Windward Maritime AI™ Platform (April 28, 2026 日报数据)",
+        "confidence": "medium"
+      },
+      "cross_validation": [
+        {
+          "source": "Windward",
+          "count": 13,
+          "note": "4月28日通行量共13次（4进9出），均走伊朗划定的北部走廊，AIS可见"
+        },
+        {
+          "source": "Lloyd's List 或 Kpler",
+          "count": 5,
+          "note": "Kpler数据显示整个3月仅154艘过境，日均约5艘；4月下旬数据显示日均维持在6至13艘极低水平，与Windward基本吻合"
+        },
+        {
+          "source": "Iranian state media (Fars/Tasnim)",
+          "count": null,
+          "note": "伊朗官媒（Tasnim）报道了4月24日扣押希腊籍集装箱船Epaminondas，未公布过境数量统计"
+        }
+      ],
+      "milestones": {
+        "bluechip_operators_returning": "no — 无主流蓝筹运营商重返；仅有一艘日本船东、巴拿马旗VLCC（空载）于4月28日过境，属少数非伊朗关联过境案例；Maersk、MSC、CMA CGM等主流班轮公司均未恢复运营",
+        "war_risk_premium_status": "peak — 战争险保费维持峰值水平，较战前0.125%-0.25%上涨至船舶价值的1%-3%，部分承保人已拒绝提供霍尔木兹过境保单；Lloyd's Joint War Committee已将整个波斯湾列为高风险区",
+        "non_iran_inbound_share_pct": 50,
+        "negotiation_progress": "伊斯兰堡谈判（4月11-12日）破裂，美方随即宣布海上封锁。4月25日特朗普取消Witkoff/Kushner赴伊斯兰堡第二轮谈判的行程，改以电话方式协商。伊朗提出「先解决海峡与封锁、核谈判押后」方案，美方拒绝。截至4月30日，美国财政部当日对6家与伊朗有关的中国化学品企业实施新制裁，外交形势进一步趋紧，下一轮正式谈判时间未定",
+        "iran_toll_status": "negotiating"
+      },
+      "recovery_score": {
+        "transit_volume_score": 3,
+        "balance_score": 4,
+        "non_iran_share_score": 10,
+        "bluechip_score": 0,
+        "insurance_score": 0,
+        "total": 17
+      },
+      "market_signals": {
+        "brent_spot": 124.66,
+        "brent_change_pct": 5.6,
+        "wti_midland_premium": null,
+        "defense_stocks_note": "LMT约513美元（当日持平+0.15%，年初至今跌约3.6%）；RTX约172.79美元（-1.65%）；NOC约572美元（-0.94%至-1.00%）。防务股整体跌幅温和，与油价暴涨形成背离，反映市场预期冲突烈度未进一步升级，但CENTCOM向特朗普汇报军事行动方案的报道令市场情绪保持警惕"
+      },
+      "trading_signal": "Brent原油4月30日盘中触及124.66美元（2022年6月以来最高），单日涨逾5.6%，系美国军方向特朗普简报对伊军事行动方案及封锁持续消息推动。霍尔木兹日通行量锁定在5%-10%战前水平，Polymarket预测市场以99.8%概率认为4月底前恢复正常「不可能」。外交陷入僵局：美国当日追加对华制裁，伊朗核谈毫无寸进，「双重封锁」结构性因素短期不会消散，原油多头逻辑持续成立，同时需警惕突发外交突破带来的急速回调风险",
+      "verdict": "霍尔木兹海峡通航恢复依然极度受限，双重封锁叠加水雷威胁与战争险封顶，全面恢复在外交僵局打破之前遥遥无期",
+      "key_news": [
+        "Brent原油4月30日盘中飙至124.66美元，创2022年6月以来最高，CENTCOM向特朗普汇报对伊军事方案为主因 (Brent crude hits wartime high near $125 as CENTCOM briefs Trump on Iran action plans)",
+        "Windward数据：4月28日霍尔木兹过境仅13次（进4出9），一艘日本船东巴拿马旗VLCC为近期罕见的非伊朗关联过境案例 (Windward: 13 transits on April 28, Japanese-owned Panama-flag VLCC one of few non-Iran-linked crossings since April 22 attacks)",
+        "美国财政部4月30日对6家与伊朗有关的中国化学品企业实施新制裁，外交僵局进一步加深 (US Treasury sanctions 6 Chinese chemical firms linked to Iran on April 30)",
+        "伊朗提出「先重开海峡、核谈判押后」方案，特朗普拒绝并取消Witkoff/Kushner赴伊斯兰堡第二轮会谈行程 (Iran proposes Hormuz-first deal bypassing nuclear talks; Trump cancels Islamabad envoy trip)",
+        "美国寻求建立「海洋自由构想」(Maritime Freedom Construct)多边联盟以推动霍尔木兹恢复通航，路透社引述国务院内部电报披露此事 (US seeks new coalition called Maritime Freedom Construct to restore Hormuz navigation)",
+        "Polymarket预测市场以99.8%概率押注霍尔木兹4月底前无法恢复正常，总交易额逾3340万美元 (Polymarket prices 99.8% probability of No for Hormuz normalcy by April 30, over $33.4M traded)",
+        "战争险保费维持峰值：较战前上涨约8至12倍，目前达船舶价值1%-3%，Lloyd's JWC将整个波斯湾列为高风险区，部分承保人已完全停止承保 (War risk premiums at wartime peak, 1-3% of hull value vs pre-war 0.125-0.25%, Lloyd's JWC entire Gulf designated high-risk)"
       ]
     }
   ]
