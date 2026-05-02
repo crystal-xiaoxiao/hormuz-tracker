@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-04-30T04:36:34.728019+00:00",
-  "report_count": 19,
+  "updated_at": "2026-05-02T04:22:04.229921+00:00",
+  "report_count": 20,
   "reports": [
     {
       "report_date": "2026-04-09",
@@ -1094,6 +1094,64 @@
         "美国寻求建立「海洋自由构想」(Maritime Freedom Construct)多边联盟以推动霍尔木兹恢复通航，路透社引述国务院内部电报披露此事 (US seeks new coalition called Maritime Freedom Construct to restore Hormuz navigation)",
         "Polymarket预测市场以99.8%概率押注霍尔木兹4月底前无法恢复正常，总交易额逾3340万美元 (Polymarket prices 99.8% probability of No for Hormuz normalcy by April 30, over $33.4M traded)",
         "战争险保费维持峰值：较战前上涨约8至12倍，目前达船舶价值1%-3%，Lloyd's JWC将整个波斯湾列为高风险区，部分承保人已完全停止承保 (War risk premiums at wartime peak, 1-3% of hull value vs pre-war 0.125-0.25%, Lloyd's JWC entire Gulf designated high-risk)"
+      ]
+    },
+    {
+      "report_date": "2026-05-02",
+      "data_window": "May 1-2, 2026",
+      "daily_transits": {
+        "count": 7,
+        "inbound": null,
+        "outbound": null,
+        "source": "Polymarket/卫星追踪数据综合（IMF Portwatch基准）：4月26日8艘、4月27日18艘、4月29日20艘，5月1日前后约5-10艘（双重封锁持续压制）",
+        "confidence": "low"
+      },
+      "cross_validation": [
+        {
+          "source": "Kpler / Lloyd's List Intelligence",
+          "count": null,
+          "note": "3月全月仅154艘过境，相当于战前每月约3000艘的5%；4月数据尚未公布完整月度统计，但每日仍维持极低水平"
+        },
+        {
+          "source": "Polymarket（参照IMF Portwatch）",
+          "count": null,
+          "note": "4月27日当周（4月27日至5月3日）市场交易共识显示有65%概率该周总过境量为25-49艘，即日均约4-7艘；4月26日、27日、29日分别记录到8、18、20艘，但波动较大"
+        },
+        {
+          "source": "伊朗国家媒体（Fars/Tasnim）",
+          "count": null,
+          "note": "伊朗方面未公布具体日过境数字；IRGC坚称海峡仍处于「管控」状态，仅允许「友好国家」船只通过指定的伊朗领海北线（Larak岛-Hormuz岛走廊）"
+        }
+      ],
+      "milestones": {
+        "bluechip_operators_returning": "no — Maersk、MSC、Hapag-Lloyd、CMA CGM全部暂停霍尔木兹过境，舰队经好望角绕行；仅日本Idemitsu Maru（4月28日，不属于蓝筹集装箱航运公司）完成罕见成品油轮出境，属个例",
+        "war_risk_premium_status": "peak — 战争险保费仍处峰值区间：Marsh战争险主管报告最高触及船舶价值10%，当前普遍区间为2%-6%；Lloyd's List报告霍尔木兹过境报价高达每次10-14百万美元；中性旗国船只约2.5%，美/英/以色列关联船只约5%，远超战前0.25%基准",
+        "non_iran_inbound_share_pct": null,
+        "negotiation_progress": "巴基斯坦调停陷入僵局：5月1日伊朗经巴基斯坦向美方提交更新和平方案，核心内容为先开放海峡、后谈核问题，并要求美方解除对伊朗港口的海上封锁；特朗普当日回应称「对方案不满意」；据报道CENTCOM已拟定对伊朗实施「短暂密集打击」备用方案；5月1日战争授权法60天期限临近，外交陷入双重死锁",
+        "iran_toll_status": "negotiating — 伊朗此前向过境船只收取高达200万美元过境费；美方宣布凡缴纳伊朗过境费者将在公海遭拦截；当前缴费情况已大幅减少，但IRGC对「友好国家」的选择性准入体制仍在运行"
+      },
+      "recovery_score": {
+        "transit_volume_score": 2,
+        "balance_score": 0,
+        "non_iran_share_score": 0,
+        "bluechip_score": 0,
+        "insurance_score": 0,
+        "total": 2
+      },
+      "market_signals": {
+        "brent_spot": 108.17,
+        "brent_change_pct": -1.95,
+        "wti_midland_premium": null,
+        "defense_stocks_note": "5月1日收盘数据（Yahoo Finance）：LMT约592美元（-2.52%）、RTX约174.76美元（-0.75%）、NOC约573.52美元（-1.01%）；防务股整体小幅回落，反映伊朗和平提案消息令市场短暂降低冲突升级预期，但油价仍维持高位（108-110美元/桶），WTI Midland溢价数据暂无来源确认"
+      },
+      "trading_signal": "伊朗5月1日经巴基斯坦渠道提交新和平方案，导致布伦特原油单日下跌约2%（从110.5美元回落至108.2美元）、WTI跌3%至101.94美元，防务股轻微走软；然而特朗普明确表示「不满意」该方案，CENTCOM据报备有新一轮打击计划，海峡双重封锁结构未变，油价依然在100美元以上高位运行，核心风险溢价未实质性收窄；战争授权法60天期限（5月1日）届满增加政策不确定性，短期内油价仍存上行尾部风险",
+      "verdict": "霍尔木兹海峡通航实质上仍处于封锁状态，每日过境量约为战前的5%，伊朗和平提案遭特朗普否定、双重封锁延续、战争险保费高居峰值，恢复得分仅2/100，实质性复苏短期内无望",
+      "key_news": [
+        "伊朗5月1日经巴基斯坦中间人向美国递交更新和平提案，建议先重开霍尔木兹海峡、推迟核问题谈判，但特朗普表示「不满意」并维持对伊朗港口的海上封锁 (Iran submits updated Hormuz proposal via Pakistan; Trump rejects)",
+        "布伦特原油5月1日因和平提案消息下跌约2%至108美元，WTI跌3%至101.94美元，但此前4月30日曾触及4年高位114.66美元；CENTCOM据报已拟定对伊朗发动「短暂密集打击」备用方案 (Brent drops on diplomacy hopes; CENTCOM prepares new strike plan)",
+        "日本Idemitsu Maru油轮（载约200万桶沙特原油）经伊朗批准的北线走廊成功出港，成为伊朗战争开始以来首艘完成过境的日本关联油轮，但主要蓝筹班轮公司Maersk、MSC、Hapag-Lloyd、CMA CGM仍全线暂停过境 (Idemitsu Maru rare Japan-linked VLCC transit; major liners still suspended)",
+        "战争险保费维持峰值水平：Marsh报告霍尔木兹过境保费区间为船舶价值2%-6%，部分报价高达10%；Lloyd's List报告每次过境费用或高达1000-1400万美元，较战前0.25%基准暴涨逾40倍 (War risk premiums at peak: 2%-6% of hull value vs pre-war 0.25%)",
+        "巴基斯坦调停的伊斯兰堡谈判4月12日破裂后，外交陷入僵局；伊朗最高领导人Mojtaba Khamenei誓言不放弃核武能力、坚守对海峡的控制权；海峡「双重封锁」（伊朗限制+美国封锁伊朗港口）仍在持续 (Islamabad talks failed; dual blockade continues with no resolution in sight)"
       ]
     }
   ]
