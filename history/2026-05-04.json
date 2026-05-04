@@ -1,0 +1,58 @@
+{
+  "report_date": "2026-05-04",
+  "data_window": "May 2-3, 2026",
+  "daily_transits": {
+    "count": 12,
+    "inbound": 5,
+    "outbound": 7,
+    "source": "Windward Daily Intelligence (insights.windward.ai)",
+    "confidence": "medium"
+  },
+  "cross_validation": [
+    {
+      "source": "Windward",
+      "count": 12,
+      "note": "2026年5月2日共12次穿越，5入7出，11艘AIS正常广播，1艘印度货船「ABU MUSA」走南部航道时关闭AIS（黑船）"
+    },
+    {
+      "source": "Lloyd's List / Kpler",
+      "count": null,
+      "note": "Kpler数据显示整个2026年3月仅154艘过境（约每日5艘），4月下旬来源未披露5月初具体日度数字，无法独立核实5月2日当日计数"
+    },
+    {
+      "source": "Iranian state media (Fars/Tasnim)",
+      "count": null,
+      "note": "伊朗国家媒体（Tasnim/Fars）未在检索窗口内披露具体过境数量；伊朗议会正审议12点限航法案，将要求所有非友好国船只申请通行许可并缴纳战争赔偿费"
+    }
+  ],
+  "milestones": {
+    "bluechip_operators_returning": "no — Maersk、CMA CGM、Hapag-Lloyd 等主流运营商自3月起全面暂停霍尔木兹及红海过境，截至5月3日仍执行「好望角绕行」政策",
+    "war_risk_premium_status": "peak — 战争险保费已从战前0.125%-0.25%跳升至2%-10%（Marsh数据最高曾达10%），保险公司对挂有美/以关联旗帜的船只几乎拒保，市场仍处于峰值区间",
+    "non_iran_inbound_share_pct": null,
+    "negotiation_progress": "巴基斯坦斡旋下美伊谈判仍处僵局：伊朗5月2日递交新提案，核心为「先开海峡、后谈核」分步方案，要求美方解除封锁并提供安全保证；特朗普表示已获悉方案概念但尚未看到具体文本，同日称「也许不会接受」；伊朗最高领袖莫吉塔巴·哈梅内伊4月底发出强硬表态，拒绝放弃核与导弹能力并声索霍尔木兹控制权，谈判实质进展有限",
+    "iran_toll_status": "implemented — 伊朗已对部分过境船只征收100万美元以上通行费；美国财政部OFAC于5月2日发出制裁警告，禁止任何公司向伊朗支付通行费（包括数字资产、易货及大使馆代收等形式）"
+  },
+  "recovery_score": {
+    "transit_volume_score": 3,
+    "balance_score": 14,
+    "non_iran_share_score": 0,
+    "bluechip_score": 0,
+    "insurance_score": 0,
+    "total": 17
+  },
+  "market_signals": {
+    "brent_spot": 107.74,
+    "brent_change_pct": -0.4,
+    "wti_midland_premium": 3.16,
+    "defense_stocks_note": "防务股近三个月整体承压下行：LMT过去三个月跌幅约18%，NOC跌17%，RTX跌13%；5月3日LMT报约512美元(-2.52%)，RTX报约173.99美元(-1.18%)，NOC报约568.14美元(-1.96%)；市场对「战争结束则合同缩减」的担忧压过了订单潜在增量预期"
+  },
+  "trading_signal": "伊朗5月2日新提案引发油价短线回调（Brent从111美元区间跌至约108美元，约-3%），但因谈判未取得实质突破、美伊双重封锁依旧、过境量仅为战前约6.7%（12艘/日 vs 战前约178艘/日），油价仍维持在高位；WTI Midland过境量激增至纪录水平（美国替代供应逻辑强化），WTI-Brent价差继续收窄；防务股对「和谈乐观情绪」呈负面反应；美国OFAC通行费制裁令将进一步压缩灰色市场过境空间，短期内有升级风险",
+  "verdict": "霍尔木兹通航恢复极度有限，过境量仅为战前约7%，主流蓝筹船东全线缺席、战争险保费仍处峰值、双重封锁格局未打破，当日综合恢复评分仅17/100，海峡实质关闭状态持续",
+  "key_news": [
+    "伊朗向美国递交新和平提案：先开放霍尔木兹海峡、暂搁核问题谈判，但特朗普表示「可能无法接受」(Iran new proposal: Hormuz first, nuclear talks later; Trump skeptical)",
+    "美国OFAC警告全球船东：向伊朗支付通行费将面临制裁，包括现金、数字资产及易货等各类支付形式 (US OFAC sanctions warning against paying Iran Hormuz transit fees)",
+    "伊朗议会拟立法建立12点通航许可制度，以色列船只永久禁止入内，「敌对国」船只须缴战争赔偿费方可申请过境 (Iran parliament 12-point Hormuz transit permit law: Israel banned forever, hostile states pay reparations)",
+    "Windward情报：5月2日仅12艘过境，暗船活动激增+34.4%至176起，创本轮危机单日最高纪录 (Windward: 12 transits May 2, dark activity surged +34.4% to 176 events, cycle high)",
+    "特朗普宣布5月5日启动「自由行动」(Project Freedom)引导船只穿越霍尔木兹，伊朗国家安全委员会立即警告任何美方干预将被视为停火协议违约 (Trump announces Project Freedom guided transits from May 5; Iran warns ceasefire violation)"
+  ]
+}
