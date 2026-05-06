@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-04T04:44:13.840468+00:00",
-  "report_count": 21,
+  "updated_at": "2026-05-06T04:37:35.128338+00:00",
+  "report_count": 22,
   "reports": [
     {
       "report_date": "2026-04-09",
@@ -1210,6 +1210,64 @@
         "伊朗议会拟立法建立12点通航许可制度，以色列船只永久禁止入内，「敌对国」船只须缴战争赔偿费方可申请过境 (Iran parliament 12-point Hormuz transit permit law: Israel banned forever, hostile states pay reparations)",
         "Windward情报：5月2日仅12艘过境，暗船活动激增+34.4%至176起，创本轮危机单日最高纪录 (Windward: 12 transits May 2, dark activity surged +34.4% to 176 events, cycle high)",
         "特朗普宣布5月5日启动「自由行动」(Project Freedom)引导船只穿越霍尔木兹，伊朗国家安全委员会立即警告任何美方干预将被视为停火协议违约 (Trump announces Project Freedom guided transits from May 5; Iran warns ceasefire violation)"
+      ]
+    },
+    {
+      "report_date": "2026-05-06",
+      "data_window": "May 4-5, 2026",
+      "daily_transits": {
+        "count": 11,
+        "inbound": 5,
+        "outbound": 6,
+        "source": "Windward Daily Intelligence (insights.windward.ai)，覆盖5月4日全天AIS追踪数据",
+        "confidence": "medium"
+      },
+      "cross_validation": [
+        {
+          "source": "Windward",
+          "count": 11,
+          "note": "5月4日共11艘：5艘入境、6艘出境，其中10艘正常广播AIS，1艘走南部走廊暗渡（印度杂货船MSV GOUSHE OLIYA出境）；Project Freedom第二天湾区在册船只升至941艘"
+        },
+        {
+          "source": "Lloyd's List Intelligence",
+          "count": 35,
+          "note": "Lloyd's List数据显示4月20-26日当周通过船只共35艘（周均5艘/日），与Windward日级数据量级一致，均远低于战前正常水平"
+        },
+        {
+          "source": "Iranian state media (Fars/Tasnim)",
+          "count": null,
+          "note": "Tasnim宣称美军进入海峡违反停火协议，IRGC警告所有船只须遵循伊朗划定航道，否则将遭到「决定性反击」；未公布具体通过船只数字"
+        }
+      ],
+      "milestones": {
+        "bluechip_operators_returning": "partial Maersk（旗下Alliance Fairfax已于5月4日完成US军事护航通过，但Maersk总体风险评估未变，Hapag-Lloyd明确表示海峡对其航线仍关闭；CMA CGM等蓝筹船公司暂无恢复迹象）",
+        "war_risk_premium_status": "peak 战前约0.25%船体价值，高峰期飙升至3%-8%，折合单艘大型油轮单次保费300-800万美元；P&I俱乐部已集体撤销战争险；私人市场保险几乎断供，美国政府DFC介入提供政治风险兜底",
+        "non_iran_inbound_share_pct": 60,
+        "negotiation_progress": "巴基斯坦斡旋的美伊谈判（伊斯兰堡渠道）陷入胶着：伊朗5月1日提交14点反提案，包括结束战争、解除制裁、重建赔偿，及「新海峡机制」；美方拒绝，称提案「不可接受」。5月5日伊朗外长阿拉格齐飞赴北京与中方会谈，中国被美方要求施压促伊朗开放海峡。同日Trump宣布暂停Project Freedom护航行动，称谈判「取得进展」，但停火仍脆弱；美方Naval blockade对伊朗港口持续执行中",
+        "iran_toll_status": "negotiating 伊朗曾向过路船只收取通行费，美国财政部OFAC已于5月2日警告：向伊朗付费将面临制裁；伊朗同时推进议会立法草案，要求所有非友好国船只申请伊朗通行许可"
+      },
+      "recovery_score": {
+        "transit_volume_score": 2,
+        "balance_score": 19,
+        "non_iran_share_score": 12,
+        "bluechip_score": 5,
+        "insurance_score": 0,
+        "total": 38
+      },
+      "market_signals": {
+        "brent_spot": 109.87,
+        "brent_change_pct": -3.94,
+        "wti_midland_premium": null,
+        "defense_stocks_note": "5月5日防务股整体回落：LMT约514美元(-0.83%)，RTX约172美元(-0.31%)，NOC约568美元(-1.96%)；前期因战争溢价大幅拉升，近90天LMT累计-18%、NOC -17%、RTX -13%，市场判断停火延续令短期战争溢价消退，但中长期军备订单（Patriot、THAAD、Tomahawk）支撑依旧"
+      },
+      "trading_signal": "海峡通航极度受限（日均约11艘，仅为战前约1/13），Project Freedom首日仅2艘美国籍船只通过即遭遇激烈交火，Trump随后宣布暂停护航行动，以换取外交空间；伊朗外长访华是短期最重要的外交变量，若中方施压奏效可能成为海峡解封的催化剂。Brent在约110美元/桶附近震荡，停火预期暂压油价，但任何外交破裂将使价格重测120美元区间。防务股短期回调，中期受军备补充预算（4.8亿美元Patriot追加订单等）支撑。战争险保费仍处峰值，私人市场实质断保，投资者应高度关注5月8日局势重新评估节点及Trump访华时间窗口。",
+      "verdict": "霍尔木兹海峡仍处于深度封锁状态，Project Freedom开局即遭遇武装抵抗后被叫停，通航恢复完全取决于美伊外交突破，短期内蓝筹航运巨头集体回归的可能性极低。",
+      "key_news": [
+        "美国CENTCOM「Project Freedom」护航行动于5月4日启动，首批2艘美国籍商船在USS Truxtun与USS Mason驱逐舰伴随下完成过境，美军击沉7艘伊朗快攻艇，但仅历时约36小时，Trump即于5月5日宣布暂停该行动，以为外交谈判创造空间 (Project Freedom launched then paused within 36 hours)",
+        "Maersk旗下Alliance Fairfax成为首艘公开确认在美军护送下过境的商业船只，但Hapag-Lloyd、CMA CGM等主要班轮公司明确表示风险评估未变、海峡航线仍关闭 (Maersk Alliance Fairfax transits under escort; Hapag-Lloyd keeps Hormuz closed)",
+        "伊朗外长阿拉格齐5月5日飞抵北京，就地区及国际局势与中方会谈，中国被美国财政部长Bessent点名要求施压德黑兰开放海峡，此举被视为美伊谈判进入「中国斡旋」新阶段 (Iranian FM Araghchi visits Beijing; US presses China to help reopen Hormuz)",
+        "战争险保费仍处于峰值区间，行业估计相较战前0.25%已飙升至3%-8%船体价值，单艘大型油轮单次保费高达300-800万美元，私人保险市场基本断供，美国政府DFC提供政治风险兜底 (War risk premiums at peak 3-8% hull value, private market near-frozen)",
+        "Brent原油5月5日收盘约109.87美元/桶（跌约4%），WTI收盘约102.27美元/桶；停火预期暂时压低油价，但Goldman Sachs警告全球成品油库存将于5月底降至98天需求，南非、印度、泰国、台湾面临供应短缺风险 (Brent falls ~4% on ceasefire hold; Goldman warns refined product scarcity risk)"
       ]
     }
   ]
