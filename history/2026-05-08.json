@@ -1,0 +1,56 @@
+{
+  "report_date": "2026-05-08",
+  "data_window": "May 6-7, 2026",
+  "daily_transits": {
+    "count": 7,
+    "inbound": 5,
+    "outbound": 2,
+    "source": "Windward Maritime AI™ Platform (insights.windward.ai)，覆盖2026年5月6日数据；5月7日数据尚未完整发布",
+    "confidence": "medium"
+  },
+  "cross_validation": [
+    {
+      "source": "Windward",
+      "count": 7,
+      "note": "5月6日确认7艘次过境：5艘入湾、2艘出湾；SAR卫星同日扫描97艘，其中84艘AIS关闭（暗船），与AIS匹配仅13艘，暗船比率极高"
+    },
+    {
+      "source": "Kpler / Lloyd's List",
+      "count": null,
+      "note": "Polymarket聚合的Kpler和Lloyd's List数据显示4月下旬日均过境不足10艘，与Windward量级一致，但5月6-7日具体数字未单独发布"
+    },
+    {
+      "source": "Iranian state media (Fars/Tasnim)",
+      "count": null,
+      "note": "伊朗国家通讯社IRNA报道伊朗5月5日成立「波斯湾海峡管理局」负责授权过境，并声称新程序下可安全过境，但未披露具体过境量；Tasnim和Fars均无独立过境船只计数"
+    }
+  ],
+  "milestones": {
+    "bluechip_operators_returning": "partial — Maersk旗下子公司Farrell Lines运营的Alliance Fairfax（美国籍）于5月4日在美军护航下完成过境；CMA CGM旗下CMA CGM San Antonio于5月5日在霍尔木兹遭巡航导弹击伤8名船员；主流蓝筹船公司整体仍回避该水道",
+    "war_risk_premium_status": "peak — 战争险保费较战前水平仍高达8-10倍；Khaleej Times/S&P Global报告每次大型油轮过境保费高达3%-8%船舶价值（约300万至800万美元），远高于战前约0.25%的基准",
+    "non_iran_inbound_share_pct": 40,
+    "negotiation_progress": "巴基斯坦斡旋的停火协议自4月8日起延续中。美国通过巴基斯坦中间人向伊朗提交一页备忘录草案，内容包括结束冲突、开放霍尔木兹海峡、核约束及制裁减免。伊朗外交部5月6-7日表示正在审查该提案，预计于5月8日通过巴基斯坦调停方提交回复。伊朗外长阿拉格齐5月6日赴北京与王毅会晤。Trump于5月7日称美伊已进行「很好的谈判」但坦承存在不确定性，称协议「可能随时达成，也可能未成」。伊朗坚持称全面开放霍尔木兹海峡须以美国解除海军封锁为前提。",
+    "iran_toll_status": "implemented — 伊朗5月5日正式成立「波斯湾海峡管理局」实施过境授权及收费制度；美国财政部已警告商业船公司向伊朗缴纳通行费将面临制裁，Trump明确反对伊朗收取过路费"
+  },
+  "recovery_score": {
+    "transit_volume_score": 2,
+    "balance_score": 6,
+    "non_iran_share_score": 8,
+    "bluechip_score": 5,
+    "insurance_score": 0,
+    "total": 21
+  },
+  "market_signals": {
+    "brent_spot": 101.96,
+    "brent_change_pct": 0.68,
+    "wti_midland_premium": null,
+    "defense_stocks_note": "RTX +2.31%、NOC -0.29%、LMT当日小幅震荡。停火谈判进展导致防务股承压：LMT过去三个月下跌约18%、NOC跌约17%、RTX跌约13%，市场将外交突破定价为防务需求放缓信号。但多年期订单积压（NOC积压订单达957亿美元）支撑长期估值。当日RTX因弹药补给预期小幅走强。"
+  },
+  "trading_signal": "外交信号主导短期波动：伊朗预计5月8日给出回复，若接受美国备忘录草案，原油价格可能再跌5%-10%（Brent向90美元方向运动），防务股将进一步回调，航运险保费才能真正启动下降通道。5月7日美军驱逐舰在霍尔木兹遭伊朗无人机和快艇攻击但成功击退，显示地面局势仍极度脆弱；协议一旦崩溃原油将反弹至115美元以上。Polymarket市场押注5月底前恢复正常通航概率仅27%，反映专业交易者对短期实质性开放持高度怀疑态度。",
+  "verdict": "霍尔木兹海峡通航仍处于极度危机状态（恢复评分21/100），日均过境量仅为战前的约5%，外交谈判关键节点在即但军事冲突尚未停止，实质性通航恢复预期最早需数周乃至数月。",
+  "key_news": [
+    "伊朗拟于5月8日通过巴基斯坦中间人提交对美国停战提案的正式回复，内容涉及霍尔木兹开放条件和核问题排序 (Iran to deliver response to US peace memo via Pakistan mediators on May 8)",
+    "美军三艘导弹驱逐舰5月7日在霍尔木兹海峡遭伊朗无人机、快艇及导弹混合攻击，美军成功击退且未受损，Trump称协议「可能随时达成也可能不成」 (US destroyers fend off Iranian attack in Hormuz, ceasefire declared still holding)",
+    "Maersk旗下Alliance Fairfax（美国籍）5月4日在美军护航下完成过境，但法国CMA CGM San Antonio同日遭巡航导弹击伤8名船员，显示蓝筹船公司回归极为有限且风险仍高 (Maersk vessel crosses Hormuz under Navy escort; CMA CGM ship struck by cruise missile)"
+  ]
+}
