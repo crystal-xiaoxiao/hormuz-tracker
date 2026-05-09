@@ -1,0 +1,63 @@
+{
+  "report_date": "2026-05-09",
+  "data_window": "May 7-9, 2026",
+  "daily_transits": {
+    "count": 2,
+    "inbound": 2,
+    "outbound": 0,
+    "source": "Windward Daily Intelligence (insights.windward.ai，2026年5月7日数据)",
+    "confidence": "medium"
+  },
+  "cross_validation": [
+    {
+      "source": "Windward",
+      "count": 2,
+      "note": "5月7日共2艘入境，均为暗船（无AIS信号），分别走北走廊和南走廊，0艘出境"
+    },
+    {
+      "source": "S&P Global Commodities at Sea / JMIC",
+      "count": 10,
+      "note": "5月4日（Project Freedom启动当日）共录得10艘通过，包括2艘美军护送舰；JMIC Update 041（5月5日）显示历史均值约138艘/日，3日录得6艘，4日录得5艘，整体仍极度低迷"
+    },
+    {
+      "source": "Lloyd's List / Kpler",
+      "count": null,
+      "note": "Kpler数据显示整个4月仅录得191艘通过（日均约6.4艘），约为战前均值的5%；5月8日Insurance Journal报告自周二（5月5日）起已无可观测的出入境通过，AIS大面积欺骗使独立核实极为困难"
+    },
+    {
+      "source": "Iranian state media (Fars/Tasnim)",
+      "count": null,
+      "note": "Tasnim于5月5日宣布波斯湾海峡管理局（PGSA）正式成立，声称将为服从伊朗规定的船只提供通行许可，未公布具体通行数量"
+    }
+  ],
+  "milestones": {
+    "bluechip_operators_returning": "no — Hapag-Lloyd明确表示霍尔木兹通行「目前不可能」；CMA CGM旗下San Antonio于5月5日在海峡内遭导弹击中，8名船员受伤；Maersk旗下Alliance Fairfax（Farrell Lines子公司）于5月4日在美军护送下出境，但属单次紧急撤离而非恢复常规运营",
+    "war_risk_premium_status": "peak — 险率从战前约0.25%/次飙升至3%-8%（估算），单艘大型油轮单次通行保费高达300万至800万美元；私人承保机构大幅退出，美国政府DFC被迫介入提供政治风险担保",
+    "non_iran_inbound_share_pct": null,
+    "negotiation_progress": "巴基斯坦作为调停方居中斡旋，伊朗外长表示正在审议美方通过巴基斯坦递交的一页备忘录（MOU），预计数日内作出回应；特朗普6日暂停「Project Freedom」军事护航行动，称已取得「重大进展」；巴基斯坦总理谢里夫表示「期望尽快达成协议」；截至2026-05-09，伊朗尚未正式回复，谈判处于关键窗口期",
+    "iran_toll_status": "implemented — 伊朗于5月5日正式成立波斯湾海峡管理局（PGSA），要求船东提交船舶信息、保险及货物舱单并缴纳过境费（据报道部分船只已支付高达200万美元），美国财政部OFAC警告付费行为可能触发次级制裁"
+  },
+  "recovery_score": {
+    "transit_volume_score": 0,
+    "balance_score": 0,
+    "non_iran_share_score": 0,
+    "bluechip_score": 0,
+    "insurance_score": 0,
+    "total": 0
+  },
+  "market_signals": {
+    "brent_spot": 101.29,
+    "brent_change_pct": 1.23,
+    "wti_midland_premium": null,
+    "defense_stocks_note": "5月8日收盘：LMT 506.51（-1.15%）、RTX 175.76（-0.58%）、NOC 547.26（-0.91%）。三只防务股集体小幅回调，符合「和谈预期压制战争溢价」的历史规律；分析人士指出，多年交货积压使长期逻辑未变，若伊朗拒绝协议则RTX将因弹药补充订单率先反弹"
+  },
+  "trading_signal": "海峡通行量跌至接近零（5月7日仅2艘，5月5日后无可核实出入境），但外交窗口打开：伊朗正式审议美方MOU、巴基斯坦调停升温、特朗普暂停Project Freedom——形成「外交乐观+实体封锁」的罕见双重结构。Brent企稳于100-104美元区间，对协议落地极为敏感；一旦伊朗回应为「接受」，油价可能快速回落20-30美元，防务股（尤其RTX）将承压；若回应为「拒绝」，油价和防务股双双走高，霍尔木兹风险溢价将再度扩大。WTI Midland价差数据暂无法从公开来源确认。",
+  "verdict": "霍尔木兹海峡实质上仍处于封锁状态，通行量几乎归零，伊朗PGSA收费机制正式落地，但美伊通过巴基斯坦的外交斡旋正处于最关键的48-72小时窗口，市场悬而未决。",
+  "key_news": [
+    "Windward卫星与AIS数据显示5月7日仅录得2艘入境暗船、0艘出境，5月5日后实际上已无可核实的商业通行 (near-zero transits, no AIS, dark vessels only)",
+    "伊朗于5月5日正式成立「波斯湾海峡管理局」(PGSA)，要求所有船只事先申请许可并缴纳过境费，据报道部分船只已支付高达200万美元，美国财政部警告付费行为或触发次级制裁 (Persian Gulf Strait Authority, tolls up to $2M, OFAC secondary sanctions warning)",
+    "特朗普6日以「取得重大进展」为由叫停仅运行48小时的「Project Freedom」军事护航行动，期间仅引导2艘美籍船只出境，Hapag-Lloyd等主要班轮公司拒绝参与 (Project Freedom paused, only 2 ships guided, Hapag-Lloyd and CMA CGM decline)",
+    "CMA CGM旗下San Antonio于5月5日在霍尔木兹海峡内遭导弹击中，8名船员受伤，战争险保费仍高达船值3%-8%（单次可达800万美元），私人承保市场基本退出 (CMA CGM San Antonio struck by missile, war risk premium 3-8% of vessel value)",
+    "伊朗表示正通过巴基斯坦渠道审议美国停战备忘录，巴方调停人谢里夫总理对「尽快达成协议」表示乐观，Brent原油在101-104美元区间震荡，对协议结果高度敏感 (Iran reviewing US MOU via Pakistan, Brent $101-104/bbl, diplomatic 48-72h window)"
+  ]
+}
