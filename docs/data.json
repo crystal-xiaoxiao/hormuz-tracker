@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-09T04:28:27.811767+00:00",
-  "report_count": 24,
+  "updated_at": "2026-05-10T04:50:21.868587+00:00",
+  "report_count": 25,
   "reports": [
     {
       "report_date": "2026-04-09",
@@ -1387,6 +1387,62 @@
         "特朗普6日以「取得重大进展」为由叫停仅运行48小时的「Project Freedom」军事护航行动，期间仅引导2艘美籍船只出境，Hapag-Lloyd等主要班轮公司拒绝参与 (Project Freedom paused, only 2 ships guided, Hapag-Lloyd and CMA CGM decline)",
         "CMA CGM旗下San Antonio于5月5日在霍尔木兹海峡内遭导弹击中，8名船员受伤，战争险保费仍高达船值3%-8%（单次可达800万美元），私人承保市场基本退出 (CMA CGM San Antonio struck by missile, war risk premium 3-8% of vessel value)",
         "伊朗表示正通过巴基斯坦渠道审议美国停战备忘录，巴方调停人谢里夫总理对「尽快达成协议」表示乐观，Brent原油在101-104美元区间震荡，对协议结果高度敏感 (Iran reviewing US MOU via Pakistan, Brent $101-104/bbl, diplomatic 48-72h window)"
+      ]
+    },
+    {
+      "report_date": "2026-05-10",
+      "data_window": "May 8-10, 2026",
+      "daily_transits": {
+        "count": 2,
+        "inbound": 2,
+        "outbound": 0,
+        "source": "Windward Daily Intelligence (insights.windward.ai)",
+        "confidence": "high"
+      },
+      "cross_validation": [
+        {
+          "source": "Windward",
+          "count": 2,
+          "note": "5月7日记录到2艘船过境，均为暗航（无AIS信号），1艘经北走廊、1艘经南走廊；0艘出境"
+        },
+        {
+          "source": "Lloyd's List / Kpler",
+          "count": null,
+          "note": "Lloyd's List数据显示截至5月3日当周全周仅40艘，日均不足6艘；5月7日前后Kpler数据显示近乎零过境，整体与Windward一致"
+        },
+        {
+          "source": "伊朗官方媒体 (Fars/Tasnim/PressTV)",
+          "count": null,
+          "note": "IRGC称有船只遵守其过境规程，但未公布具体每日过境数字；IRGC在其X账户声称已看到船公司对其法规的「良好合规」"
+        }
+      ],
+      "milestones": {
+        "bluechip_operators_returning": "no，Maersk、CMA CGM、Hapag-Lloyd等主要班轮公司均暂停过境，大多数主流船东表示不会与IRGC-PGSA体制互动",
+        "war_risk_premium_status": "peak，战争险保费已从战前0.25%飙升至3%-8%（单艘大型油轮单次过境保险费高达300万至800万美元），私人保险市场基本撤出，美国政府DFC介入提供政治风险担保",
+        "non_iran_inbound_share_pct": 50,
+        "negotiation_progress": "巴基斯坦斡旋下的美伊间接谈判仍在进行：美方已递交含核浓缩暂停12-15年等条款的14点提案，伊朗外长阿拉格希赴北京会见中方后称谈判「取得进展」；特朗普以巴方要求为由于5月6日暂停「Project Freedom」护航行动并称达成「重大进展」，但伊方要求美国先解除海军封锁才谈霍尔木兹海峡开放问题，双方分歧仍大",
+        "iran_toll_status": "implemented，伊朗已于5月5日正式启动「波斯湾海峡管理局」(PGSA)，要求过境船只填报「船舶信息申报表」并服从IRGC划定的专属走廊，据报告过境费超过每艘100万美元；美方警告支付通行费的美国相关实体将面临制裁"
+      },
+      "recovery_score": {
+        "transit_volume_score": 0,
+        "balance_score": 0,
+        "non_iran_share_score": 10,
+        "bluechip_score": 0,
+        "insurance_score": 0,
+        "total": 10
+      },
+      "market_signals": {
+        "brent_spot": 100.49,
+        "brent_change_pct": 0.43,
+        "wti_midland_premium": 5.81,
+        "defense_stocks_note": "防务股整体承压下行：5月8日收盘时LMT报506.51美元（-1.15%）、RTX报176.09美元（-0.39%）、NOC报549.52美元（-0.50%）；市场担忧停战谈判进展将压缩武器订单需求，但多年期积压订单提供一定缓冲；分析人士建议和谈期间减持对弹药周期最敏感的RTX，保留LMT核心仓位"
+      },
+      "trading_signal": "霍尔木兹海峡实际过境量仍接近零（仅2艘暗航船只），战争险保费牢固维持峰值区间（3%-8%），IRGC通过新设PGSA将收费控制机制正式化并持续扩张管控范围；与此同时美伊外交谈判出现微弱积极信号（阿拉格希北京之行、特朗普暂停护航行动），但伊方坚持「先解封锁再谈开放」，双方立场距离仍大；Brent原油突破100美元/桶关口后小幅回落，防务股受停战预期拖累走软；Polymarket交易员以98.6%概率押注5月15日前恢复正常无望——综合信号显示海峡短期内（2周内）完全正常化概率极低，投资组合应维持对冲油价上行风险敞口",
+      "verdict": "霍尔木兹海峡2026年5月10日依然处于「双重封锁」深度危机中，IRGC通过PGSA将过境收费制度化、每日实际过境量仅个位数，外交谈判虽有微弱进展但距实质性开放仍遥远，恢复程度评分仅10/100",
+      "key_news": [
+        "伊朗革命卫队正式启动「波斯湾海峡管理局」(PGSA)收费过境体制，要求所有过境船只服从IRGC划定走廊并支付逾百万美元通行费，美国警告付款方将受制裁 (Iran IRGC launches Persian Gulf Strait Authority PGSA toll regime)",
+        "特朗普以「谈判取得重大进展」为由于5月6日暂停「Project Freedom」护航行动，该行动启动仅48小时便告中止，操作期间仅护送2艘美国旗船只出湾 (Trump pauses Operation Project Freedom after 48 hours citing great progress)",
+        "Brent原油5月8日报100.49美元/桶（+0.43%），年同比飙升逾57%，IEA警告冲突已从全球供应中移除约1400万桶/日，防务股LMT、RTX、NOC同日小幅下跌 (Brent above 100 USD IEA warns 14 million bpd supply removed defense stocks down)"
       ]
     }
   ]
