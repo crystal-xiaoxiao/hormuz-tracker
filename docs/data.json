@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-10T04:50:21.868587+00:00",
-  "report_count": 25,
+  "updated_at": "2026-05-12T04:41:49.796731+00:00",
+  "report_count": 26,
   "reports": [
     {
       "report_date": "2026-04-09",
@@ -1443,6 +1443,64 @@
         "伊朗革命卫队正式启动「波斯湾海峡管理局」(PGSA)收费过境体制，要求所有过境船只服从IRGC划定走廊并支付逾百万美元通行费，美国警告付款方将受制裁 (Iran IRGC launches Persian Gulf Strait Authority PGSA toll regime)",
         "特朗普以「谈判取得重大进展」为由于5月6日暂停「Project Freedom」护航行动，该行动启动仅48小时便告中止，操作期间仅护送2艘美国旗船只出湾 (Trump pauses Operation Project Freedom after 48 hours citing great progress)",
         "Brent原油5月8日报100.49美元/桶（+0.43%），年同比飙升逾57%，IEA警告冲突已从全球供应中移除约1400万桶/日，防务股LMT、RTX、NOC同日小幅下跌 (Brent above 100 USD IEA warns 14 million bpd supply removed defense stocks down)"
+      ]
+    },
+    {
+      "report_date": "2026-05-12",
+      "data_window": "May 10-12, 2026",
+      "daily_transits": {
+        "count": 17,
+        "inbound": 13,
+        "outbound": 4,
+        "source": "Windward Daily Intelligence (insights.windward.ai)，2026年5月10日数据",
+        "confidence": "medium"
+      },
+      "cross_validation": [
+        {
+          "source": "Windward",
+          "count": 17,
+          "note": "5月10日实测17艘过境，其中10艘AIS可见、7艘为暗船（仅EO卫星探测），置信度中等"
+        },
+        {
+          "source": "Lloyd's List / Kpler",
+          "count": null,
+          "note": "Kpler数据显示整个4月全月仅191艘过境（约每日6艘），Lloyd's List报告截至5月3日当周仅40艘过境（日均约6艘）；5月10日后最新日度数据暂未独立核实"
+        },
+        {
+          "source": "Iranian state media (Fars/Tasnim)",
+          "count": null,
+          "note": "伊朗国家媒体未发布5月10-12日具体过境船舶数量；IRGC官方声明侧重强调其新建「波斯湾海峡管理局(PGSA)」正式收费规程，未披露流量数字"
+        }
+      ],
+      "milestones": {
+        "bluechip_operators_returning": "partial — Maersk旗下Alliance Fairfax（美国国旗、Farrell Lines运营）在美军护送下于5月4-5日成功过境，CMA CGM的San Antonio于5月5日遭导弹袭击，Hapag-Lloyd及MSC维持过境禁令、风险评估未变",
+        "war_risk_premium_status": "peak — 战前保费约0.25%船值/航次，当前估算已飙升至3%-8%船值/航次（单艘大型油轮折合300万至800万美元），伦敦联合战争委员会(JWC)将阿拉伯湾及霍尔木兹评级维持为「极高风险」，私人保险市场几近撤出、美国政府背书部分替代",
+        "non_iran_inbound_share_pct": null,
+        "negotiation_progress": "巴基斯坦继续担任美伊中间人推进「伊斯兰堡进程」：5月7日双方正就一份14点备忘录(MOU)草案磋商，框架内容涵盖霍尔木兹开放、美方解除封锁与制裁、伊方暂停核浓缩；5月10日伊朗将回应经巴方转交美国，特朗普随即公开斥之「完全不可接受」、称停火协议处于「生死边缘」；谈判陷入僵局，关键变量在于特朗普北京行及伊朗外长在BRICS外长会议上的边际接触",
+        "iran_toll_status": "implemented — 伊朗已于5月5日正式成立波斯湾海峡管理局(PGSA)，并向CNN披露「船舶信息申报」表格，要求所有过境船舶预先提交申请；收费制度框架已落地，但美国威胁对支付伊朗过境费的船东实施制裁"
+      },
+      "recovery_score": {
+        "transit_volume_score": 4,
+        "balance_score": 0,
+        "non_iran_share_score": 0,
+        "bluechip_score": 5,
+        "insurance_score": 0,
+        "total": 9
+      },
+      "market_signals": {
+        "brent_spot": 104.97,
+        "brent_change_pct": 0.73,
+        "wti_midland_premium": null,
+        "defense_stocks_note": "防务股表现分化：数据截至5月8-11日，LMT报约506美元（近三个月累跌约18%）、RTX报约176美元（近三个月累跌约13%）、NOC同期跌约17%；油价上涨与停火破裂担忧并存，但市场将防务股视为「战争溢价已被消化」而非新增需求买入信号，分析师建议战争持续背景下持有RTX（导弹补库存逻辑）、NOC（B-21/Sentinel长周期项目）作为核心仓位"
+      },
+      "trading_signal": "霍尔木兹通航量持续维持在战前均值约5%的极低水平（战前日均约135-178艘，当前约6-17艘），Brent原油突破104美元/桶并同比大涨57%；停火协议陷入「生死边缘」、特朗普拒绝伊朗反提案，Citi预测若谈判持续破裂油价仍有上行风险；战争险保费峰值未退（3%-8%船值），蓝筹船公司（Hapag-Lloyd、MSC）维持禁令，仅美军护送的个别美国国旗船成功过境，通航实质性恢复遥遥无期；投资人宜关注油价上行敞口（Brent多头）、继续回避海湾航运直接敞口，并将防务股按「长期复工订单」逻辑而非纯粹地缘溢价定价",
+      "verdict": "霍尔木兹海峡通航尚处深度封锁状态，日过境仅约17艘（正常水平约5%），外交谈判陷入僵局、停火协议岌岌可危，近期实质性恢复概率极低",
+      "key_news": [
+        "Windward卫星数据显示5月10日仅17艘船过境霍尔木兹（其中7艘为暗船、关闭AIS），通航量仍在战前水平约5%徘徊 (Windward Daily Intelligence, May 10 transit count: 17 vessels, 7 dark)",
+        "特朗普拒绝伊朗经巴基斯坦转交的反提案，公开称停火处于「生死边缘」，谈判僵局升级，进一步推高油价 (Trump rejects Iran counter-proposal, ceasefire on 'massive life support')",
+        "美伊双方正就一份14点备忘录磋商，框架涵盖霍尔木兹逐步开放与核浓缩暂停，但达成协议的关键节点转移至特朗普北京行与BRICS外长会议边际接触 (US-Iran 14-point MOU framework stalled, key signals expected from Beijing summit)",
+        "Brent原油5月12日升至约104.97美元/桶（同比涨幅逾57%），Saudi Aramco CEO警告每周损失约1亿桶供应、正常化或推迟至明年 (Brent crude at $104.97/bbl, up 57% YoY; Saudi Aramco CEO warns normalization could slip to 2027)",
+        "伊朗正式运营波斯湾海峡管理局(PGSA)并强制推行「船舶信息申报」收费制度，美国同步威胁对缴费船东实施制裁，形成双重合规陷阱 (Iran's PGSA toll regime implemented; US threatens sanctions on fee-paying shipowners)"
       ]
     }
   ]
