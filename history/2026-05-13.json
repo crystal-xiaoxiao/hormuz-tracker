@@ -1,0 +1,56 @@
+{
+  "report_date": "2026-05-13",
+  "data_window": "May 11-13, 2026",
+  "daily_transits": {
+    "count": 18,
+    "inbound": 8,
+    "outbound": 10,
+    "source": "Windward Daily Intelligence (insights.windward.ai)，2026年5月11日数据",
+    "confidence": "medium"
+  },
+  "cross_validation": [
+    {
+      "source": "Windward",
+      "count": 18,
+      "note": "5月11日AIS+SAR融合数据：18艘过境，其中6艘（33%）全程关闭AIS，实际过境量估计较AIS单一数据低报约28%"
+    },
+    {
+      "source": "Lloyd's List / Kpler",
+      "count": null,
+      "note": "Kpler数据显示4月全月过境量约为战前均值的5%；Lloyd's List确认截至5月3日当周共40艘过境，日均不足6艘；5月11日后暂无Kpler最新日度数字"
+    },
+    {
+      "source": "Iranian state media (Fars/Tasnim)",
+      "count": null,
+      "note": "伊朗官方媒体（Tasnim/IRNA）未公布具体日过境数字，仅宣传PGSA制度已运转并收取过路费"
+    }
+  ],
+  "milestones": {
+    "bluechip_operators_returning": "partial — Maersk旗下Farrell Lines子公司所属美国船旗船只Alliance Fairfax于5月4日在美军护卫下完成过境；CMA CGM San Antonio于5月5日遭导弹袭击，法国大型班轮公司整体暂停商业过境；MSC、Hapag-Lloyd继续暂停",
+    "war_risk_premium_status": "peak — 战险保费从战前约0.25%飙升至船舶价值的3%~8%，单艘大型油轮单次过境保险费高达300万至800万美元，私人保险市场几乎退出，美国政府DFC介入提供政治风险兜底",
+    "non_iran_inbound_share_pct": null,
+    "negotiation_progress": "巴基斯坦首相谢里夫担任美伊调解人；特朗普于5月6日以「重大进展」为由暂停「自由行动」；伊朗于5月12日提出新反提案，特朗普随即拒绝并称停火协议处于「大规模生命维持」状态，重启军事选项讨论；谈判陷入僵局，EIA假设霍尔木兹海峡将维持实质封闭至5月下旬",
+    "iran_toll_status": "implemented"
+  },
+  "recovery_score": {
+    "transit_volume_score": 4,
+    "balance_score": 18,
+    "non_iran_share_score": 0,
+    "bluechip_score": 5,
+    "insurance_score": 0,
+    "total": 27
+  },
+  "market_signals": {
+    "brent_spot": 107.05,
+    "brent_change_pct": -0.67,
+    "wti_midland_premium": null,
+    "defense_stocks_note": "LMT约512美元(+1.13%)、RTX约178.61美元(+1.43%)、NOC约549.52美元，防务股整体小幅上涨，反映市场判断冲突短期内仍将延续；特朗普拒绝伊朗反提案及重启军事行动讨论提供支撑，但谈判中断预期已部分计入价格"
+  },
+  "trading_signal": "Brent现货107美元跌0.67%，显示市场在特朗普拒绝伊朗提案后维持高位但略有回调；EIA 5月STEO确认将霍尔木兹封闭假设延伸至5月下旬，全球油库存Q2单日减少850万桶；伊朗PGSA正式向部分船只收取最高200万美元过路费（以人民币结算），拒绝美以旗船；美国OFAC发出制裁警告，蓝筹船公司面临「服从伊朗还是遭美国制裁」的两难困境；防务股在停火破裂信号下小幅走强，但未出现大幅拉升，说明市场定价已较充分反映长期冲突溢价。",
+  "verdict": "霍尔木兹海峡仍处于严重受限状态，每日过境量仅约为战前均值的13%，伊朗PGSA收费制度已实际运转，美伊谈判因特朗普拒绝最新反提案再度陷入僵局，通航实质性恢复遥遥无期。",
+  "key_news": [
+    "伊朗PGSA收费制度正式落地，部分船只已缴纳最高200万美元（以人民币结算）过路费，美国OFAC随即发出制裁警告，蓝筹船公司陷入合规两难 (Iran PGSA toll regime implemented, up to $2M per transit in CNY, OFAC sanctions warning issued)",
+    "特朗普拒绝伊朗最新反提案并称停火处于「大规模生命维持」状态，重新讨论对伊军事行动，EIA假设海峡维持封闭至5月下旬 (Trump rejected Iran counteroffer, ceasefire on 'massive life support', EIA assumes Hormuz closure until late May)",
+    "Maersk旗下Alliance Fairfax在美军护卫下完成过境，CMA CGM San Antonio遭导弹袭击，Maersk/MSC/CMA CGM/Hapag-Lloyd整体仍暂停商业过境 (Maersk Alliance Fairfax transited under US escort, CMA CGM San Antonio struck by missile, major carriers still suspended)"
+  ]
+}
