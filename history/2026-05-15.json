@@ -1,0 +1,58 @@
+{
+  "report_date": "2026-05-15",
+  "data_window": "May 13-15, 2026",
+  "daily_transits": {
+    "count": 12,
+    "inbound": 6,
+    "outbound": 6,
+    "source": "Windward Maritime AI (insights.windward.ai)，辅以 straits.live 追踪数据",
+    "confidence": "medium"
+  },
+  "cross_validation": [
+    {
+      "source": "Windward",
+      "count": 12,
+      "note": "5月12日记录到12艘船通行，其中6艘入港、6艘出港；另有4艘（33%）处于AIS关闭的「暗船」状态，实际过境数量可能更高"
+    },
+    {
+      "source": "Lloyd's List / Kpler",
+      "count": 6,
+      "note": "straits.live及相关追踪平台显示5月13日和14日各有约6艘AIS可见过境，与Lloyd's List此前引用的数字（5月3日当周全周仅40艘）基本一致；Kpler分析师指出整个4月通行量约为战前平均水平的5%"
+    },
+    {
+      "source": "Iranian state media (Fars/Tasnim)",
+      "count": 30,
+      "note": "伊朗官方电视台声称截至5月14日已允许「逾30艘」船只通行，Tasnim和Fars均证实中国船只在伊朗管理协议下获批通行；此数字来源可信度较低，且涵盖时窗不明确"
+    }
+  ],
+  "milestones": {
+    "bluechip_operators_returning": "no — Maersk、MSC、CMA CGM、Hapag-Lloyd仍全面暂停霍尔木兹海峡过境；CMA CGM San Antonio甚至于5月5日遭受无人机袭击",
+    "war_risk_premium_status": "peak — 战前约0.25%，当前已升至船舶价值的3%-8%，单次大型油轮保费高达300万至800万美元",
+    "non_iran_inbound_share_pct": null,
+    "negotiation_progress": "伊斯兰堡谈判（4月11-12日）历时21小时无果而终，核心分歧为核计划与海峡控制权。此后巴基斯坦持续斡旋。5月7日前后，美伊正通过巴基斯坦磋商一份14点备忘录框架；伊朗5月10日提交反提案，特朗普称「不可接受」。5月14日，特朗普北京峰会期间，伊朗批准部分中国船只在「波斯湾海峡管理局（PGSA）」协议下通行，同日特朗普与习近平就「海峡必须保持开放」达成一致，但伊美核心分歧未解",
+    "iran_toll_status": "implemented — 伊朗已通过PGSA要求船只提前申报并缴纳过路费（据报逾100万美元/艘），多家公司被指静默适应；美国财政部警告付费船只将面临制裁"
+  },
+  "recovery_score": {
+    "transit_volume_score": 3,
+    "balance_score": 20,
+    "non_iran_share_score": 0,
+    "bluechip_score": 0,
+    "insurance_score": 0,
+    "total": 23
+  },
+  "market_signals": {
+    "brent_spot": 106.89,
+    "brent_change_pct": 1.11,
+    "wti_midland_premium": 4.44,
+    "defense_stocks_note": "5月14日收盘数据（来源：Yahoo Finance/Motley Fool）：LMT $520.41（+0.09%）、RTX $175.58（-1.42%）、NOC $548.65（-0.57%）。三大防务股整体小幅走弱，市场对特朗普-习近平北京峰会释放部分外交乐观情绪，压缩了战争溢价；但LMT基本持稳，显示市场对协议达成仍持怀疑态度"
+  },
+  "trading_signal": "北京峰会催生局部积极信号：伊朗首次批准中国船队批量通行（伊朗官媒称逾30艘），Brent当日上涨1.11%至106.89美元，防务股RTX和NOC小幅下挫（-1.42%/-0.57%），反映短暂的战争溢价收窄；然而Windward AIS数据显示实际可追踪日均过境量仍仅约12艘（战前基线约130艘），通行量恢复度仅约9%；战争险保费依然处于峰值区间（3%-8%），蓝筹船公司全面缺席，核议题与海峡控制权谈判仍处僵局，需警惕「外交噪音大于实质进展」风险。",
+  "verdict": "截至2026年5月15日，霍尔木兹海峡通航量仍处于战前基线约9%的极低水平，中国船队获批批量通行是本周最重要的增量信号，但伊朗实控格局未变，蓝筹船公司缺席、战争险保费高企，整体恢复评分仅23/100，海峡实质性开放仍遥不可期。",
+  "key_news": [
+    "伊朗批准部分中国船只在「波斯湾海峡管理局」协议框架下批量通行，伊朗官方电视台称已允许逾30艘船只过境（时间节点与特朗普访华、习特北京峰会高度吻合）(Iran allows Chinese ships under PGSA protocol amid Trump-Xi Beijing summit)",
+    "特朗普与习近平在北京就「霍尔木兹海峡必须保持开放以支持能源自由流动」达成一致，但中方会后公告未提及伊朗或海峡，且中方是否实际支付伊朗通行费仍存争议 (Trump-Xi agree Hormuz must stay open; China toll payment unconfirmed)",
+    "Windward最新情报显示，5月12日AIS可见过境量仅12艘（战前均值约130艘），同日IRGC高速快艇激增至约668艘次（较前一周峰值高出2.9倍），海峡「暗船」比例持续上升，实际通行环境高度不稳定 (Windward: 12 AIS transits on May 12 vs ~668 IRGC speedboats; dark-ship ratio rising)",
+    "战争险保费维持历史峰值区间（船值的3%-8%），单艘大型油轮单次过境保费高达300万至800万美元，Khaleej Times/业内估算认为即使海峡名义重开，保险成本正常化至少需要数月持续无事故期 (War-risk premium stays at 3%-8% of vessel value; insurers demand months of stability before normalizing)",
+    "美伊通过巴基斯坦中介就14点备忘录框架继续磋商，但伊朗5月10日提交的反提案被特朗普称「不可接受」，核浓缩与海峡主权问题仍是核心症结，巴基斯坦「伊斯兰堡进程」斡旋继续 (US-Iran 14-point MoU talks via Pakistan stall; Trump rejects Iranian counter-proposal as unacceptable)"
+  ]
+}
