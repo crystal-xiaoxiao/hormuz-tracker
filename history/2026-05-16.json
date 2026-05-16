@@ -1,0 +1,58 @@
+{
+  "report_date": "2026-05-16",
+  "data_window": "May 14-16, 2026",
+  "daily_transits": {
+    "count": 11,
+    "inbound": 4,
+    "outbound": 7,
+    "source": "Windward Maritime AI™ Platform（2026-05-13数据，最近可用日报）",
+    "confidence": "medium"
+  },
+  "cross_validation": [
+    {
+      "source": "Windward",
+      "count": 11,
+      "note": "5月13日记录11艘过境，其中4艘入向、7艘出向，4艘（36%）以暗航（AIS静默）方式穿越"
+    },
+    {
+      "source": "Kpler",
+      "count": null,
+      "note": "Kpler数据显示4月全月通行量约为战前日均水平的5%，无5月14-16日独立逐日数据可提取"
+    },
+    {
+      "source": "Iranian state media (Fars/Tasnim)",
+      "count": null,
+      "note": "伊朗国家媒体（Fars）未公布具体过境数字；伊朗外长声称5月14日起48小时内约30艘船只穿越，但无法通过独立船舶追踪核实，存疑"
+    }
+  ],
+  "milestones": {
+    "bluechip_operators_returning": "partial — Maersk（旗下子公司Farrell Lines运营的Alliance Fairfax于5月5日在美军护送下出港），CMA CGM（San Antonio遭袭），MSC、Hapag-Lloyd仍暂停服务",
+    "war_risk_premium_status": "peak — 保费从战前0.25%飙升至3%–8%船舶价值每次过境，部分承保人最高报价达10%，美国政府已介入为部分保险兜底",
+    "non_iran_inbound_share_pct": null,
+    "negotiation_progress": "巴基斯坦调停的伊斯兰堡谈判陷入僵局：伊朗提出「先开放霍尔木兹、后谈核问题」分阶段方案，特朗普以「完全无法接受」拒绝；停火协议岌岌可危，特朗普称其处于「大规模生命维持」状态；美军「自由行动（Project Freedom）」于5月6日暂停，美伊双方在海峡内仍有交火；美国维持对伊朗港口的海上封锁",
+    "iran_toll_status": "negotiating"
+  },
+  "recovery_score": {
+    "transit_volume_score": 2,
+    "balance_score": 13,
+    "non_iran_share_score": 0,
+    "bluechip_score": 5,
+    "insurance_score": 0,
+    "total": 20
+  },
+  "market_signals": {
+    "brent_spot": 111.04,
+    "brent_change_pct": 2.99,
+    "wti_midland_premium": null,
+    "defense_stocks_note": "5月16日防务股整体小幅走低：LMT约516–520美元（约-0.78%），RTX约171–172美元（约-2.03%至-2.56%），NOC约540–549美元（约-1.45%至-1.51%）；市场在停火谈判推进预期与实际僵局之间博弈，防务溢价有所回吐，但因谈判仍无实质突破跌幅有限"
+  },
+  "trading_signal": "Brent原油于5月15日报111.04美元/桶，较前日上涨约3%，周环比涨幅达8–11%；霍尔木兹有效关闭状态维持，IEA警告即便冲突下月结束全球原油市场仍将严重供不应求至10月；停火谈判破裂风险上升，核问题与霍尔木兹开放顺序分歧是核心障碍；防务股因和平谈判预期而小幅承压，但回调有限；英国宣布向霍尔木兹派遣驱逐舰、台风战机及无人机参与多国防御任务，多边军事存在扩大",
+  "verdict": "霍尔木兹海峡仍处于事实封锁状态，日均过境量约为战前5%（~11艘 vs 历史均值138艘），谈判深陷死局，战争险保费高达船值3–8%，主要班轮公司全面暂停服务，通航实质性恢复远未到来",
+  "key_news": [
+    "Windward AI报告5月13日仅11艘船只过境霍尔木兹，其中36%以AIS静默暗航方式穿越，伊朗喀尔克岛5月7日后未见任何确认离港 (Windward: 11 transits on May 13, 36% dark, Kharg Island stalled)",
+    "伊朗向美方提出『先开放霍尔木兹、后谈核问题』方案，特朗普称其「完全无法接受且愚蠢」，停火被形容为处于「大规模生命维持」状态 (Iran proposes Hormuz-first nuclear-later deal; Trump calls it unacceptable)",
+    "英国宣布向霍尔木兹部署驱逐舰、台风战机及无人机参与国际防御任务，印度总理莫迪访问阿联酋期间呼吁霍尔木兹「自由开放」 (UK deploys warship and Typhoons to Hormuz; Modi calls for open strait)",
+    "Brent原油5月15日报111美元/桶，周涨幅达8–11%，IEA警告即便冲突下月结束，全球油市供应短缺将持续至10月 (Brent near $111/bbl; IEA warns undersupply through October even if war ends)",
+    "战争险保费维持高位3%–8%船舶价值，私人保险市场基本退出，美国政府被迫介入为部分保险兜底，航运公司称保费绝非开放关键、人员安全才是 (War risk premiums at 3–8% of hull value; safety not insurance is key barrier)"
+  ]
+}
