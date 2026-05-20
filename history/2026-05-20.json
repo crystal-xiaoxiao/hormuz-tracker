@@ -1,0 +1,59 @@
+{
+  "report_date": "2026-05-20",
+  "data_window": "May 18-20, 2026",
+  "daily_transits": {
+    "count": 0,
+    "inbound": 0,
+    "outbound": 0,
+    "source": "IMF PortWatch / straits.live（2026年5月19日：连续第二天零通行）",
+    "confidence": "high"
+  },
+  "cross_validation": [
+    {
+      "source": "Windward",
+      "count": 14,
+      "note": "Windward记录2026年5月17日有14艘船通过（7入7出），但5月18-19日已降至接近零；5月18日仅印度旗舰组群6艘双边安排入境"
+    },
+    {
+      "source": "Lloyd's List / Kpler",
+      "count": 0,
+      "note": "Kpler数据显示整个4月通行量约为战前均值的5%；Lloyd's List编辑Richard Meade称即使立即重开，市场正常化至少需要至2026年9月"
+    },
+    {
+      "source": "Iranian state media (Fars/Tasnim)",
+      "count": null,
+      "note": "伊朗官方媒体未公布具体通行数字；法尔斯通讯社报道伊朗正在推进新的「霍尔木兹安全」比特币保险服务，Tasnim报道伊朗最高国家安全委员会将继续控制海峡"
+    }
+  ],
+  "milestones": {
+    "bluechip_operators_returning": "no（Maersk、MSC、CMA CGM、Hapag-Lloyd均已暂停通行，其中CMA CGM旗下San Antonio于5月5日遭导弹击中）",
+    "war_risk_premium_status": "peak（战前0.25%，当前3%至8%舰体价值，峰值曾达10%；相当于战前8倍，6家P&I俱乐部已撤销保险）",
+    "non_iran_inbound_share_pct": null,
+    "negotiation_progress": "美伊谈判僵局持续：特朗普称沙特、卡塔尔、UAE劝阻其发动计划中的军事打击；伊朗提交最新和平提案但白宫认为不足；伊朗新成立「波斯湾海峡管理局」(PGSA) 正式化收费制度，每次过境最高200万美元，以人民币或比特币结算；美国财政部OFAC警告支付过境费可能触发制裁",
+    "iran_toll_status": "implemented（PGSA于5月5日成立，5月16日伊朗官员确认「即将」公布完整收费机制细节，5月18日PGSA官方X账号上线；报告每次过境最高收费200万美元）"
+  },
+  "recovery_score": {
+    "transit_volume_score": 0,
+    "balance_score": 0,
+    "non_iran_share_score": 0,
+    "bluechip_score": 0,
+    "insurance_score": 0,
+    "total": 0
+  },
+  "market_signals": {
+    "brent_spot": 111.06,
+    "brent_change_pct": 4.96,
+    "wti_midland_premium": null,
+    "defense_stocks_note": "LMT 526.15（-0.41%）；RTX 175.77（-0.11%）；NOC 553.57（+0.65%）；防务股整体维持高位但盘中小幅波动，特朗普叫停伊朗打击计划后市场谨慎乐观但不确定性仍高"
+  },
+  "trading_signal": "布伦特原油单日暴涨+4.96%至111.37美元，与霍尔木兹海峡连续两日零通行高度相关；伊朗PGSA收费机制正式化令西方船东合规风险骤升；印度旗舰组群双边安排通行是本周期首次结构性突破信号，但尚不构成恢复趋势；特朗普确认叫停打击计划后布伦特小幅回落至110美元区间，市场在「外交乐观」与「通行量数据惨淡」之间剧烈博弈；防务股高位震荡；WTI升水数据暂无法获取",
+  "verdict": "霍尔木兹海峡实质恢复程度为零分——连续两日商业通行量归零，PGSA收费体系将海峡从国际航道变为「行政管控检查站」，西方蓝筹船东全面缺席，战争险保费仍处峰值，局势进入「双重封锁+收费治理」的深度结构性危机阶段",
+  "key_news": [
+    "霍尔木兹海峡5月19日连续第二天零通行，IMF PortWatch数据显示商业运输量为战前均值的0%（zero transits second consecutive day per IMF PortWatch）",
+    "伊朗正式成立波斯湾海峡管理局(PGSA)并于5月18日开通官方X账号，宣布征收最高每次200万美元通行费，以人民币或比特币结算（PGSA formalized toll regime up to $2M per transit in CNY/BTC）",
+    "印度旗舰6艘船组群于5月18日在伊朗双边安排下完成入境通行，为冲突以来首次协调性组群过境，标志着伊朗「双轨制」管控战略出现 (India-flagged 6-vessel cluster bilateral transit, first coordinated group passage)",
+    "特朗普确认在沙特、卡塔尔、UAE劝说下叫停对伊朗的计划军事打击，但同时称「严肃谈判已在进行」，德黑兰尚未证实（Trump called off Iran strike after Gulf allies intervention, serious talks underway）",
+    "布伦特原油24小时内飙涨+4.96%至111.37美元，战争险保费维持战前8倍高位，6家P&I俱乐部已撤销保险覆盖（Brent +4.96% to $111.37; war-risk premium 8x pre-crisis, 6 P&I clubs withdrew cover）",
+    "英国宣布部署无人机、战斗机及皇家海军舰艇参与保障霍尔木兹商业通航的国际防御行动（UK deployed drones, fighter aircraft and Royal Navy warship for Hormuz defensive mission）"
+  ]
+}
