@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-20T05:10:17.079505+00:00",
-  "report_count": 30,
+  "updated_at": "2026-05-25T05:25:43.202550+00:00",
+  "report_count": 31,
   "reports": [
     {
       "report_date": "2026-04-09",
@@ -1732,6 +1732,62 @@
         "特朗普确认在沙特、卡塔尔、UAE劝说下叫停对伊朗的计划军事打击，但同时称「严肃谈判已在进行」，德黑兰尚未证实（Trump called off Iran strike after Gulf allies intervention, serious talks underway）",
         "布伦特原油24小时内飙涨+4.96%至111.37美元，战争险保费维持战前8倍高位，6家P&I俱乐部已撤销保险覆盖（Brent +4.96% to $111.37; war-risk premium 8x pre-crisis, 6 P&I clubs withdrew cover）",
         "英国宣布部署无人机、战斗机及皇家海军舰艇参与保障霍尔木兹商业通航的国际防御行动（UK deployed drones, fighter aircraft and Royal Navy warship for Hormuz defensive mission）"
+      ]
+    },
+    {
+      "report_date": "2026-05-25",
+      "data_window": "May 23-24, 2026",
+      "daily_transits": {
+        "count": 33,
+        "inbound": null,
+        "outbound": null,
+        "source": "伊朗官方媒体 IRNA/Mehr News Agency（伊斯兰革命卫队海军声明，2026年5月24日）",
+        "confidence": "low"
+      },
+      "cross_validation": [
+        {
+          "source": "Windward",
+          "count": null,
+          "note": "本报告期内未获取Windward独立数据；straits.live引用IMF PortWatch显示5月17日仅2艘，为危机期典型水平，与5月24日IRGC声明的33艘存在显著差异，暗示近期有所回升"
+        },
+        {
+          "source": "Lloyd's List 或 Kpler",
+          "count": null,
+          "note": "Kpler数据显示整个4月通行量约为战前均值的5%；Lloyd's List确认4月23日至5月1日间24小时内只有个位数通行，最低曾出现零通行（4月23日）；5月24日最新数据未获取，但33艘若属实将是危机以来最高单日数字"
+        },
+        {
+          "source": "Iranian state media (Fars/Tasnim)",
+          "count": 33,
+          "note": "法尔斯新闻社（Fars）和迈赫尔新闻社（Mehr News）5月24日报道：IRGC海军宣布33艘船只（含油轮、集装箱船）在其协调和安全保障下过境；5月23日同一渠道报道为25艘，5月22日报道约35艘，显示数字每日波动；IRGC将此定性为「授权通行」而非自由航行，真实性存不确定性"
+        }
+      ],
+      "milestones": {
+        "bluechip_operators_returning": "no — Maersk、MSC、CMA CGM、Hapag-Lloyd均仍暂停正常过境；唯一例外是Maersk旗下Alliance Fairfax于5月4日在美国海军护航下强行通过，但属一次性Project Freedom行动，并非恢复商业运营",
+        "war_risk_premium_status": "peak — 战前均值约0.05%~0.125%，危机峰值曾达10%（H&M价值），截至5月12日行业估计仍在3%~8%区间；战后保险保费至少上涨8倍，6家P&I俱乐部已撤销承保；距战前水平仍有极大差距",
+        "non_iran_inbound_share_pct": null,
+        "negotiation_progress": "突破性进展：5月24日华盛顿邮报报道，美伊已就「谅解备忘录框架」达成共识，内容包括停火延长60天、霍尔木兹海峡排雷并重新开放；特朗普5月23日称协议「基本谈妥」；巴基斯坦军队参谋长阿西姆·穆尼尔（Asim Munir）5月23日访德黑兰，伊方确认处于框架协议起草最终阶段；欧盟委员会主席对「可能协议的进展」表示欢迎；但伊朗外交部发言人强调核问题不纳入初步框架，制裁解除是「固定立场」，细节谈判仍有风险",
+        "iran_toll_status": "negotiating — IRGC事实上实施过境收费和审批制度（需提交船舶所有权及货物目的地材料并获准许），同时伊朗与阿曼就永久通行费体系进行磋商；特朗普已明确拒绝通行费方案；当前授权通行模式介于「implemented」与「negotiating」之间"
+      },
+      "recovery_score": {
+        "transit_volume_score": 7,
+        "balance_score": 0,
+        "non_iran_share_score": 0,
+        "bluechip_score": 0,
+        "insurance_score": 0,
+        "total": 7
+      },
+      "market_signals": {
+        "brent_spot": 103.54,
+        "brent_change_pct": 0.94,
+        "wti_midland_premium": null,
+        "defense_stocks_note": "5月22日收盘数据：LMT +2.00%（533.24美元），RTX +1.00%（177.01美元），NOC +0.07%；防务股整体呈温和上涨；分析师指出，若美伊协议达成，RTX因弹药补充订单敞口最大、回调风险最高；LMT因F-35多年积压订单和5月21日新设阿拉巴马州弹药生产中心基本面稳健；NOC因B-21和Sentinel项目周期跨越十年受和平预期影响最小"
+      },
+      "trading_signal": "【重大外交突破信号】5月24日美伊就「60天停火延长+霍尔木兹排雷重开」谅解备忘录框架实质达成共识，为危机爆发（2月28日）以来最接近全面协议的节点。Brent现货约103美元，较危机峰值约126美元已回落约18%，市场正在计价协议达成概率上升；若框架协议正式签署，油价可能进一步大幅下跌（Lloyd's List估计即便立即重开、市场恢复也需至少至9月），防务股（尤其RTX）面临短期回调压力；若谈判在核武器和制裁条款上再度破裂，油价将反弹并可能重测110~120美元区间。当前IRGC每日授权通行33艘（伊朗官方数据，独立核实困难），仅为战前均值138艘的约24%，表明实质性通航恢复尚未发生，但方向性信号为近3个月来最积极。",
+      "verdict": "霍尔木兹海峡通航仍处于深度受限状态（实际流量约为战前24%且须经IRGC审批），但美伊就「60天停火+排雷重开」谅解备忘录框架的实质性突破标志着危机以来最关键的外交转折点，协议若落地将触发油价大幅下行和航运险保费渐进改善。",
+      "key_news": [
+        "美伊就「60天停火延长+霍尔木兹海峡排雷重开」谅解备忘录框架实质达成共识，特朗普称协议「基本谈妥」，巴基斯坦斡旋居功至伟 (US-Iran MOU framework agreed: 60-day ceasefire extension plus Hormuz demining and reopening)",
+        "IRGC海军5月24日宣布过去24小时共33艘船只（含油轮和集装箱船）在其协调下过境，为近期最高单日数字，但仍仅占战前均值约24%，且须经伊方审批授权 (IRGC Navy reports 33 vessels transited Hormuz in 24 hours under Iranian coordination, highest recent daily figure but still just ~24% of pre-war average)",
+        "战争险保费仍在峰值区间3%~8%（较战前高8~100倍），6家P&I俱乐部已撤销承保；分析师警告即便海峡正式重开，保费回归正常仍需数月持续稳定期 (War-risk premiums remain at peak 3%-8% range, 8-100x pre-war levels; analysts warn months of sustained stability needed before normalization)"
       ]
     }
   ]
