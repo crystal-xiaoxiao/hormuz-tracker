@@ -1,0 +1,58 @@
+{
+  "report_date": "2026-05-26",
+  "data_window": "May 24-26, 2026",
+  "daily_transits": {
+    "count": 25,
+    "inbound": null,
+    "outbound": null,
+    "source": "IRGC Navy声明（法尔斯通讯社）/ Polymarket IMF PortWatch综合引用，约5月23日24小时数据；5月20日曾出现单日26艘峰值；5月26日实时AIS仅显示1艘在途",
+    "confidence": "low"
+  },
+  "cross_validation": [
+    {
+      "source": "Windward / straits.live (AIS实时)",
+      "count": 1,
+      "note": "5月26日实时AIS仅探测到1艘船舶正在穿越，反映大多数船只仍关闭AIS或未进行公开过境"
+    },
+    {
+      "source": "Lloyd's List / IMF PortWatch",
+      "count": 2,
+      "note": "IMF PortWatch数据显示5月17日仅2艘，约为正常水平的2%；近期由于外交进展有所回升，但精确到5月26日的最新数字未公开"
+    },
+    {
+      "source": "Iranian state media (Fars / Tasnim)",
+      "count": 25,
+      "note": "伊朗国家媒体（法尔斯通讯社）称5月23日有25艘船经IRGC海军许可过境，包括油轮和集装箱船；伊方倾向于高报数字以展示「管控有序」"
+    }
+  ],
+  "milestones": {
+    "bluechip_operators_returning": "no — Maersk、MSC、CMA CGM（San Antonio被袭后）、Hapag-Lloyd均已暂停过境，COSCO仅在护航走廊下进行选择性过境，主流蓝筹航运公司尚未正式复航",
+    "war_risk_premium_status": "peak — 战争险保费在冲突爆发前约为船体价值的0.25%，高峰期飙升至3%–8%（折合单艘大型油轮每次过境保费300万至800万美元），截至5月12日报道仍处于峰值区间，尚无实质性下降证据",
+    "non_iran_inbound_share_pct": null,
+    "negotiation_progress": "5月25日，美伊双方围绕14点谅解备忘录（MOU）的谈判接近临界点：特朗普声称协议「基本谈妥」并将很快宣布，内容包括伊朗在30天内将过境恢复至战前水平、美国解除封锁、启动60天核问题谈判。巴基斯坦（Asim Munir元帅亲赴德黑兰）和卡塔尔谈判团队充当调解人。伊朗外交部承认备忘录存在，但强调「协议并不迫在眉睫」，且拒绝将核计划列入初步框架；伊朗议员Alireza Salimi表示霍尔木兹控制权「不可谈判」。双方仍存在重大分歧。",
+    "iran_toll_status": "implemented"
+  },
+  "recovery_score": {
+    "transit_volume_score": 6,
+    "balance_score": 0,
+    "non_iran_share_score": 0,
+    "bluechip_score": 0,
+    "insurance_score": 0,
+    "total": 6
+  },
+  "market_signals": {
+    "brent_spot": 98.11,
+    "brent_change_pct": 0.89,
+    "wti_midland_premium": null,
+    "defense_stocks_note": "截至5月25日（最近收盘）：LMT +2.00%（报$533.24）、RTX +1.00%（报$177.01）、NOC +0.72%（报$555.58）。防务股小幅上涨，表明市场在外交乐观情绪升温的同时仍维持一定军事溢价；分析师指出若协议崩溃特朗普警告将「以更高烈度」恢复轰炸，故多数资金选择持有而非大幅减仓"
+  },
+  "trading_signal": "外交乐观情绪主导市场：5月24–25日原油单日暴跌逾6%（WTI一度跌破$91/桶），随后在协议进展不确定性中企稳反弹至Brent约$98。AIS实时数据显示实际过境量仍极低（当日仅1艘），与IRGC官方「25艘/日」声明差距悬殊，说明大量船只在伊朗管控下关闭AIS。防务股（LMT/RTX/NOC）对谈判进展反应温和，未见大幅抛售，市场对协议落地仍持审慎态度。战争险保费居于峰值，蓝筹航运公司无一复航，海峡实质性恢复尚未发生——油价上行风险依然较大。",
+  "verdict": "霍尔木兹海峡今日仍处于实质封闭状态（AIS实测仅1艘在途，蓝筹航运商全部暂停），但14点谅解备忘录外交谈判已到达最关键节点，协议若在未来48小时内签署将是触发大规模恢复的最重要催化剂。",
+  "key_news": [
+    "特朗普宣称美伊协议「基本谈妥」、霍尔木兹将重开，但伊方外交部和法尔斯通讯社随即否认协议已成型，双方信息严重矛盾 (Trump declares deal 'largely negotiated'; Iran denies imminent agreement)",
+    "伊朗IRGC海军声称5月23日有25艘船在其许可下完成过境，但AIS实时数据5月26日当日仅探测到1艘在途，数据鸿沟凸显伊方管控下的「黑色过境」规模 (IRGC claims 25 daily transits; AIS shows just 1 vessel live)",
+    "战争险保费仍高达船体价值3%–8%（战前约0.25%），Khaleej Times报道即便霍尔木兹名义重开，保险公司亦需数月无事故稳定期才会恢复正常承保 (War-risk premiums at 3-8% of hull value, far above pre-war 0.25%; normalization months away)",
+    "巴基斯坦陆军总参谋长Asim Munir亲赴德黑兰、卡塔尔谈判团队同步进京，多边调解密度达冲突以来最高峰，14点MOU核心争议为核浓缩权与海峡管辖权 (Pakistan Field Marshal Munir and Qatar team converge on Tehran for MOU mediation)",
+    "Brent原油5月26日报$98.11（+0.89%），过去一周因谈判乐观情绪累计下跌逾10%；WTI一度触及$91；Lloyd's List编辑Richard Meade警告即便立即重开，油市恢复正常至少需等到9月 (Brent at $98.11; down 10%+ on week; Lloyd's List warns normalization no earlier than September)"
+  ]
+}
