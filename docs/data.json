@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-26T05:08:51.716701+00:00",
-  "report_count": 32,
+  "updated_at": "2026-05-27T05:23:12.149373+00:00",
+  "report_count": 33,
   "reports": [
     {
       "report_date": "2026-04-09",
@@ -1846,6 +1846,64 @@
         "战争险保费仍高达船体价值3%–8%（战前约0.25%），Khaleej Times报道即便霍尔木兹名义重开，保险公司亦需数月无事故稳定期才会恢复正常承保 (War-risk premiums at 3-8% of hull value, far above pre-war 0.25%; normalization months away)",
         "巴基斯坦陆军总参谋长Asim Munir亲赴德黑兰、卡塔尔谈判团队同步进京，多边调解密度达冲突以来最高峰，14点MOU核心争议为核浓缩权与海峡管辖权 (Pakistan Field Marshal Munir and Qatar team converge on Tehran for MOU mediation)",
         "Brent原油5月26日报$98.11（+0.89%），过去一周因谈判乐观情绪累计下跌逾10%；WTI一度触及$91；Lloyd's List编辑Richard Meade警告即便立即重开，油市恢复正常至少需等到9月 (Brent at $98.11; down 10%+ on week; Lloyd's List warns normalization no earlier than September)"
+      ]
+    },
+    {
+      "report_date": "2026-05-27",
+      "data_window": "May 25-27, 2026",
+      "daily_transits": {
+        "count": 2,
+        "inbound": null,
+        "outbound": null,
+        "source": "PortWatch（最近公开记录日期2026-05-17仅录得2次通航；straits.live综合AIS数据）",
+        "confidence": "low"
+      },
+      "cross_validation": [
+        {
+          "source": "Windward / straits.live",
+          "count": null,
+          "note": "霍尔木兹危机压力指数固定在94（极端），AIS实时显示62艘船正在过境但多数为区域船只，过去24小时海湾港口到港约68艘，远低于危机前95艘/日基线"
+        },
+        {
+          "source": "Lloyd's List / Kpler",
+          "count": 191,
+          "note": "Kpler数据：整个4月仅191艘船通过（约6.4艘/日），整体流量约为战前平均的5%；4月23-29日一周仅24次通航，且多为东行"
+        },
+        {
+          "source": "Iranian state media (Fars/Tasnim/ISNA)",
+          "count": 26,
+          "note": "5月20日伊朗IRGC通过ISNA声称24小时内协调26艘船通过霍尔木兹，但均需获得IRGC海军许可，属于管控下的选择性通航"
+        }
+      ],
+      "milestones": {
+        "bluechip_operators_returning": "no — MSC、Maersk、CMA CGM、Hapag-Lloyd、ONE、Evergreen、Yang Ming、HMM均已暂停或绕行好望角；COSCO仅进行选择性护航通航",
+        "war_risk_premium_status": "peak — 战争险保费在冲突初期已上涨4至6倍，目前P&I保险仍于3月5日起取消，商业上通航不可行",
+        "non_iran_inbound_share_pct": null,
+        "negotiation_progress": "特朗普5月23日宣布协议「基本谈妥」，包括伊朗重开海峡与处置高浓缩铀；但伊朗官方媒体（法尔斯社）否认协议内容，称特朗普声明「不完整且不符合现实」。5月25日美国对霍尔木兹附近目标实施「自卫性」打击，伊朗外交部指控美方违反停火协议并威胁报复。5月26日伊朗再度指控美国违反停火。巴基斯坦与卡塔尔担任调解人，谈判框架包括伊朗开放海峡换取美国放宽封锁，60天内达成全面协议，但核问题（富集铀上限）仍是最大分歧。",
+        "iran_toll_status": "negotiating"
+      },
+      "recovery_score": {
+        "transit_volume_score": 0,
+        "balance_score": 0,
+        "non_iran_share_score": 0,
+        "bluechip_score": 0,
+        "insurance_score": 0,
+        "total": 0
+      },
+      "market_signals": {
+        "brent_spot": 99.0,
+        "brent_change_pct": -1.08,
+        "wti_midland_premium": null,
+        "defense_stocks_note": "截至5月26日收盘：LMT约-0.44%、RTX约+1.00%、NOC约+0.73%；防务股整体表现分化，RTX与NOC因地区紧张局势小幅上涨，LMT因混合分析师情绪小幅回调；和平谈判预期升温导致防务战争溢价部分压缩，但5月25-26日美伊交火重新支撑了防务板块情绪"
+      },
+      "trading_signal": "布伦特原油在99美元附近企稳（-1.08%），反映市场在美伊「基本谈妥」乐观预期与5月25-26日实际交火之间存在高度拉锯；若MOU（谅解备忘录）签署落实，油价可能瞬间下跌10-20美元，防务股（尤其RTX）将承压；若谈判再度破裂或伊朗实施报复，油价将重回110-120美元区间，防务股再度跑赢。当前通航量仍处于近零水平，蓝筹航运商完全缺席，海峡实质性恢复信号尚未出现，投资者应密切跟踪是否有MOU官方文本公布及美伊双方封锁是否同步解除。",
+      "verdict": "霍尔木兹海峡通航仍处于接近全封闭状态（战前流量约5%），停火协议持续遭双方违反，蓝筹航运商全部缺席，恢复评分为0分；唯一积极信号是美伊谈判「基本谈妥」的口头声明，但伊朗官方媒体否认、核问题僵局及持续交火使实质性恢复时间表高度不确定。",
+      "key_news": [
+        "美伊停火协议「基本谈妥」但伊朗官方媒体否认 (Trump says deal largely negotiated; Iran state media contradicts)",
+        "美国5月25日对霍尔木兹附近目标实施自卫打击，伊朗指控停火被违反并威胁报复 (US self-defense strikes near Hormuz May 25; Iran accuses ceasefire violation)",
+        "布伦特原油在约99美元附近企稳，较峰值明显回落，市场在和平预期与军事紧张之间反复博弈 (Brent near $99, down from ~$120 peak amid deal optimism vs. ongoing skirmishes)",
+        "4月全月Kpler数据显示仅191艘船通过霍尔木兹，约为战前平均水平的5% (Kpler: only 191 Hormuz transits in April, ~5% of pre-war average)",
+        "MSC、Maersk、CMA CGM、Hapag-Lloyd等主要蓝筹航运商全部暂停通航并绕行好望角，IMO宣布逾2万名海员被困 (All major bluechip carriers suspended; IMO reports 20,000+ seafarers stranded)"
       ]
     }
   ]
