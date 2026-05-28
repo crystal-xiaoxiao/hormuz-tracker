@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-27T05:23:12.149373+00:00",
-  "report_count": 33,
+  "updated_at": "2026-05-28T05:14:25.215203+00:00",
+  "report_count": 34,
   "reports": [
     {
       "report_date": "2026-04-09",
@@ -1904,6 +1904,62 @@
         "布伦特原油在约99美元附近企稳，较峰值明显回落，市场在和平预期与军事紧张之间反复博弈 (Brent near $99, down from ~$120 peak amid deal optimism vs. ongoing skirmishes)",
         "4月全月Kpler数据显示仅191艘船通过霍尔木兹，约为战前平均水平的5% (Kpler: only 191 Hormuz transits in April, ~5% of pre-war average)",
         "MSC、Maersk、CMA CGM、Hapag-Lloyd等主要蓝筹航运商全部暂停通航并绕行好望角，IMO宣布逾2万名海员被困 (All major bluechip carriers suspended; IMO reports 20,000+ seafarers stranded)"
+      ]
+    },
+    {
+      "report_date": "2026-05-28",
+      "data_window": "May 26-28, 2026",
+      "daily_transits": {
+        "count": 5,
+        "inbound": null,
+        "outbound": null,
+        "source": "Bloomberg船舶追踪数据（2026-05-27报告）",
+        "confidence": "low"
+      },
+      "cross_validation": [
+        {
+          "source": "Windward / PortWatch",
+          "count": 4,
+          "note": "PortWatch最新公开日计数（2026-05-24）记录4次过境，相对于危机前基准每日95次，仍处于极度萎缩状态"
+        },
+        {
+          "source": "Lloyd's List / Kpler",
+          "count": null,
+          "note": "Kpler数据显示4月全月过境量约为战前均值的5%；5月6日后Lloyd's List报告单日过境降至接近零"
+        },
+        {
+          "source": "Iranian state media (Fars/Tasnim)",
+          "count": null,
+          "note": "Tasnim报道伊朗认为海峡管理权属于伊方，并声称最新草案文本与特朗普「基本谈妥」的说法「不完整且不符合实际」，未披露独立过境计数"
+        }
+      ],
+      "milestones": {
+        "bluechip_operators_returning": "partial — Eagle Veracruz（新加坡关联）和Nissos Keros（希腊船东）两艘非伊朗超级油轮于5月27日穿越海峡出波斯湾，但Maersk、MSC、CMA CGM、Hapag-Lloyd等主流班轮公司仍暂停过境",
+        "war_risk_premium_status": "peak — 战争险保费较战前0.25%基准已飙升至3%-8%每航次（Khaleej Times，2026-05-12），部分案例在3月中旬曾高达H&M价值的10%，目前无明显回落证据",
+        "non_iran_inbound_share_pct": null,
+        "negotiation_progress": "美伊谈判进展冷热交替：5月23-24日特朗普宣布协议「基本谈妥」，草案MoU拟在60天内开放海峡、伊朗清除水雷，美方相应解除港口封锁并豁免部分制裁；但伊方Fars通讯社驳斥该表述「不完整」，伊朗坚持海峡主权并拒绝立即讨论核问题；巴基斯坦、卡塔尔充当斡旋人；5月25日美军在霍尔木兹附近实施防御性打击后伊朗指控停火违规，谈判仍高度不确定",
+        "iran_toll_status": "negotiating"
+      },
+      "recovery_score": {
+        "transit_volume_score": 1,
+        "balance_score": 0,
+        "non_iran_share_score": 0,
+        "bluechip_score": 5,
+        "insurance_score": 0,
+        "total": 6
+      },
+      "market_signals": {
+        "brent_spot": 96.3,
+        "brent_change_pct": 2.13,
+        "wti_midland_premium": null,
+        "defense_stocks_note": "5月27日收盘：LMT -0.33%（$531.14）、RTX -1.33%（$176.59）、NOC -0.61%（$553.38）；三只防务股均小幅下跌，市场对「和平协议预期」定价已部分反映，但跌幅温和，表明市场对谈判结果持怀疑态度"
+      },
+      "trading_signal": "Brent在5月27日因伊朗承诺「一个月内恢复商业航运至战前水平」的表态而大跌逾4.5%至95美元以下后，5月28日早盘反弹至96.30美元（+2.13%），显示市场对该声明真实性存疑；MoU草案尚未签署，海峡实际过境量仍极低（每日约4-5艘），防务股小幅回落反映和平溢价轻微出价但并未完全定价；核心风险点为：谈判破裂则Brent重返100美元以上+防务股再度拉升，协议落地则Brent下行至80美元区间+防务股承压；WTI Midland价差暂无可靠数据",
+      "verdict": "霍尔木兹海峡通航恢复处于「谈判驱动的微弱脉冲」阶段——MoU草案存在但分歧深重，每日实际过境量仅约正常水平的4-5%，超级油轮零星突破不代表系统性恢复，综合评分仅6/100",
+      "key_news": [
+        "伊朗国家电视台宣布承诺在一个月内将霍尔木兹商业航运恢复至战前水平，导致Brent原油期货5月27日暴跌逾4.5%至95美元以下，但白宫随即将相关伊朗媒体报道定性为「完全捏造」 (Iran state TV pledges Hormuz shipping recovery within one month; White House dismisses as fabrication)",
+        "两艘非伊朗超级油轮Eagle Veracruz（新加坡关联）和Nissos Keros（希腊）于5月27日穿越海峡出港，载有沙特和阿联酋原油约400万桶，为一周内首次非制裁原油成功过境，但分析师警告随后数日流量可能回落 (two non-Iranian supertankers Eagle Veracruz and Nissos Keros transited Hormuz, first unsanctioned crude crossing in a week)",
+        "美伊MoU草案细节：60天框架内海峡无收费开放、伊朗清除水雷、美方解除港口封锁并豁免油出口制裁，但伊朗拒绝立即处理核问题，且坚持海峡主权归伊方与阿曼协调管理，关键分歧仍未弥合 (US-Iran draft MoU: 60-day Hormuz reopening framework, Iran rejects immediate nuclear talks, key disputes remain)"
       ]
     }
   ]
