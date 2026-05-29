@@ -1,0 +1,58 @@
+{
+  "report_date": "2026-05-29",
+  "data_window": "May 27-29, 2026",
+  "daily_transits": {
+    "count": 4,
+    "inbound": null,
+    "outbound": null,
+    "source": "PortWatch（IMF）最近公开数据，截至2026-05-24记录日均4次；straits.live聚合显示危机压力指数94（极端）",
+    "confidence": "low"
+  },
+  "cross_validation": [
+    {
+      "source": "Windward",
+      "count": null,
+      "note": "本期未获取Windward公开日报数据，无法交叉验证"
+    },
+    {
+      "source": "Lloyd's List / Kpler",
+      "count": 4,
+      "note": "Kpler船舶转发器数据显示整个4月通行量约为战前平均水平的5%；Lloyd's List编辑Richard Meade于5月1日表示，若立即重开也需至少等到9月市场才能恢复正常（Lloyd's List webinar, May 1）"
+    },
+    {
+      "source": "Iranian state media (Fars/Tasnim)",
+      "count": null,
+      "note": "伊朗官方媒体Fars报道称，最新交换的协议文本中霍尔木兹海峡仍将「维持在伊朗管辖之下」，否认特朗普「基本谈妥」说法，未提供具体通行数字"
+    }
+  ],
+  "milestones": {
+    "bluechip_operators_returning": "no — Maersk、MSC、CMA CGM、Hapag-Lloyd均已暂停过境，截至报告日尚无主流大型班轮公司宣布恢复",
+    "war_risk_premium_status": "peak — 战前基准约0.25%，目前市场估计已升至船舶价值的3%-8%（单艘大型油轮单次保费300万至800万美元），私人保险承保能力部分撤回，美国政府DFC介入提供政治风险背书",
+    "non_iran_inbound_share_pct": null,
+    "negotiation_progress": "5月23日特朗普宣称美伊协议「基本谈妥」，内容含备忘录（MOU）框架：逐步重开海峡、解除伊朗港口封锁、冻结资产部分解冻，随后30-60天继续谈判核问题；但5月28日美伊再度交火，副总统万斯表示特朗普是否签署MOU「尚未确定（TBD）」，伊朗方面警告任何停火违规将「以武力回应」，谈判陷入新一轮不确定",
+    "iran_toll_status": "negotiating — 伊朗已对部分船只实施收费，美国财政部长贝森特指出伊朗迄今收费不足130万美元；美国警告支付通行费将面临制裁，并已要求阿曼不得协助伊朗征收霍尔木兹通行费"
+  },
+  "recovery_score": {
+    "transit_volume_score": 1,
+    "balance_score": 0,
+    "non_iran_share_score": 0,
+    "bluechip_score": 0,
+    "insurance_score": 0,
+    "total": 1
+  },
+  "market_signals": {
+    "brent_spot": 97.51,
+    "brent_change_pct": 1.28,
+    "wti_midland_premium": null,
+    "defense_stocks_note": "5月27日收盘数据：LMT $532.01（-0.17%）、RTX $177.40（-0.88%）、NOC $553.38（-0.61%）；三只防务股因美伊MOU谈判进展消息小幅承压，但跌幅有限，分析师指出多年积压订单支撑基本面，RTX对弹药补给周期最为敏感，若谈判破裂将率先反弹"
+  },
+  "trading_signal": "5月28日Brent反弹至97.51美元（+1.28%），源于美伊再度交火令「和平溢价」部分回吐；WTI同日一度触及91美元。战争险保费仍处峰值区间（3%-8%船值），主流班轮公司零恢复，海峡实际日均过境量约为战前5%以下。MOU谈判框架本周出现实质进展，但5月28日交火事件令市场重新定价「破裂风险」，油价对任何谈判标题高度敏感，防务股（LMT/RTX/NOC）在和平预期升温时面临短期压力、在谈判破裂时存在急涨空间——RTX因弹药补给逻辑对冲值最高",
+  "verdict": "霍尔木兹海峡恢复程度极低（综合评分1/100），美伊MOU谈判出现破裂风险，海峡过境量仍在战前水平5%以下，战争险保费维持峰值，蓝筹运营商全线缺席，实质性复航短期内无望",
+  "key_news": [
+    "5月28日美伊再度交火：美军摧毁霍尔木兹附近伊朗无人机及发射阵地，伊朗革命卫队称向一处美军基地发动反击，谈判陷入新一轮不确定 (US-Iran exchange fire near Hormuz May 28, MOU talks in jeopardy)",
+    "特朗普5月23日宣称美伊协议「基本谈妥」，MOU框架含逐步重开海峡及30-60天后续核谈，但伊朗方面否认并坚持海峡主权，副总统万斯5月28日表示是否签署「尚待确定」 (Trump claims deal 'largely negotiated', Iran disputes, Vance says signing TBD)",
+    "英国宣布向霍尔木兹部署无人机、战斗机及皇家海军舰艇参与多国护航任务；NATO讨论若海峡7月初仍未重开则介入护航 (UK military deployment to Hormuz, NATO considering escort mission by early July)",
+    "Kpler数据显示整个4月过境量约为战前均值5%，PortWatch最新公开数据（5月24日）日均4次，战前基准约95-138次/天，超过1550艘船只及22500名海员仍被困波斯湾 (Hormuz transits at ~5% pre-war baseline, 1550+ vessels and 22500 mariners stranded)",
+    "战争险保费维持极值：战前约0.25%船值/次，目前市场报价3%-8%，单艘VLCC单次保费最高达800万美元；私人承保能力部分撤出，美国DFC介入提供政府背书保险 (War risk premium at 3-8% of vessel value vs 0.25% pre-war, DFC backstop in place)"
+  ]
+}
