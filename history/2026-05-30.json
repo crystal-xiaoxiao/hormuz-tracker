@@ -1,0 +1,58 @@
+{
+  "report_date": "2026-05-30",
+  "data_window": "May 28-30, 2026",
+  "daily_transits": {
+    "count": 4,
+    "inbound": null,
+    "outbound": null,
+    "source": "IMF PortWatch（最新公开数据日期为2026-05-24，记录4次通行；Bloomberg报道5月29日通行量有所回升但未给出具体数字）",
+    "confidence": "low"
+  },
+  "cross_validation": [
+    {
+      "source": "Windward",
+      "count": null,
+      "note": "本报告周期内未检索到Windward公开的精确每日通行数字"
+    },
+    {
+      "source": "Lloyd's List / Kpler",
+      "count": null,
+      "note": "Lloyd's List数据显示5月初通行量不足历史均值的10%；Kpler数据显示整个4月仅191艘次；截至报告日未获最新精确数字"
+    },
+    {
+      "source": "Iranian state media (Fars/Tasnim)",
+      "count": null,
+      "note": "伊朗国家媒体（Fars News）否认协议已完成，并宣称海峡仍处于伊朗管理之下；未提供具体通行数字"
+    }
+  ],
+  "milestones": {
+    "bluechip_operators_returning": "no — Maersk、MSC、CMA CGM、Hapag-Lloyd均暂停通行，CMA CGM旗下San Antonio在通行中遭受攻击",
+    "war_risk_premium_status": "peak — 战争险保费从战前约0.25%船体价值飙升至3%-8%，大型油轮单次通行保险成本高达300万至800万美元",
+    "non_iran_inbound_share_pct": null,
+    "negotiation_progress": "5月28日美伊谈判人员就延长停火60天的谅解备忘录（MOU）达成初步框架协议，巴基斯坦将作为签署地点；协议内容包含海峡「无限制」通行、伊朗30天内完成排雷、美国解除海军封锁；但特朗普尚未批准，伊朗亦未正式确认；美伊双方在报告期内仍发生武装摩擦——5月28日美方击落伊朗无人机，伊朗向科威特发射弹道导弹",
+    "iran_toll_status": "rejected — 美国财政部已制裁伊朗「波斯湾海峡管理局」（PGSA），财长Bessent明确表示任何协议均不允许向过境船只收取通行费"
+  },
+  "recovery_score": {
+    "transit_volume_score": 1,
+    "balance_score": 0,
+    "non_iran_share_score": 0,
+    "bluechip_score": 0,
+    "insurance_score": 0,
+    "total": 1
+  },
+  "market_signals": {
+    "brent_spot": 91.37,
+    "brent_change_pct": -1.43,
+    "wti_midland_premium": null,
+    "defense_stocks_note": "LMT约533美元（5月26日收盘），RTX约178.97美元（+1.11%），NOC约556.80美元（+0.22%）；因停火谈判预期升温导致油价下跌，防务股整体承压但回落幅度有限，LMT因战争险溢价下降预期而面临价格目标下调（Citi下调至571美元，Jefferies下调至595美元）；LMT持续获得政府合同支撑（879M美元海军订单等）"
+  },
+  "trading_signal": "5月28日美伊就60天停火MOU达成初步协议（Axios/Reuters报道）推动Brent油价月内下跌逾15%至91美元区间，市场已部分Price-in海峡重开预期；然而协议尚待特朗普批准且伊朗未正式确认，同期美伊武装摩擦持续，停火极度脆弱；彭博5月29日报道船东对通行乐观情绪升温（美军提供航行咨询），但IMF PortWatch最新数据仍显示日通行量仅约4艘，远低于战前95-138艘/日基准；防务股因和平预期升温而面临获利回吐压力，但长期订单积压（LMT达1940亿美元）提供缓冲；油价存在双向风险：谈判破裂或新一轮冲突将使Brent快速反弹5美元以上",
+  "verdict": "霍尔木兹海峡通航恢复极度有限（日均约4艘次，仅为战前约4%），虽美伊停火延长MOU初步框架已于5月28日形成并点燃市场希望，但协议尚未最终获批、武装对峙仍在持续、战争险保费仍处峰值、蓝筹航运商全面缺席，整体恢复程度接近零。",
+  "key_news": [
+    "美伊谈判人员就延长停火60天的谅解备忘录初步达成框架，拟将海峡开放为「无限制」通行并要求伊朗30天内排雷，但特朗普尚未签字批准，伊朗亦未正式确认 (US-Iran 60-day MOU framework, Trump approval pending)",
+    "美国财政部制裁伊朗「波斯湾海峡管理局」并威胁对帮助伊朗收取通行费的阿曼实施制裁，财长Bessent明确表示「海峡不开放则制裁不解除」 (Treasury sanctions PGSA, Bessent red-line on Hormuz opening)",
+    "停火期间美伊武装冲突持续：5月28日美方在霍尔木兹海峡上空击落伊朗无人机，伊朗向科威特发射弹道导弹，谈判前景再度蒙上阴影 (US shoots down Iranian drones over Hormuz, Iran fires ballistic missile at Kuwait)",
+    "彭博5月29日报道船东乐观情绪升温，美国中央司令部为过境商船提供航行咨询但未实施护航，多艘船只本周成功驶离海峡 (Bloomberg: shipowner optimism rising, CENTCOM navigation advice, vessels exiting)",
+    "Brent原油5月29日跌至91.37美元/桶，月内累计下跌逾17%，市场已部分定价停火协议预期，但分析师警告油价因谈判高度不确定仍存快速反弹风险 (Brent -17% in May on ceasefire hopes, analysts warn of rapid rebound risk)"
+  ]
+}
