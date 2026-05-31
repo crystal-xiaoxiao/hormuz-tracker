@@ -1,0 +1,58 @@
+{
+  "report_date": "2026-05-31",
+  "data_window": "May 29-31, 2026",
+  "daily_transits": {
+    "count": 4,
+    "inbound": null,
+    "outbound": null,
+    "source": "PortWatch（经straits.live转引，截至2026-05-24最新公布日）",
+    "confidence": "low"
+  },
+  "cross_validation": [
+    {
+      "source": "Windward",
+      "count": null,
+      "note": "本期检索未获取Windward独立日报数据，无法交叉验证"
+    },
+    {
+      "source": "Lloyd's List / Kpler",
+      "count": 191,
+      "note": "Kpler数据显示整个4月份累计仅191艘船通过，折算约每日6艘；5月初已降至危机以来最低水平，约为战前流量的5%至10%"
+    },
+    {
+      "source": "Iranian state media (Fars/Tasnim)",
+      "count": null,
+      "note": "Tasnim/Fars本期未发布具体通行数字；IRGC重申海峡处于伊朗「作战区域」管控之下"
+    }
+  ],
+  "milestones": {
+    "bluechip_operators_returning": "no — Maersk、CMA CGM（旗下船只San Antonio遭袭）、MSC、Hapag-Lloyd均维持暂停过境状态，未有蓝筹船公司官宣恢复常规班轮服务",
+    "war_risk_premium_status": "peak — 战争险保费仍处于峰值区间，船舶价值的3%至8%（部分报价高达10%），较战前0.125%至0.25%高出约20至40倍，私人P&I保险仍对海湾过境取消或受限",
+    "non_iran_inbound_share_pct": 30,
+    "negotiation_progress": "5月29日特朗普在情况室召开会议审议「最终框架」，媒体报道美伊已就60天停火延期及重开海峡达成初步备忘录，但截至5月30日白宫未宣布正式批准；伊朗顾问Mohsen Rezaei于5月30日在X平台指责特朗普「第三次背叛外交」；巴基斯坦与卡塔尔仍充当调停方",
+    "iran_toll_status": "negotiating — 伊朗坚持对过境船只征收服务费，美方（特朗普）明确反对，分歧未解"
+  },
+  "recovery_score": {
+    "transit_volume_score": 1,
+    "balance_score": 0,
+    "non_iran_share_score": 6,
+    "bluechip_score": 0,
+    "insurance_score": 0,
+    "total": 7
+  },
+  "market_signals": {
+    "brent_spot": 91.12,
+    "brent_change_pct": -1.7,
+    "wti_midland_premium": null,
+    "defense_stocks_note": "截至5月28/30日收盘：LMT报530.45美元（-1.26%），RTX报179.66美元（+0.39%），NOC报价小幅上涨（+0.79%）；停火预期继续压制LMT，RTX因弹药补充逻辑相对抗跌，NOC因B-21/Sentinel长期项目最具防御性"
+  },
+  "trading_signal": "布伦特原油5月累计下跌约17%（近六年最大单月跌幅），主要驱动力为美伊初步停火框架的市场定价，但协议尚未正式签署，伊朗顾问强硬表态及通行费分歧随时可引发反弹；防务股LMT在和平预期下持续承压，RTX/NOC相对稳健；海峡实际通行量仍处危机以来最低区间（约为战前5%-10%），任何正式协议落地将成布伦特价格第二波大幅下行催化剂，但同时利好航运板块",
+  "verdict": "霍尔木兹海峡通航恢复极度受限——日通行量仅约4艘（战前基准的4%），蓝筹班轮公司全面暂停，战争险保费仍处峰值，美伊停火框架虽已基本成型却悬而未决，海峡实质性恢复最快仍需数周乃至数月",
+  "key_news": [
+    "美伊已就60天停火延期及重开霍尔木兹海峡达成初步备忘录，但特朗普截至5月30日尚未签署批准，白宫情况室会议结束后无明确结果公布 (US-Iran tentative ceasefire extension and Hormuz reopening MOU pending Trump approval)",
+    "伊朗最高领袖顾问Mohsen Rezaei于5月30日发文指责特朗普「第三次背叛外交」，坚持伊方合法权利，伊朗仍要求对过境船只征收通行费而遭美方拒绝 (Iran adviser accuses Trump of betraying diplomacy, insists on Hormuz toll)",
+    "美国海军用停止正式护航操作（Project Freedom已于5月6日暂停），转为向商船提供航行建议，船东信心略有改善但蓝筹班轮公司仍未宣布恢复过境 (US advisory role replaces Project Freedom escort; shipowners cautiously optimistic but no bluechip carrier resumption)",
+    "布伦特原油5月跌幅约17%（最低触及89.93美元），创2020年以来最大单月跌幅，主要源于停火协议预期定价，但分析师警告即便协议落地，排雷与产能恢复仍需数月 (Brent posts biggest monthly drop since 2020 on ceasefire hopes; mine-clearing recovery timeline 4-6 months)",
+    "英国宣布部署无人机、战斗机及皇家海军舰艇加入多国霍尔木兹航道安全护航任务，RFA Lyme Bay已从直布罗陀出发执行多国排雷任务 (UK deploys warship and drones for Hormuz multinational mine-countermeasures mission)"
+  ]
+}
