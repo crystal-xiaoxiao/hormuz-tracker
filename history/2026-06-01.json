@@ -1,0 +1,56 @@
+{
+  "report_date": "2026-06-01",
+  "data_window": "May 30 - June 1, 2026",
+  "daily_transits": {
+    "count": 4,
+    "inbound": null,
+    "outbound": null,
+    "source": "IMF PortWatch（最新已发布数据为2026-05-24，straits.live转载）",
+    "confidence": "low"
+  },
+  "cross_validation": [
+    {
+      "source": "IMF PortWatch / straits.live",
+      "count": 4,
+      "note": "2026-05-24当日仅4艘过境，约为危机前日均95艘的4%，为危机以来极低水平"
+    },
+    {
+      "source": "Kpler / Reuters",
+      "count": 11,
+      "note": "路透社引用Kpler数据，5月下旬约11艘过境，较危机前日均125-140艘仍微不足道"
+    },
+    {
+      "source": "IRGC / 伊朗官媒 (Tasnim/Fars)",
+      "count": null,
+      "note": "IRGC于5月30日声称在过去24小时内协调约24艘船只过境，但该数字含义模糊，包含伊朗联系船只，可靠性存疑"
+    }
+  ],
+  "milestones": {
+    "bluechip_operators_returning": "no — Maersk、MSC、CMA CGM、Hapag-Lloyd均已暂停过境；COSCO有选择性伴航通过但不面向一般商业客户",
+    "war_risk_premium_status": "peak — 危机前0.02%-0.05%，当前高达0.5%-1%（船体价值），Lloyd's报告部分航次高达2.5%-5%；为危机前约20-50倍，P&I俱乐部中6家已撤保",
+    "non_iran_inbound_share_pct": 30,
+    "negotiation_progress": "5月28日Axios报道美伊谈判人员已就60天MOU达成草案共识，内容包括霍尔木兹海峡「无限制通行」、伊朗30天内清除水雷、美国逐步解除海上封锁；但截至6月1日特朗普尚未签署，伊朗官方亦未最终确认。巴基斯坦军方（Asim Munir主导）为主要中间人；5月28日特朗普拒绝了伊朗与阿曼共同监管海峡的方案",
+    "iran_toll_status": "negotiating — 伊朗坚持收取「服务费」，美国明确反对，已将伊朗「波斯湾海峡管理局」列入制裁名单"
+  },
+  "recovery_score": {
+    "transit_volume_score": 1,
+    "balance_score": 0,
+    "non_iran_share_score": 6,
+    "bluechip_score": 0,
+    "insurance_score": 0,
+    "total": 7
+  },
+  "market_signals": {
+    "brent_spot": 91.12,
+    "brent_change_pct": -1.77,
+    "wti_midland_premium": null,
+    "defense_stocks_note": "截至5月30日收盘：LMT $530.45（-1.26%）、RTX $179.66（+0.39%）、NOC $563.68（+0.79%）。和平协议预期压制LMT等纯战争溢价标的，RTX与NOC因弹药补给长期逻辑相对抗跌；分析师建议和平情景下优先减仓RTX，保留NOC作为长期锚仓"
+  },
+  "trading_signal": "Brent本月跌幅超17%（史上最大月跌幅之一），市场已在定价「协议临近」预期，但美伊60天MOU截至6月1日仍未签署、水雷清除工作未开始、蓝筹航运公司零复苏，实际通航量仍在危机前的4%-8%区间。若MOU于本周内正式签署，油价将进一步下行5%-10%，防务股承压；若谈判再度破裂，油价可能重回100美元以上。Polymarket「6月底前恢复正常」胜率仅28.5%，反映市场对短期实质复苏高度悲观",
+  "verdict": "海峡名义上处于「谈判性半开放」状态，实际商业通航量仅为正常水平的4-8%，60天MOU草案已拟就但双方最高领导人尚未批准，通航真正正常化最早须待水雷清除完毕后数月方可实现",
+  "key_news": [
+    "美伊谈判员已就60天停火延期协议草案达成工作层共识，内容包括霍尔木兹海峡「无限制通行」及伊朗30天内清除水雷，但特朗普与伊朗最高层截至6月1日均尚未正式批准 (US-Iran 60-day MOU draft agreed at negotiators level, not yet signed)",
+    "5月31日最新数据显示IMF PortWatch记录的单日过境量仅4艘（约为危机前4%），Polymarket预测市场显示6月底前恢复正常概率仅28.5%，超1,500艘船只仍被困海湾 (daily transits ~4 vessels, 71.5% probability of no normalization by June 30)",
+    "Brent原油5月累计下跌约17%创2020年以来最大月跌幅，战争险保费仍高达危机前20-50倍（部分美英以色列关联船只高达船体价值5%），蓝筹集装箱航运公司Maersk、MSC、CMA CGM、Hapag-Lloyd均维持停运 (Brent -17% in May, war-risk premium up to 5% of hull value, all major container lines suspended)"
+  ]
+}
