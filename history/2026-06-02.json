@@ -1,0 +1,58 @@
+{
+  "report_date": "2026-06-02",
+  "data_window": "May 31 - June 2, 2026",
+  "daily_transits": {
+    "count": 4,
+    "inbound": null,
+    "outbound": 0,
+    "source": "IMF PortWatch（最新已发布日期为2026-05-24，straits.live实时汇总）",
+    "confidence": "medium"
+  },
+  "cross_validation": [
+    {
+      "source": "Windward / IMF PortWatch",
+      "count": 4,
+      "note": "IMF PortWatch最新公布数据（截至2026-05-24）显示日过境量仅4艘，为危机前基准值95艘/天的约4%"
+    },
+    {
+      "source": "Kpler",
+      "count": null,
+      "note": "Kpler数据显示4月全月过境量约为战前均值的5%，5月末未见明显回升；最新精确计数未公开"
+    },
+    {
+      "source": "Iranian state media (Fars/Tasnim)",
+      "count": null,
+      "note": "Tasnim通讯社（IRGC关联媒体）于6月1日报道伊朗谈判团队已暂停与美方的文件交换，并拒绝将核问题并入当前谈判框架；未披露独立通行数据"
+    }
+  ],
+  "milestones": {
+    "bluechip_operators_returning": "no — MSC、Maersk、CMA CGM、Hapag-Lloyd均维持暂停过境状态；Hapag-Lloyd于5月明确表示「目前我们的风险评估不变，过境不可行」；COSCO仅在护航下有限进行湾内选择性挂靠，非自主全线恢复",
+    "war_risk_premium_status": "peak — 战争险保费已达危机前的8倍（straits.live实时指数），6家保赔协会（P&I Club）撤销承保；Lloyd's市场对霍尔木兹过境报价为船值的2.5%至5%（美/英/以关联船只），单次过境成本达1000万至1400万美元，远高于危机前的4万美元基准",
+    "non_iran_inbound_share_pct": null,
+    "negotiation_progress": "谈判处于高度脆弱状态：5月23日Trump宣称协议「基本谈妥」，涉及60天停火延长备忘录（MOU）及霍尔木兹重开框架；但6月1日伊朗Tasnim报道德黑兰已暂停通过调停方与美方的信息交换，并指责华盛顿「发出矛盾立场」；巴基斯坦外长Dar正与Rubio在华盛顿会谈，继续扮演调停角色；伊朗坚持核浓缩权利不可谈判，双方在浓缩铀处置与制裁解除顺序问题上存在根本分歧",
+    "iran_toll_status": "negotiating — PBS报道MOU草案明确写明伊朗不得对霍尔木兹征收通行费，且须在30天内清除水雷；但伊朗曾对部分船只收取通行费，最终条款尚待双方最终批准"
+  },
+  "recovery_score": {
+    "transit_volume_score": 1,
+    "balance_score": 0,
+    "non_iran_share_score": 0,
+    "bluechip_score": 0,
+    "insurance_score": 0,
+    "total": 1
+  },
+  "market_signals": {
+    "brent_spot": 96.29,
+    "brent_change_pct": 5.66,
+    "wti_midland_premium": null,
+    "defense_stocks_note": "LMT约520美元（当日-1.25%）；RTX约175美元（当日-2.42%）；NOC约545美元（当日-2.84%）。防务股整体小幅回落，与6月1日伊朗暂停谈判信号引发的短暂「和平预期」及油价反弹背道而驰，反映市场对停火协议仍持观望态度，并非明确看空防务需求"
+  },
+  "trading_signal": "高度警戒信号叠加：伊朗6月1日宣布暂停与美方通讯交换，导致Brent单日飙升逾5%至96美元以上，WTI一度涨超7%至94美元；Polymarket对霍尔木兹6月底前恢复正常化的隐含概率仍约25%（即75%概率认为6月底前无法正常化）；战争险保费维持峰值8倍水平，6家P&I Club撤保；DHL预测至少4至6个月才能正常化；防务股因谈判不确定性小幅回调但长期逻辑未变；油价较危机前高约30%，海峡封锁风险溢价持续主导能源市场定价",
+  "verdict": "霍尔木兹海峡实质封锁状态未改变，日过境量仅为正常水平4%，谈判MOU草案因伊朗暂停信息交换再度陷入僵局，恢复得分仅1/100，封锁危机进入第95天且短期内无实质性突破迹象。",
+  "key_news": [
+    "伊朗于6月1日通过Tasnim通讯社宣布暂停经调停方与美方的文件交换，指责华盛顿「发出矛盾立场」，MOU谈判再遭重挫 (Iran suspends indirect message exchange with US via mediators)",
+    "Brent原油单日涨幅逾5.66%至96.29美元，WTI一度突破94美元，油价较危机爆发前仍高约30%，霍尔木兹封锁风险溢价持续主导市场 (Brent surges over 5% on Hormuz escalation fears)",
+    "IMF PortWatch最新数据显示截至5月24日日均过境量仅4艘（正常约95艘），6月1日outbound商业船只归零，霍尔木兹指数危机压力达94（极端），升级概率30天预测为62（高位） (PortWatch: 4 transits recorded vs 95/day baseline; crisis pressure at extreme 94)",
+    "PBS报道美伊MOU草案包含60天停火延长、霍尔木兹重开及30天内清除水雷条款，但Trump尚未最终批准，伊朗坚持核浓缩权不可谈判，谈判仍存根本分歧 (US-Iran MOU draft includes 60-day ceasefire extension and Hormuz reopening, pending Trump approval)",
+    "战争险保费维持危机前8倍峰值，6家P&I Club撤销承保，Lloyd's市场对美/英/以关联船只报价高达船值5%，单次过境成本超1000万美元；DHL预测正常化需至少4至6个月 (War risk premium at 8x pre-crisis; P&I clubs withdrawn; DHL forecasts 4-6 months to normalization)"
+  ]
+}
