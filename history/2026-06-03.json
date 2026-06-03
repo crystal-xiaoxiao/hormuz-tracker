@@ -1,0 +1,58 @@
+{
+  "report_date": "2026-06-03",
+  "data_window": "June 1-3, 2026",
+  "daily_transits": {
+    "count": 4,
+    "inbound": 2,
+    "outbound": 2,
+    "source": "IMF PortWatch（截至2026-05-24最新公布数据）；Bloomberg船舶追踪数据（6月2日）确认每方向约2艘",
+    "confidence": "low"
+  },
+  "cross_validation": [
+    {
+      "source": "Windward / IMF PortWatch",
+      "count": 4,
+      "note": "PortWatch最新公布日（2026-05-24）记录到4艘通过，较危机前基准95艘/天仅为4%，为主口径数据；AIS干扰严重，实际可能略高"
+    },
+    {
+      "source": "Lloyd's List / Bloomberg",
+      "count": 4,
+      "note": "Bloomberg船舶追踪数据显示6月2日周二上午仅2艘入境、周一2艘出境，与PortWatch量级吻合；强调这与伊朗国家媒体数字存在巨大分歧"
+    },
+    {
+      "source": "Iranian state media (Fars/Tasnim)",
+      "count": 15,
+      "note": "伊朗IRGC海军声称6月1日过去24小时内共15艘船（含4艘油轮）经IRGC授权通过；此前数据显示20至35艘不等，但独立核实困难，疑含小型沿海船只，不可直接与商业大型船舶通过量比较"
+    }
+  ],
+  "milestones": {
+    "bluechip_operators_returning": "no — MSC、Maersk、CMA CGM、COSCO均持续暂停正常通行或仅限于护航船队，无主流蓝筹航运商宣布恢复定期商业服务",
+    "war_risk_premium_status": "peak — 战争险保费仍处于极端峰值水平：约为船舶价值的4%（7天期），即危机前0.001%的约4000倍；6家P&I俱乐部已撤回保险承保",
+    "non_iran_inbound_share_pct": null,
+    "negotiation_progress": "巴基斯坦主导斡旋的美伊谈判仍陷僵局：双方谈判代表于5月28日就一份60天停火备忘录（MOU）达成初步共识，内容包括分阶段重开海峡和核问题谈判框架，但特朗普迟迟未予批准；伊朗国家媒体否认特朗普「基本谈妥」的说法，坚持海峡须在伊朗主权管理下运营；6月2日伊朗媒体称德黑兰因以色列在黎巴嫩的军事行动而暂停与华盛顿沟通，特朗普否认谈判中断",
+    "iran_toll_status": "negotiating — 美国国务卿鲁比奥指责伊朗试图建立「过路费制度」；IRGC要求所有过境船只须获IRGC海军授权并沿指定航线行驶，伊朗将此定性为主权管理而非收费；美方在MOU草案中坚持「无过路费、无骚扰」条款"
+  },
+  "recovery_score": {
+    "transit_volume_score": 1,
+    "balance_score": 20,
+    "non_iran_share_score": 0,
+    "bluechip_score": 0,
+    "insurance_score": 0,
+    "total": 21
+  },
+  "market_signals": {
+    "brent_spot": 96.89,
+    "brent_change_pct": 0.93,
+    "wti_midland_premium": null,
+    "defense_stocks_note": "防务股在和平谈判预期升温背景下整体小幅回调：LMT约-1.99%（约516.50美元），RTX约-2.92%（约174.41美元），NOC约-0.57%（约536.14美元）；符合「和平消息压制军工股」的历史规律，但多年期大额订单积压令跌幅有限"
+  },
+  "trading_signal": "布伦特原油连续第三日上涨至约97美元/桶，反映市场仍维持地缘风险溢价，同时美伊MOU谈判反复令价格剧烈震荡（前日曾大涨4.2%后回落）；防务股小幅走软印证市场短期博弈「谈判乐观情绪」，但停火协议尚未落地；Polymarket市场隐含6月底前恢复正常通行概率仅22%；战争险保费维持峰值（船舶价值约4%/7天），表明专业机构对实质性恢复不抱信心；若MOU最终签署并执行首批矿区清除，将是关键做多信号",
+  "verdict": "霍尔木兹海峡通航量仍处于危机前约4%的极端低位，美伊备忘录谈判在以黎冲突干扰下再度陷入僵局，蓝筹船东零回归、战争险保费高企，当日通航实质性恢复程度评分仅21/100。",
+  "key_news": [
+    "IMF PortWatch最新数据（截至5月24日）显示霍尔木兹海峡日通行量仅4艘，为危机前基准（约95艘/天）的4%，Bloomberg 6月2日船舶追踪确认商业通行量仍维持极低水平 (IMF PortWatch, Bloomberg)",
+    "美伊谈判代表已就60天停火备忘录达成初步共识，内容涵盖海峡分阶段重开及核议题框架，但特朗普尚未批准，伊朗媒体否认「基本谈妥」的说法，并以以色列在黎巴嫩军事行动为由宣布暂停与美方沟通 (Axios, CNBC, CBS News)",
+    "伊朗IRGC海军声称过去24小时内授权15艘船（含4艘油轮）通过海峡，独立核实困难；美国国务卿鲁比奥指责伊朗意图建立「过路费制度」，MOU草案明确要求「无过路费、无骚扰、30天内清除水雷」 (GlobalSecurity/PressTV, Marine Insight, CNBC)",
+    "战争险保费维持极端峰值，约为船舶价值的4%（7天期），是危机前水平的数千倍，6家P&I俱乐部仍撤回承保；MSC、Maersk等蓝筹船东继续绕行好望角，零家蓝筹运营商宣布恢复定期通行 (The National, straits.live)",
+    "布伦特原油6月3日报96.89美元/桶（日涨0.93%），连续第三日上行；Polymarket预测市场显示6月底前通行量恢复正常的概率仅22%；防务股LMT、RTX、NOC均小幅下跌，符合「和平谈判预期压缩战争溢价」模式 (Trading Economics, Polymarket, Yahoo Finance)"
+  ]
+}
