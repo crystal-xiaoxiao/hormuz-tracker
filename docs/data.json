@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-03T06:09:19.007258+00:00",
-  "report_count": 40,
+  "updated_at": "2026-06-05T05:24:31.056492+00:00",
+  "report_count": 41,
   "reports": [
     {
       "report_date": "2026-04-09",
@@ -2306,6 +2306,69 @@
         "伊朗IRGC海军声称过去24小时内授权15艘船（含4艘油轮）通过海峡，独立核实困难；美国国务卿鲁比奥指责伊朗意图建立「过路费制度」，MOU草案明确要求「无过路费、无骚扰、30天内清除水雷」 (GlobalSecurity/PressTV, Marine Insight, CNBC)",
         "战争险保费维持极端峰值，约为船舶价值的4%（7天期），是危机前水平的数千倍，6家P&I俱乐部仍撤回承保；MSC、Maersk等蓝筹船东继续绕行好望角，零家蓝筹运营商宣布恢复定期通行 (The National, straits.live)",
         "布伦特原油6月3日报96.89美元/桶（日涨0.93%），连续第三日上行；Polymarket预测市场显示6月底前通行量恢复正常的概率仅22%；防务股LMT、RTX、NOC均小幅下跌，符合「和平谈判预期压缩战争溢价」模式 (Trading Economics, Polymarket, Yahoo Finance)"
+      ]
+    },
+    {
+      "report_date": "2026-06-05",
+      "data_window": "June 3-5, 2026",
+      "daily_transits": {
+        "count": 10,
+        "inbound": 2,
+        "outbound": 2,
+        "source": "IMF PortWatch（截至5月31日最新公开数据）；Bloomberg船舶追踪显示6月2-3日每日仅2艘商业船次",
+        "confidence": "low"
+      },
+      "cross_validation": [
+        {
+          "source": "Windward",
+          "count": null,
+          "note": "本报告生成期间未检索到Windward当日数据，无法交叉验证"
+        },
+        {
+          "source": "Lloyd's List / Kpler",
+          "count": 10,
+          "note": "IMF PortWatch（Kpler数据支撑）5月31日录得10艘船次，约为正常水平的11%；Kpler早前报告4月全月约为战前5%水平"
+        },
+        {
+          "source": "Iranian state media (Fars/Tasnim)",
+          "count": 24,
+          "note": "Tasnim新闻社声称过去24小时内24艘船只在IRGC批准下通过，但独立核实困难，数字或捆绑了小型沿海船只，可信度存疑"
+        }
+      ],
+      "milestones": {
+        "bluechip_operators_returning": "no — Maersk、MSC、CMA CGM、Hapag-Lloyd、ONE、Evergreen、HMM、Yang Ming均维持全面暂停或绕行好望角状态；COSCO仅保留有限护航船队过境，尚无主流蓝筹船公司恢复常规商业通航",
+        "war_risk_premium_status": "peak — 战争险保费仍处峰值，约为船值的4%（7天保单），是战前0.001%水平的约4000倍；6家P&I俱乐部已撤销承保，且保费未见实质性下降",
+        "non_iran_inbound_share_pct": null,
+        "negotiation_progress": "谈判陷入高度不稳定状态：4月8日巴基斯坦斡旋停火协议已延续，4月11日伊斯兰堡谈判未达协议；5月29日美伊初步接近60天停火谅解备忘录（MOU），但尚未最终确认；6月初美伊双方仍发生交火（巴林、科威特基地遭袭），谈判「危而未断」；特朗普声称伊朗同意不追求核武器并暗示可能会见哈梅内伊之子；巴基斯坦外长将赴华盛顿与卢比奥会谈推进斡旋",
+        "iran_toll_status": "negotiating — 伊朗在此前谈判中提及对过境船只收取通行费（部分时期据报最高200万美元/船），IMO秘书长已在雅典航运大会明确呼吁拒绝收费及歧视性过境措施；收费问题仍是谈判重大争议点"
+      },
+      "recovery_score": {
+        "transit_volume_score": 2,
+        "balance_score": 20,
+        "non_iran_share_score": 0,
+        "bluechip_score": 0,
+        "insurance_score": 0,
+        "total": 22
+      },
+      "market_signals": {
+        "brent_spot": 95.35,
+        "brent_change_pct": -1.22,
+        "wti_midland_premium": null,
+        "defense_stocks_note": "6月5日附近数据：LMT约$512-519（近3个月跌约23%，受停火预期压制）；RTX约$172-179（对停火最敏感，近期随战事升级略涨）；NOC约$544-563（B-21/Sentinel长期项目支撑，受停火影响相对最小）；分析师指出若伊朗接受和平提案，RTX首当其冲下跌，NOC最具防御性"
+      },
+      "trading_signal": "霍尔木兹海峡通航处于「极度瘫痪」状态（正常水平约11%），战争险保费仍为战前4000倍峰值；Brent现货约95美元/桶，过去24小时小跌1.22%，反映谈判边际乐观情绪与实际停火脆弱性之间的拉锯；美伊60天停火MOU尚未最终确认，且双方在巴林/科威特仍有军事接触，海峡全面恢复通航短期内不具备条件；防务股走势显示市场正在定价「停火预期但随时可能破裂」——建议密切追踪MOU签署进展及战争险保费是否出现首次实质性下降作为恢复拐点信号",
+      "verdict": "海峡实质性关闭第96天，日通航量仅为正常水平11%，蓝筹船公司全面缺席，战争险保费处于峰值，通航恢复尚无近期实现条件。",
+      "key_notes_scoring": {
+        "transit_volume_score_calc": "min(30, 10/135*30) = min(30, 2.22) = 2（取整）",
+        "balance_score_calc": "inbound=2, outbound=2, ratio=0.5，|0.5-0.5|=0 < 0.1，满分20",
+        "non_iran_share_score_calc": "数据不可得，计0分",
+        "bluechip_score_calc": "0家蓝筹船公司恢复常规通航，计0分",
+        "insurance_score_calc": "战争险保费仍处峰值（约船值4%，战前0.001%），下降幅度接近0%，计0分"
+      },
+      "key_news": [
+        "霍尔木兹海峡封闭第96天，IMF PortWatch数据显示日通航量仅约10艘，约为正常水平11%，商业航运实质性瘫痪仍在持续 (Strait of Hormuz Day 96, ~11% of normal transit volume)",
+        "美伊初步接近60天停火谅解备忘录（MOU），但尚未最终确认；与此同时美伊双方在巴林和科威特仍发生军事交火，停火协议处于「生死边缘」 (US-Iran 60-day ceasefire MOU tentatively reached but not finalized; fresh strikes in Bahrain/Kuwait)",
+        "战争险保费仍高达船舶价值约4%（7天保单），约为战前水平4000倍，6家P&I俱乐部已撤承保；Maersk、MSC、CMA CGM、Hapag-Lloyd等蓝筹船公司全面维持暂停通航状态，IMO秘书长在雅典航运大会呼吁拒绝通行费和歧视性过境措施 (War risk premiums at 4,000x pre-crisis; all major carriers suspended; IMO rejects toll demands)"
       ]
     }
   ]
