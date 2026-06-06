@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-05T05:24:31.056492+00:00",
-  "report_count": 41,
+  "updated_at": "2026-06-06T04:59:30.692711+00:00",
+  "report_count": 42,
   "reports": [
     {
       "report_date": "2026-04-09",
@@ -2369,6 +2369,62 @@
         "霍尔木兹海峡封闭第96天，IMF PortWatch数据显示日通航量仅约10艘，约为正常水平11%，商业航运实质性瘫痪仍在持续 (Strait of Hormuz Day 96, ~11% of normal transit volume)",
         "美伊初步接近60天停火谅解备忘录（MOU），但尚未最终确认；与此同时美伊双方在巴林和科威特仍发生军事交火，停火协议处于「生死边缘」 (US-Iran 60-day ceasefire MOU tentatively reached but not finalized; fresh strikes in Bahrain/Kuwait)",
         "战争险保费仍高达船舶价值约4%（7天保单），约为战前水平4000倍，6家P&I俱乐部已撤承保；Maersk、MSC、CMA CGM、Hapag-Lloyd等蓝筹船公司全面维持暂停通航状态，IMO秘书长在雅典航运大会呼吁拒绝通行费和歧视性过境措施 (War risk premiums at 4,000x pre-crisis; all major carriers suspended; IMO rejects toll demands)"
+      ]
+    },
+    {
+      "report_date": "2026-06-06",
+      "data_window": "June 4-6, 2026",
+      "daily_transits": {
+        "count": 10,
+        "inbound": null,
+        "outbound": 0,
+        "source": "IMF PortWatch（经 straits.live 转引，截至5月31日最新公布数据）；hormuztracking.com报告6月5日出港量为零",
+        "confidence": "low"
+      },
+      "cross_validation": [
+        {
+          "source": "Windward / straits.live",
+          "count": 10,
+          "note": "IMF PortWatch最新公布日（5月31日）显示通航量为10艘，约为正常水平的11%，处于事实封锁状态"
+        },
+        {
+          "source": "Bloomberg / World Oil",
+          "count": 4,
+          "note": "Bloomberg船舶追踪数据显示：6月2日星期二上午仅2艘入港商船，周一2艘出港；伊朗半官方Tasnim援引IRGC许可称24小时内有24艘通过，但独立核实困难，可能混入小型沿海船只"
+        },
+        {
+          "source": "Iranian state media (Tasnim)",
+          "count": 24,
+          "note": "Tasnim报道称过去24小时内有24艘船获IRGC许可过境，但AIS干扰和数据缺口使该数字难以独立核实，被多方分析师质疑"
+        }
+      ],
+      "milestones": {
+        "bluechip_operators_returning": "no — MSC、Maersk、CMA CGM、Hapag-Lloyd、ONE、Evergreen、HMM、Yang Ming均持续绕行好望角，COSCO仅在护航护卫下有限过境",
+        "war_risk_premium_status": "peak — 战争险保费约为船舶价值的4%/7天（The National，6月3日），是危机前0.001%的约4000倍；6个P&I俱乐部已撤回保险覆盖",
+        "non_iran_inbound_share_pct": null,
+        "negotiation_progress": "谈判高度反复：伊朗于6月1日以以色列在黎巴嫩的军事行动违反停火为由宣布中止谈判，特朗普随后声称谈判重回正轨；6月5日美军击落4架飞向海峡的伊朗无人机并打击伊朗沿岸雷达站；IAEA总干事Grossi暗示美伊核框架谈判接近取得进展，但Hezbollah已拒绝最新停火提议，以色列坚持继续打击黎巴嫩南部，构成重大障碍；巴基斯坦斡旋的4月8日停火协议处于「生命维持」状态",
+        "iran_toll_status": "negotiating — 伊朗议会已于3月30日通过对过境船只收费草案，伊朗方面坚持海峡须在伊朗管理下运营；IMO秘书长Dominguez在雅典航运峰会明确呼吁拒绝收费及歧视性过境措施"
+      },
+      "recovery_score": {
+        "transit_volume_score": 2,
+        "balance_score": 0,
+        "non_iran_share_score": 0,
+        "bluechip_score": 0,
+        "insurance_score": 0,
+        "total": 2
+      },
+      "market_signals": {
+        "brent_spot": 94.81,
+        "brent_change_pct": -0.22,
+        "wti_midland_premium": null,
+        "defense_stocks_note": "防务股周内整体走强但近两日承压：LMT约$519-524（+1.37%-1.45%）；RTX约$179-181（+0.70%-3.98%）；NOC约$542-544（+3.54%），反映市场对持续冲突的担忧；分析师指出谈判乐观情绪升温时防务股面临抛压，RTX对弹药补货周期最为敏感"
+      },
+      "trading_signal": "油价在美伊谈判希望与军事冲突升级之间剧烈震荡（周内Brent一度触及$101后回落至$94-95区间），外加美军6月5日击落伊朗无人机并打击雷达站，表明「停火+封锁」双轨格局仍将持续；Goldman Sachs调查显示43%受访投资者预计航运正常化要到7月之后，防务股短期持有逻辑尚存但对和平信号高度敏感需注意止损",
+      "verdict": "霍尔木兹海峡实际封锁已持续约96天，通航量仍不足正常水平的11%，主流班轮公司零复航，战争险保费维持峰值水平约为危机前4000倍，外交谈判因黎巴嫩-以色列局势多次中断，恢复评分仅2/100，当日无实质性恢复迹象。",
+      "key_news": [
+        "伊朗半官方媒体Tasnim援引IRGC称24小时内有24艘船获许可过境，但Bloomberg船舶追踪数据仅记录到约2-4艘大型商船，独立核实困难，两组数据严重矛盾 (Tasnim vs Bloomberg AIS data gap)",
+        "美军中央司令部6月5日击落4架飞向海峡的伊朗无人机，并打击伊朗戈鲁克市及格什姆岛沿岸雷达站，停火再度出现严重裂痕 (CENTCOM strikes Iranian radar sites after drone attack on Hormuz)",
+        "战争险保费维持峰值：约为船舶价值4%/7天，是危机前0.001%水平的约4000倍，6家P&I俱乐部已撤回承保，MSC、Maersk等九大班轮公司全面绕行好望角无复航计划 (war-risk premium at 4000x pre-crisis, P&I clubs withdrawn)"
       ]
     }
   ]
