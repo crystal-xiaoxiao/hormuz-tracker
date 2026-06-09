@@ -1,0 +1,56 @@
+{
+  "report_date": "2026-06-09",
+  "data_window": "June 7-9, 2026",
+  "daily_transits": {
+    "count": 10,
+    "inbound": null,
+    "outbound": null,
+    "source": "IMF PortWatch（最近公布日期为5月31日，straits.live于6月9日引用）",
+    "confidence": "low"
+  },
+  "cross_validation": [
+    {
+      "source": "IMF PortWatch / straits.live",
+      "count": 10,
+      "note": "5月31日数据：10艘通过，约为正常水平95艘/天的11%；6月9日实时显示29艘在途（含各类船型），但每日完成过境数仍极低"
+    },
+    {
+      "source": "Kpler / Lloyd's List Intelligence",
+      "count": null,
+      "note": "Kpler数据显示4月全月仅191艘过境，约为战前月均3000艘的6%；5月至今无最新日度数据公开，整体维持「极度受限」判断"
+    },
+    {
+      "source": "伊朗官方媒体 (Tasnim/Mehr News Agency)",
+      "count": null,
+      "note": "6月8日伊朗驻莫斯科大使贾拉利向俄媒Izvestia表示海峡将以「新条件」重新开放（含过境费），未提供具体通航数字；Mehr News报道以色列对伊朗实施约3500次空袭"
+    }
+  ],
+  "milestones": {
+    "bluechip_operators_returning": "no — MSC、Maersk、CMA CGM、Hapag-Lloyd均暂停新预订，MSC宣布「航次终止」，Maersk无限期暂停霍尔木兹过境；CMA CGM Kribi曾于4月初单次通过但属个例，当前无蓝筹船公司常规复航",
+    "war_risk_premium_status": "peak — 战争险保费约为船舶价值的4%/7天，为战前0.001%的4000倍；6家P&I互保协会撤销承保，市场仍处于峰值水平",
+    "non_iran_inbound_share_pct": null,
+    "negotiation_progress": "6月8日伊朗驻莫斯科大使贾拉利表示霍尔木兹将以伊朗与阿曼共同制定的新条件重新开放（含过境费），美国强烈反对；美国务卿鲁比奥称过境费方案「不可接受、将令外交协议无法达成」；6月8日以色列对伊朗西部和中部军事目标实施空袭，伊朗随后声称已结束军事行动，特朗普表示双方「接近新停火」；巴基斯坦斡旋轨道据称仍在运作",
+    "iran_toll_status": "negotiating — 伊朗坚持过境费为和平协议前提条件，美国明确拒绝；伊朗内部将其定性为「服务费」而非「通行费」以规避UNCLOS指控"
+  },
+  "recovery_score": {
+    "transit_volume_score": 2,
+    "balance_score": 0,
+    "non_iran_share_score": 0,
+    "bluechip_score": 0,
+    "insurance_score": 0,
+    "total": 2
+  },
+  "market_signals": {
+    "brent_spot": 94.48,
+    "brent_change_pct": 1.49,
+    "wti_midland_premium": 3.16,
+    "defense_stocks_note": "6月8日数据：LMT $520.07（-0.70%）、RTX $178.66（-1.29%）、NOC $540.81（-0.66%）；防务股小幅走弱，与伊朗宣称「结束军事行动」及特朗普释放新停火乐观信号相关；以色列-伊朗周末互袭曾推动油价单日涨逾4%至$97+，但随后回落至$94附近"
+  },
+  "trading_signal": "6月8日伊朗大使宣布「过境费新条件」方案为关键信号：海峡开放路径从「军事解锁」转向「外交定价谈判」，但美方强硬拒绝使短期复航概率仍极低；Brent自峰值$126回落至$94区间，反映市场已部分消化长期封锁预期；以色列-伊朗再次交火打断停火进程，防务股承压但因多年订单积压下行有限；战争险保费维持峰值，蓝筹船公司无一复航，恢复评分仅2/100",
+  "verdict": "霍尔木兹海峡截至2026年6月9日仍实质性封锁（封锁第101天），日过境量约为正常水平的10%，伊朗过境费谈判与以色列-伊朗再次交火双重压力下近期无实质复航可能",
+  "key_news": [
+    "伊朗驻莫斯科大使贾拉利6月8日接受俄媒采访称霍尔木兹将重新开放，但须以伊朗与阿曼共同制定的新条件为前提，包括向过境船只收取费用，美国强烈反对该方案 (Iran envoy Jalali: Hormuz reopen under Iran-Oman toll conditions, US rejects)",
+    "6月8日以色列对伊朗西部和中部军事目标实施空袭，伊朗随后声称已停止军事行动，特朗普称双方「接近新60天停火」，但以色列尚未发出明确降级信号 (Israel strikes Iran June 8, Iran declares end of ops, Trump touts new ceasefire)",
+    "战争险保费维持峰值水平，约为船舶价值的4%/7天，是战前的4000倍，MSC、Maersk、CMA CGM、Hapag-Lloyd全部暂停霍尔木兹过境，封锁进入第101天 (War-risk premium at 4000x pre-crisis, all major carriers suspended, day 101 of blockade)"
+  ]
+}
