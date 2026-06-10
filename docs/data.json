@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-09T05:12:15.075554+00:00",
-  "report_count": 45,
+  "updated_at": "2026-06-10T05:24:49.000756+00:00",
+  "report_count": 46,
   "reports": [
     {
       "report_date": "2026-04-09",
@@ -2597,6 +2597,62 @@
         "伊朗驻莫斯科大使贾拉利6月8日接受俄媒采访称霍尔木兹将重新开放，但须以伊朗与阿曼共同制定的新条件为前提，包括向过境船只收取费用，美国强烈反对该方案 (Iran envoy Jalali: Hormuz reopen under Iran-Oman toll conditions, US rejects)",
         "6月8日以色列对伊朗西部和中部军事目标实施空袭，伊朗随后声称已停止军事行动，特朗普称双方「接近新60天停火」，但以色列尚未发出明确降级信号 (Israel strikes Iran June 8, Iran declares end of ops, Trump touts new ceasefire)",
         "战争险保费维持峰值水平，约为船舶价值的4%/7天，是战前的4000倍，MSC、Maersk、CMA CGM、Hapag-Lloyd全部暂停霍尔木兹过境，封锁进入第101天 (War-risk premium at 4000x pre-crisis, all major carriers suspended, day 101 of blockade)"
+      ]
+    },
+    {
+      "report_date": "2026-06-10",
+      "data_window": "June 8-10, 2026",
+      "daily_transits": {
+        "count": 2,
+        "inbound": null,
+        "outbound": null,
+        "source": "IMF PortWatch（经 straits.live 引用，数据截至 2026-06-07）",
+        "confidence": "low"
+      },
+      "cross_validation": [
+        {
+          "source": "Windward",
+          "count": null,
+          "note": "本次检索未获得 Windward 独立数据，暂无法交叉验证"
+        },
+        {
+          "source": "Kpler",
+          "count": 6,
+          "note": "Kpler 数据显示4月全月仅191艘过境，均摊约每日6艘，5月整体仍约为战前水平5%；与 PortWatch 的极低读数基本吻合"
+        },
+        {
+          "source": "伊朗官媒 Tasnim/Fars",
+          "count": 26,
+          "note": "伊朗官媒5月下旬声称单日协调26艘过境，但该数字仅指经 IRGC 批准并收费的受控通行，口径与商业AIS数据不一致，可信度存疑"
+        }
+      ],
+      "milestones": {
+        "bluechip_operators_returning": "no — MSC、Maersk、CMA CGM、Hapag-Lloyd 均维持全面绕行好望角或停运波斯湾，MSC Sariska V 在伊拉克海域遭袭，MSC 定性为「完全没有正当性」",
+        "war_risk_premium_status": "peak — 战争险保费约为船舶价值4%/7天，较危机前0.001%高出约4000倍，仍处峰值",
+        "non_iran_inbound_share_pct": null,
+        "negotiation_progress": "巴基斯坦斡旋的美伊谈判陷入最新一轮紧张：6月9日美军击落无人机并打击伊朗 Bandar Abbas 附近地面控制站，伊朗随即还击；6月9日伊朗外长称将对任何袭击「不留任何攻击无回应」。5月28日双方谈判代表达成初步60天停火备忘录草案（MOU），但 Trump 尚未最终批准；伊朗拒绝承认 Trump 所称「谈判已基本完成」的说法，Tasnim 6月1日曾报道伊朗暂停通过中间人传递信息，并扬言完全封锁海峡，随后局势再度波动",
+        "iran_toll_status": "implemented — 伊朗 IRGC 已对「友好国家」船只实施每艘约100至200万美元的过境收费（部分报道达200万美元），并要求船只进入伊朗领海接受检查；伊朗议会正起草立法将收费永久化；美伊谈判草案中包含「禁止伊朗征收过路费、并要求30天内清除水雷」条款，但协议尚未生效"
+      },
+      "recovery_score": {
+        "transit_volume_score": 0,
+        "balance_score": 0,
+        "non_iran_share_score": 0,
+        "bluechip_score": 0,
+        "insurance_score": 0,
+        "total": 0
+      },
+      "market_signals": {
+        "brent_spot": 91.11,
+        "brent_change_pct": -3.42,
+        "wti_midland_premium": null,
+        "defense_stocks_note": "截至2026年6月9日收盘：LMT 约$526.62（+1.28%），NOC 约-0.73%，RTX 约-1.29%；防务股整体随油价回落和伊以「暂时停止互击」消息承压，但 LMT 因 F-35 积压订单支撑逆势小涨；RTX 对停火/降级消息最敏感，短期承压"
+      },
+      "trading_signal": "6月9日美伊再度交火（美军打击 Bandar Abbas 附近防空及地控站，伊朗还击导弹/无人机）令停火协议再度濒临崩溃，但伊以宣布「暂停互击」令 Brent 单日大跌3.42%至$91.11；油价已从4月峰值$126回落超30%，但霍尔木兹海峡实物通行量仍接近于零（PortWatch 最新确认日2026-06-07仅2艘），任何外交真正突破将带来油价断崖式下跌和防务股大幅回调风险；当前宜对能源多头保持高度警觉、对防务股维持核心持仓但避免追高",
+      "verdict": "霍尔木兹海峡实质仍处于全面封锁状态，每日过境量约为战前基准的2%，美伊于6月9日再度交火令外交进程严重受损，通航恢复评分为0/100",
+      "key_news": [
+        "美伊6月9日再度交火：美军完成针对伊朗防空及 Bandar Abbas 附近地面控制站的自卫反击，伊朗随即发射导弹和无人机还击，几乎全部被拦截，伊朗外长扬言「任何袭击不会不受回应」(US strikes Iran air-defense sites near Hormuz, Iran retaliates)",
+        "Brent 油价6月9日大跌3.42%至$91.11：伊朗与以色列宣布「暂停互击」短暂提振市场对和谈前景的乐观情绪，带动油价从前一日高位回落，但霍尔木兹实物封锁依然完整 (Brent drops 3.42% on Iran-Israel pause, Hormuz blockade intact)",
+        "战争险保费维持峰值约船值4%/7天：较危机前高出约4000倍，MSC、Maersk、CMA CGM 等主要班轮公司仍全面绕行好望角，MSC Sariska V 在伊拉克海域遭袭更打消蓝筹船东复航意愿 (War-risk premiums 4000x pre-crisis, blue-chip operators still rerouting via Cape)"
       ]
     }
   ]
