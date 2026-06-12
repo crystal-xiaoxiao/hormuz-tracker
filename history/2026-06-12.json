@@ -1,0 +1,56 @@
+{
+  "report_date": "2026-06-12",
+  "data_window": "June 11-12, 2026",
+  "daily_transits": {
+    "count": 4,
+    "inbound": null,
+    "outbound": null,
+    "source": "IMF PortWatch（通过 Polymarket 摘要引用，6月11日数据）",
+    "confidence": "low"
+  },
+  "cross_validation": [
+    {
+      "source": "IMF PortWatch",
+      "count": 2,
+      "note": "最新已确认日（6月7日）仅2艘，为正常水平的2%；截至6月11日的实时口径估计约4艘，仍极低"
+    },
+    {
+      "source": "Kpler",
+      "count": null,
+      "note": "Kpler数据显示4月整月均维持在战前水平约5%左右，6月具体日数据暂未公开；6艘P&I俱乐部已撤销承保"
+    },
+    {
+      "source": "Iranian state media (Fars/Tasnim)",
+      "count": null,
+      "note": "伊朗国家媒体未披露具体过境数字；IRGC于6月11日宣布「封闭一切船舶通行」，但部分LNG船仍趁机暗渡通过"
+    }
+  ],
+  "milestones": {
+    "bluechip_operators_returning": "no，Maersk、MSC、CMA CGM、Hapag-Lloyd均维持暂停过境状态，无蓝筹承运人宣布复航",
+    "war_risk_premium_status": "peak，当前约为船舶价值4%/7天，约为战前（0.001%）的4000倍；每航次VLCC保费在80万至逾200万美元之间",
+    "non_iran_inbound_share_pct": null,
+    "negotiation_progress": "特朗普6月11日叫停对伊新一轮空袭，并称双方「非常接近」达成协议；Fars通讯社报道德黑兰「可能接受」草案，但伊方尚未给出正式答复；草案含霍尔木兹重开、60天停火延期及核谈框架，尚待特朗普最终批准；卡塔尔担任调解中间人",
+    "iran_toll_status": "rejected（美方及IMO均明确反对；草案规定伊朗不得征收过境费，但伊方尚未正式签字）"
+  },
+  "recovery_score": {
+    "transit_volume_score": 1,
+    "balance_score": 0,
+    "non_iran_share_score": 0,
+    "bluechip_score": 0,
+    "insurance_score": 0,
+    "total": 1
+  },
+  "market_signals": {
+    "brent_spot": 89.25,
+    "brent_change_pct": -1.25,
+    "wti_midland_premium": 3.31,
+    "defense_stocks_note": "因特朗普暗示达成协议、油价大跌逾4%触及三月低位，防务板块普遍承压下行：LMT约-0.96%、RTX约-2.29%、NOC约+2.05%，市场正在「定价出」部分战争溢价，但NOC因B-21/Sentinel等长期项目受影响较小"
+  },
+  "trading_signal": "特朗普6月11日叫停空袭并释放谈判破冰信号，Brent单日跌逾4%至89美元区间，WTI也跌向86美元；防务股全线回落；若MOU在本周末欧洲签署，油价将进一步下行，防务股（尤其RTX）面临第二波压缩；但实际通航恢复需数周至数月（扫雷、重启生产、保险正常化），短期油价反弹概率依然存在；建议密切追踪IMF PortWatch每周二发布的过境数据及战争险保费是否低于船舶价值2%的关键门槛",
+  "verdict": "霍尔木兹海峡仍实质性关闭，日过境量不足正常水平3%，战争险保费高达战前4000倍，蓝筹承运人零复航，但特朗普-伊朗外交破冰信号令油价急跌，谈判进展是近期唯一积极变量",
+  "key_news": [
+    "特朗普叫停新一轮对伊空袭并称双方「非常接近」协议，伊朗半官方媒体Fars报道德黑兰「可能接受」草案，Brent当日跌逾4%至89美元附近 (Trump halts Iran strikes, Fars signals Tehran may accept deal)",
+    "IRGC于6月11日再度宣布「封闭霍尔木兹海峡一切船舶通行」，但三艘QatarEnergy和ADNOC的LNG油轮仍趁机关闭AIS暗渡通过 (IRGC declares full closure, 3 LNG tankers slip through AIS-dark)",
+    "IMF PortWatch最新已确认数据（6月7日）显示日过境仅2艘（正常水平2%），战争险保费维持在船舶价值约4%/7天高位，6家P&I俱乐部已撤销承保，Maersk/MSC/CMA CGM/Hapag-Lloyd四大蓝筹承运人继续暂停复航 (IMF PortWatch 2 transits June 7, war-risk premium 4% hull value, big-4 carriers still suspended)"
+  ]
+}
