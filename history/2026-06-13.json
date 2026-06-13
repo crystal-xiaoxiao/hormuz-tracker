@@ -1,0 +1,59 @@
+{
+  "report_date": "2026-06-13",
+  "data_window": "June 11-13, 2026",
+  "daily_transits": {
+    "count": 4,
+    "inbound": null,
+    "outbound": null,
+    "source": "IMF Portwatch（经 Polymarket 市场描述引用，截至 2026-06-11 最新公布数据）",
+    "confidence": "low"
+  },
+  "cross_validation": [
+    {
+      "source": "Windward",
+      "count": null,
+      "note": "本次检索未获取 Windward 日报直接数据，暂无法交叉核验"
+    },
+    {
+      "source": "Kpler / IMF Portwatch",
+      "count": 2,
+      "note": "straits.live 引用 PortWatch 数据：2026-06-07 仅录得 2 艘，基准线约 94 艘/天；Polymarket 市场描述称截至 2026-06-11 可见过境仅 4 艘"
+    },
+    {
+      "source": "Iranian state media (Fars/Tasnim)",
+      "count": null,
+      "note": "本次检索未获取伊朗官方媒体具体过境数字，伊朗方面于 2026-06-10 宣布对所有商业和油轮交通实施全面封锁"
+    }
+  ],
+  "milestones": {
+    "bluechip_operators_returning": "no——Maersk、MSC、CMA CGM、Hapag-Lloyd 自 2026-03-01 起全面暂停霍尔木兹过境，截至检索日尚未宣布恢复",
+    "war_risk_premium_status": "peak——保费自战前 0.001% 飙升至船舶价值 2.5-5%（美英籍船舶），约为战前的 60 倍；Willis Towers Watson 于 2026-05 表示停火后保费短期内不会下降",
+    "non_iran_inbound_share_pct": null,
+    "negotiation_progress": "2026-06-11，特朗普宣布取消对伊打击计划并宣称和平协议「即将达成」，巴基斯坦斡旋下谈判进入 60 天停火延期阶段；伊朗方面表示尚未达成最终决定；14 点草案据报道包含 30 天内重开霍尔木兹承诺，但需伊朗当局批准；2026-06-12 CBS 报道称「最终同意文本」已形成，但协议细节仍待证实",
+    "iran_toll_status": "negotiating——伊朗已对部分船只实施最高 200 万美元/艘的「服务费」（非正式称之为过境费），伊朗外交部发言人 Baghaei 否认是「通行费」，称将提供「导航、安保及环保服务」收费；全面收费机制尚未正式确立"
+  },
+  "recovery_score": {
+    "transit_volume_score": 1,
+    "balance_score": 0,
+    "non_iran_share_score": 0,
+    "bluechip_score": 0,
+    "insurance_score": 0,
+    "total": 1
+  },
+  "market_signals": {
+    "brent_spot": 88.0,
+    "brent_change_pct": -3.3,
+    "wti_midland_premium": null,
+    "defense_stocks_note": "LMT、RTX、NOC 在 2026-06-11 特朗普取消对伊打击并暗示和平协议后受压下跌，与油价同步回落（历史规律：停火消息压缩国防股短期情绪溢价，但多年期订单积压支撑基本面）；当日 LMT +3.09%、NOC +2.05%、RTX +2.48% 的数据为近期涨幅背景参考，非 2026-06-13 当日收盘"
+  },
+  "trading_signal": "特朗普 2026-06-11 宣布取消对伊打击并称协议「即将达成」，Brent 当日暴跌逾 4% 至约 89 美元，2026-06-12 进一步跌向 88 美元——和平预期驱动油价大幅下行，但市场仍持谨慎态度：霍尔木兹扫雷、伊朗产能重启、受损能源基础设施修复均需数月，战争险保费结构性回落料滞后数个季度；若协议最终落地，做多原油波动率、做空战争险溢价相关资产为核心信号",
+  "verdict": "霍尔木兹海峡实质仍处于封锁状态（日均过境仅约 2-4 艘，较正常水平下降约 97%），蓝筹船东无一返回，但特朗普-伊朗谈判出现突破性进展，14 点草案及停火延期令市场转向「和平预期交易」，恢复分数仅 1 分（满分 100 分）",
+  "key_notes_source_warning": "因 windward.ai 日报及 Lloyd's List 实时付费内容本次检索无法直接获取，过境数据主要依赖 IMF Portwatch 公开数据（经 straits.live 及 Polymarket 引用）及 NBC News 跟踪报告，置信度为低",
+  "key_news": [
+    "特朗普 2026-06-11 宣布取消对伊打击计划，称和平协议「即将宣布」，Brent 原油单日跌逾 4% 至约 89 美元 (Trump cancels Iran strikes, peace deal imminent)",
+    "据报道美伊 14 点草案包括 30 天内重开霍尔木兹承诺，伊朗解除制裁及冻结资产获释为核心条件，文本尚待德黑兰批准 (14-point draft MOU includes Hormuz reopening within 30 days)",
+    "伊朗 2026-06-10 正式宣布对所有商业及油轮交通实施全面封锁，IRGC 于 2026-06-10 对美国第五舰队巴林基地发动无人机和导弹打击 (Iran declares full Hormuz closure June 10, IRGC strikes Fifth Fleet HQ Bahrain)",
+    "IMF Portwatch 最新公布数据显示 2026-06-07 仅录得 2 艘过境，Polymarket 市场将 6 月 30 日前恢复正常（60 艘/天以上）概率定价在 22.5% (Portwatch 2 transits June 7, Polymarket 22.5% odds of normalization by June 30)",
+    "战争险保费仍处峰值水平，Willis Towers Watson 于 2026-05 警告：即便停火，保费亦需数年才能回归战前水准；Lloyd's 数据显示美英籍船舶保费达船值 2.5-5% (War risk premiums at peak 2.5-5% of hull value, structural repricing likely lasts years)"
+  ]
+}
