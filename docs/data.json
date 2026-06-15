@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-13T05:25:15.233819+00:00",
-  "report_count": 48,
+  "updated_at": "2026-06-15T06:31:38.660416+00:00",
+  "report_count": 49,
   "reports": [
     {
       "report_date": "2026-04-09",
@@ -2768,6 +2768,64 @@
         "伊朗 2026-06-10 正式宣布对所有商业及油轮交通实施全面封锁，IRGC 于 2026-06-10 对美国第五舰队巴林基地发动无人机和导弹打击 (Iran declares full Hormuz closure June 10, IRGC strikes Fifth Fleet HQ Bahrain)",
         "IMF Portwatch 最新公布数据显示 2026-06-07 仅录得 2 艘过境，Polymarket 市场将 6 月 30 日前恢复正常（60 艘/天以上）概率定价在 22.5% (Portwatch 2 transits June 7, Polymarket 22.5% odds of normalization by June 30)",
         "战争险保费仍处峰值水平，Willis Towers Watson 于 2026-05 警告：即便停火，保费亦需数年才能回归战前水准；Lloyd's 数据显示美英籍船舶保费达船值 2.5-5% (War risk premiums at peak 2.5-5% of hull value, structural repricing likely lasts years)"
+      ]
+    },
+    {
+      "report_date": "2026-06-15",
+      "data_window": "June 13-15, 2026",
+      "daily_transits": {
+        "count": 2,
+        "inbound": null,
+        "outbound": null,
+        "source": "IMF Portwatch（经 straits.live 汇总，截至 2026-06-07 最新已确认数据），hormuztracking.com 亦确认 6 月 14 日出境商业通行量为零",
+        "confidence": "medium"
+      },
+      "cross_validation": [
+        {
+          "source": "Windward",
+          "count": null,
+          "note": "本报告周期内未检索到 Windward 独立日报数据，无法交叉核验"
+        },
+        {
+          "source": "IMF Portwatch / straits.live",
+          "count": 2,
+          "note": "straits.live 实时面板显示 6 月 14 日仅 2 艘船通过，基准正常值约 94 艘/天；IMF Portwatch 最新已确认数据（2026-06-07）亦为 2 艘，与正常基准 94 艘/天相比跌幅逾 97%"
+        },
+        {
+          "source": "hormuztracking.com (AIS聚合)",
+          "count": 0,
+          "note": "6 月 14 日过去五天内出境商业通行量经核实为零，确认严重运营停滞；另有 354 艘船锚泊等待"
+        }
+      ],
+      "milestones": {
+        "bluechip_operators_returning": "no — Maersk、MSC、CMA CGM、Hapag-Lloyd 全部暂停通行，每家均宣布「全球中东航线停止接单」或「航次终止」",
+        "war_risk_premium_status": "peak — 单次 VLCC 航次战争险保费高达 80 万至逾 200 万美元（标准商船），船舶价值 7 天险率约 4%，较战前 0.001% 高出约 4000 倍；Howden Re 确认为 1980 年代以来最严重损失事件级别",
+        "non_iran_inbound_share_pct": null,
+        "negotiation_progress": "2026-06-14（UTC）特朗普在 Truth Social 宣布美伊协议「已完成」，授权「无收费开放霍尔木兹海峡」并同步解除美国海军封锁；巴基斯坦总理谢里夫确认双方宣布「在所有战线、包括黎巴嫩立即永久停止军事行动」；正式签署仪式定于 6 月 19 日在瑞士举行；伊朗副外长 Gharibabadi 确认协议，但伊朗方面表示 60 天核谈判须待美方解冻部分资金后方可启动；美伊双方在协议文本细节上存在分歧，以色列尚未表态；法国总统马克龙宣布 G7 领导人将于 6 月 15 日专题讨论霍尔木兹海峡长期重开问题",
+        "iran_toll_status": "rejected — 协议文本明确规定「无收费开放」，特朗普授权用语为「toll free opening」；IRGC 此前设立的「波斯湾海峡管理局（PGSA）」收费方案已被协议架构否定"
+      },
+      "recovery_score": {
+        "transit_volume_score": 0,
+        "balance_score": 0,
+        "non_iran_share_score": 0,
+        "bluechip_score": 0,
+        "insurance_score": 0,
+        "total": 0
+      },
+      "market_signals": {
+        "brent_spot": 83.27,
+        "brent_change_pct": -4.65,
+        "wti_midland_premium": null,
+        "defense_stocks_note": "6 月 15 日 Motley Fool 数据显示 LMT -1.52%、NOC -0.40%、RTX -0.37%，三只防务股集体下跌，与美伊达成协议后市场「和平红利」出售防务股的惯性反应吻合；分析师指出多年积压订单支撑长期价值，但短期情绪主导下行"
+      },
+      "trading_signal": "2026-06-14 夜间出现本危机最重大地缘政治转折点：特朗普宣布美伊协议完成并授权解除霍尔木兹封锁，Brent 当日重挫约 4.65% 至 83.27 美元/桶（六周以来最低），WTI 跌逾 4.8%，亚洲股市大幅反弹（日经225涨5.4%创历史新高）；防务股同步下滑。当前物理通行量仍接近零（实际签署仪式须待 6 月 19 日，通行实质恢复尚需数周至数月），油价已提前反映预期，建议警惕协议落地前「细节分歧」（以色列立场不明、伊朗核谈条件存争议）带来的回调风险；战争险保费短期仍将维持高位，真正正常化须 12-18 个月。",
+      "verdict": "物理通行量依然停滞（评分 0/100），但 2026-06-14 美伊协议宣布构成危机以来最大外交突破，霍尔木兹解封预期已驱动油价单日暴跌逾 4%，实质恢复最快须待 6 月 19 日签署后方可启动。",
+      "key_news": [
+        "特朗普宣布美伊协议「已完成」，授权无收费开放霍尔木兹、立即解除美国海军封锁，正式签署定于 6 月 19 日瑞士举行 (Trump declares Iran deal complete, authorizes toll-free Hormuz opening, blockade removal)",
+        "巴基斯坦总理谢里夫确认双方宣布「在所有战线立即永久终止军事行动」，G7 领导人 6 月 15 日专题讨论海峡长期重开 (Pakistan PM Sharif confirms immediate permanent termination of military operations, G7 to discuss Hormuz reopening June 15)",
+        "Brent 原油单日重挫逾 4.65% 至约 83 美元区间，亚洲股市大幅上涨，防务股 LMT/RTX/NOC 同步下跌，市场提前定价「和平红利」 (Brent crude plunges 4.65%, Asian equities surge, defense stocks fall on peace deal optimism)",
+        "协议存在重大不确定性：伊以冲突仍在持续（以色列 6 月 14 日再次空袭贝鲁特），伊朗坚持核谈须先解冻 250 亿美元资金，实际海峡清雷及运营恢复估计需数周至数月 (Deal uncertainty remains: Israel attacks Beirut June 14, Iran insists nuclear talks await $25B asset unfreeze, physical reopening weeks to months away)",
+        "物理通行量仍接近零：straits.live 确认 6 月 14 日仅 2 艘船通过，354 艘船持续在区域锚泊等待，战争险保费维持峰值水平约 4% 船值/7 天 (Physical transit near-zero: only 2 ships on June 14, 354 vessels stranded, war-risk premium remains at peak ~4% hull value/7 days)"
       ]
     }
   ]
