@@ -1,0 +1,58 @@
+{
+  "report_date": "2026-06-17",
+  "data_window": "June 15-17, 2026",
+  "daily_transits": {
+    "count": 0,
+    "inbound": null,
+    "outbound": null,
+    "source": "straits.live（每5分钟更新，引用AIS追踪数据，2026-06-17）",
+    "confidence": "medium"
+  },
+  "cross_validation": [
+    {
+      "source": "Windward",
+      "count": null,
+      "note": "本报告周期内未检索到Windward官方日报数据，无法交叉验证"
+    },
+    {
+      "source": "Kpler",
+      "count": null,
+      "note": "Kpler分析师预测：若美伊协议顺利落实，30天内日通行量有望恢复至约40艘；当前实际值仍接近零（Kpler project recovery toward 40 daily transits within 30 days if deal proceeds）"
+    },
+    {
+      "source": "Iranian state media (Fars/Tasnim)",
+      "count": null,
+      "note": "伊朗副外长Gharibabadi通过Telegram声称协议对伊朗是「胜利」，但未披露实际通行数据"
+    }
+  ],
+  "milestones": {
+    "bluechip_operators_returning": "no — Maersk、CMA CGM、MSC、Hapag-Lloyd、COSCO均维持停航或限行状态；Maersk继续执行海湾货物限制令和紧急附加费，无主要班轮公司宣布恢复定期通行",
+    "war_risk_premium_status": "peak — 战争险保费维持峰值水平约4%船体价值/7天（战前约0.001%），单艘VLCC单次航程保费在80万至逾200万美元之间；Howden Re指出自June 1续约窗口以来保费无实质下降",
+    "non_iran_inbound_share_pct": null,
+    "negotiation_progress": "重大外交突破：美伊双方于2026年6月14-15日宣布达成初步和平框架协议（谅解备忘录），内容包含60天停火延长、解除美国海军封锁、开放海峡用于扫雷作业；正式签署仪式定于2026年6月19日（周五）在瑞士举行，巴基斯坦担任调解方；但协议全文尚未公布，关键技术细节（含扫雷时间表、保险复原路径）仍待谈判（Bloomberg 2026-06-16）",
+    "iran_toll_status": "rejected — 美国及西方国家拒绝伊朗此前提出的每船200万美元过境费方案；法国总统马克龙明确表示「不得附加通行费」是恢复正常航运的前提条件"
+  },
+  "recovery_score": {
+    "transit_volume_score": 0,
+    "balance_score": 0,
+    "non_iran_share_score": 0,
+    "bluechip_score": 0,
+    "insurance_score": 0,
+    "total": 0
+  },
+  "market_signals": {
+    "brent_spot": 78.57,
+    "brent_change_pct": -5.5,
+    "wti_midland_premium": null,
+    "defense_stocks_note": "LMT -1.85%、NOC -1.02%、RTX +0.06%（截至2026-06-16收盘，Motley Fool数据）；和平协议预期压制防务股短期需求情绪，但分析师指出多年期订单积压不因停火公告重置，建议维持核心LMT/NOC仓位、小幅修剪RTX"
+  },
+  "trading_signal": "美伊和平框架协议（2026-06-14宣布）触发油价4日连跌、Brent单日最大跌幅约5%，已跌至三个月低点约78-79美元/桶；但霍尔木兹海峡实物通行量仍为零，正式签约（6月19日）及扫雷作业完成前商业航运无法恢复，战争险保费维持峰值，「协议利好」已被市场快速定价而实际供应链复苏滞后，建议关注6月19日签约是否如期落地及BIMCO/Lloyd's市场保险重新定价信号",
+  "verdict": "协议宣布但海峡仍零通行：外交突破已被油价快速消化，实物复苏需等待正式签约（6月19日）、扫雷核查与保险重新定价，当日恢复程度评分为0/100，处于危机最深阶段末尾的「政治解锁、物理未解」窗口期",
+  "key_news": [
+    "美伊初步和平协议于6月14-15日宣布，正式签署仪式定于6月19日在瑞士举行，巴基斯坦担任调解方 (US-Iran initial peace deal announced, signing in Switzerland June 19, Pakistan as mediator)",
+    "布伦特原油连续4日下跌，6月16日再跌逾3%至约80美元/桶，为三个月来新低，市场已提前消化霍尔木兹复航预期 (Brent crude fell 4th consecutive session, down 3% to near $80, lowest since early March on Hormuz reopening hopes)",
+    "straits.live实时追踪显示2026年6月17日海峡通行量仍为零，Maersk维持湾区货物限制令，Hapag-Lloyd、CMA CGM、MSC均未宣布恢复通行计划 (Hormuz still zero transits on June 17; Maersk Gulf restrictions and surcharges remain; no major carriers announced resumption)",
+    "伊朗IRGC已在海峡布设Maham-3和Maham-7型海底水雷，航运协会坚持在独立核查扫雷完成前不会大规模恢复通行 (IRGC deployed Maham-3/7 naval mines; shipping associations insist on verified mine clearance before full return)",
+    "战争险保费仍处峰值（约船体价值4%/7天），比战前高出约4000倍，Howden Re警告即使停火落地保费正常化仍需数季度 (War-risk premium still at peak ~4% hull value/7 days, ~4000x pre-war levels; Howden Re warns normalization takes quarters even after ceasefire)"
+  ]
+}
