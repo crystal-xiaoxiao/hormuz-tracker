@@ -1,0 +1,59 @@
+{
+  "report_date": "2026-06-18",
+  "data_window": "June 16-18, 2026",
+  "daily_transits": {
+    "count": 3,
+    "inbound": 2,
+    "outbound": 1,
+    "source": "Windward MIOC（6月17日 Qeshm-Larak 通道暗船观测）",
+    "confidence": "low"
+  },
+  "cross_validation": [
+    {
+      "source": "Windward",
+      "count": 24,
+      "note": "6月16日记录到24艘过境（16艘入境、8艘出境），为近期峰值；6月17日降至3艘暗船，AIS广播船只极少"
+    },
+    {
+      "source": "IMF PortWatch / straits.live",
+      "count": 0,
+      "note": "6月14日（PortWatch最近已确认日期）AIS广播过境为零，占正常水平0%；straits.live截至6月17日仍显示商业船舶实际停摆"
+    },
+    {
+      "source": "Iranian state media (IRIB/IRNA)",
+      "count": 0,
+      "note": "伊朗国家电视台IRIB于签署MOU前数日明确宣称「海峡完全无过境」，IRGC海军未批准任何船舶通行"
+    }
+  ],
+  "milestones": {
+    "bluechip_operators_returning": "no — Maersk、MSC、CMA CGM、Hapag-Lloyd 四大班轮公司均维持停运状态，Maersk继续执行海湾货物限制及紧急附加费",
+    "war_risk_premium_status": "peak — 战争险保费仍处于危机峰值，Lloyd's List数据显示约为船舶价值4%（7天可续期合约），较战前0.001%高出约4000倍；Willis Towers Watson于2026年5月表示停火后保费「不太可能下降」",
+    "non_iran_inbound_share_pct": null,
+    "negotiation_progress": "2026年6月14日，巴基斯坦总理谢巴兹·谢里夫宣布美伊已敲定谅解备忘录（MOU）文本，正式签署仪式定于6月19日（周五）在瑞士举行；特朗普随即宣布授权「免通行费开放霍尔木兹」并解除海军封锁，但伊朗副外长加里巴巴迪表示须待正式签署后才开始落实；6月17日特朗普再度警告若伊朗不「守规矩」将恢复轰炸，令市场情绪再度波动",
+    "iran_toll_status": "negotiating"
+  },
+  "recovery_score": {
+    "transit_volume_score": 1,
+    "balance_score": 10,
+    "non_iran_share_score": 0,
+    "bluechip_score": 0,
+    "insurance_score": 0,
+    "total": 11
+  },
+  "market_signals": {
+    "brent_spot": 78.57,
+    "brent_change_pct": -0.49,
+    "wti_midland_premium": null,
+    "defense_stocks_note": "LMT -0.39%、RTX +3.34%、NOC +0.47%（截至6月17日收盘）；停火新闻压制防务板块整体溢价，但RTX因停火预期而承压最大，LMT受制于F-35固定价格项目风险，NOC相对抗跌（受Sentinel ICBM与B-21长期项目支撑）"
+  },
+  "trading_signal": "美伊MOU签署在即（6月19日瑞士仪式）为最关键催化剂：Brent已较冲突峰值下跌约40%，现报约78.57美元，市场已大幅消化供应恢复预期。然而实际船舶过境量仍接近于零，主流班轮公司未解除停运令，战争险保费维持峰值（船值4%/7天），扫雷作业预计还需40-50天，表明「政治信号超前、物理恢复滞后」的价差结构依然存在。建议关注：①6月19日MOU能否如期签署；②Windward/Kpler当日过境计数是否出现跳升；③Maersk/MSC客户公告是否解除停运。若签署落地且过境量提速，能源多头可能面临进一步抛压；若特朗普再度动摇或以色列黎巴嫩事态恶化，油价将快速反弹。",
+  "verdict": "霍尔木兹海峡于2026年6月18日仍处于商业停摆状态（每日实际AIS过境量≈0），美伊MOU签署仅在24小时之外，但扫雷、保险及班轮公司复航准备将使通航恢复至少需要数周，恢复进程评分为100分中的11分。",
+  "key_news": [
+    "2026年6月14日美伊就60天停火延期及霍尔木兹开放达成MOU文本，巴基斯坦调解宣布签署仪式定于6月19日瑞士举行 (US-Iran MOU text finalized, signing ceremony set for June 19 in Switzerland)",
+    "特朗普6月17日警告称若伊朗不「守规矩」将以「更高烈度」恢复轰炸，令MOU落地存在不确定性，WTI当日反弹逾1.5% (Trump threatens to resume bombing at higher level if Iran misbehaves, oil rebounds)",
+    "Windward记录到6月16日24艘过境（16进8出），但6月17日骤降至3艘暗船，AIS广播船舶接近于零，IMF PortWatch最新确认数据显示6月14日过境为零 (Windward counts 24 transits on June 16, then collapses to 3 dark vessels on June 17)",
+    "Maersk、MSC、CMA CGM、Hapag-Lloyd四大班轮公司截至6月18日仍维持霍尔木兹停运令及紧急附加费，Maersk继续执行海湾货物限制 (Top 4 liners keep Hormuz suspension and emergency surcharges in place)",
+    "Lloyd's战争险保费维持约4%/船值/7天峰值水平，Willis Towers Watson指出停火后保费「不太可能下降」，专家估计扫雷作业还需40-50天 (War-risk premiums at 4% of hull value peak; mine-clearance estimated 40-50 days remaining)",
+    "Brent原油报约78.57美元/桶（较冲突峰值下跌约40%），IEA警告2027年全球供应过剩风险，Rystad Energy提醒市场「实施风险将令反弹褪色」 (Brent ~$78.57 down ~40% from conflict peak; IEA warns of 2027 supply glut)"
+  ]
+}
