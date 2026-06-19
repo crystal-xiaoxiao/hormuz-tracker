@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-18T06:01:46.908731+00:00",
-  "report_count": 51,
+  "updated_at": "2026-06-19T06:25:47.651390+00:00",
+  "report_count": 52,
   "reports": [
     {
       "report_date": "2026-04-09",
@@ -2943,6 +2943,65 @@
         "Maersk、MSC、CMA CGM、Hapag-Lloyd四大班轮公司截至6月18日仍维持霍尔木兹停运令及紧急附加费，Maersk继续执行海湾货物限制 (Top 4 liners keep Hormuz suspension and emergency surcharges in place)",
         "Lloyd's战争险保费维持约4%/船值/7天峰值水平，Willis Towers Watson指出停火后保费「不太可能下降」，专家估计扫雷作业还需40-50天 (War-risk premiums at 4% of hull value peak; mine-clearance estimated 40-50 days remaining)",
         "Brent原油报约78.57美元/桶（较冲突峰值下跌约40%），IEA警告2027年全球供应过剩风险，Rystad Energy提醒市场「实施风险将令反弹褪色」 (Brent ~$78.57 down ~40% from conflict peak; IEA warns of 2027 supply glut)"
+      ]
+    },
+    {
+      "report_date": "2026-06-19",
+      "data_window": "June 17-19, 2026",
+      "daily_transits": {
+        "count": 4,
+        "inbound": null,
+        "outbound": 0,
+        "source": "MarineTraffic / NBC News / hormuztracking.com（截至6月18日晚AIS广播数据，仅含MOU签署后累计通行数，实际每日值约0-4艘）",
+        "confidence": "low"
+      },
+      "cross_validation": [
+        {
+          "source": "Windward",
+          "count": null,
+          "note": "本报告周期内未检索到Windward专项日报数据，无法提供交叉验证数字"
+        },
+        {
+          "source": "Lloyd's List / Kpler",
+          "count": 4,
+          "note": "Lloyd's List估计港内积压550艘船待出港（含160艘油轮）；Kpler此前数据显示4月全月通行量仅为战前5%，约合每日4-5艘；6月18-19日因MOU签署后仅少数船只尝试过境，具体日计数与NBC/MarineTraffic吻合"
+        },
+        {
+          "source": "Iranian state media (Fars/Tasnim)",
+          "count": null,
+          "note": "伊朗官方媒体未提供可核实的具体日通行计数；据ISNA图片显示大量船只仍锚泊于班达尔阿巴斯附近"
+        }
+      ],
+      "milestones": {
+        "bluechip_operators_returning": "no — Maersk、MSC、CMA CGM、Hapag-Lloyd 均维持暂停状态，等待安全团队确认「100%安全」方可恢复，目前仅有少量非蓝筹旗国（中国、巴基斯坦籍）船只尝试过境",
+        "war_risk_premium_status": "peak — 当前战争险保费仍处约4%船舶价值/7天（战前约0.001%）；单艘VLCC航次保费80万至逾200万美元；BMIP与美伊MOU预期将推动保费下行，但伦敦市场条约定价需12-36个月理赔历史消化方可实质回落",
+        "non_iran_inbound_share_pct": null,
+        "negotiation_progress": "6月18日，特朗普与伊朗总统Pezeshkian在凡尔赛宫分别签署谅解备忘录（MOU），开启60天核谈窗口；MOU规定60天内伊朗须保障无收费商业自由通航，中央主航道仍有约80枚水雷待清除；美方承诺解除伊朗港口封锁；巴基斯坦作为调解方宣布将在瑞士举行正式签署仪式",
+        "iran_toll_status": "rejected — MOU明确规定60天内伊朗不得收取通行费，伊朗此前坚持的「波斯湾海峡管理局(PGSA)」收费方案被搁置"
+      },
+      "recovery_score": {
+        "transit_volume_score": 1,
+        "balance_score": 0,
+        "non_iran_share_score": 0,
+        "bluechip_score": 0,
+        "insurance_score": 0,
+        "total": 1
+      },
+      "market_signals": {
+        "brent_spot": 79.95,
+        "brent_change_pct": 0.12,
+        "wti_midland_premium": null,
+        "defense_stocks_note": "LMT单日跌幅约4%，触及505美元低位后小幅收复；RTX、NOC、L3Harris、General Dynamics、Boeing全线下跌，市场将美伊和平协议解读为消除了防务股近期地缘溢价支撑；分析师指出多年期合同积压（LMT合同储备约1940亿美元）对长期营收无实质影响"
+      },
+      "trading_signal": "美伊MOU签署（6月18日）是本轮危机最重大外交突破：Brent本周累计下跌约10%（从峰值已累计回调38%），油价「战争溢价」正在快速出清。然而，海峡实际通行量仍几乎为零——中央主航道水雷清除、战争险保费结构性高位、以及四大蓝筹班轮公司尚未复航，构成恢复的三重物理障碍。市场定价已领先物理现实至少数周，若60天谈判窗口出现反复或水雷事故，油价存在剧烈反弹风险。防务板块（LMT/RTX/NOC）因和平溢价被抽离而短期承压，但长周期合同积压支撑中期基本面。",
+      "verdict": "外交层面实现决定性突破——美伊MOU已签署、伊朗放弃收费要求，但截至6月19日海峡物理通行量仍接近于零（~4艘/MOU签署后累计），中央主航道水雷清除、战争险保费回落及蓝筹运营商复航均需数周至数月，实质恢复尚未开始。",
+      "key_news": [
+        "特朗普与伊朗总统Pezeshkian于6月18日在凡尔赛宫签署谅解备忘录，规定60天内霍尔木兹海峡恢复无收费自由商业通航 (US-Iran MOU signed at Versailles, 60-day toll-free Hormuz reopening)",
+        "截至6月18日晚，海峡outbound商业通行量仍为零，MOU签署后仅约4艘船只成功过境，中央主航道估计尚有约80枚水雷待清除 (near-zero transits, ~80 mines in central lane, Intertanko)",
+        "布伦特原油本周累计下跌约10%至约79.95美元/桶，为4月高峰以来累计回调约38%，高盛下调2026年Q4 Brent目标价至80美元 (Brent down ~10% weekly, Goldman Sachs cuts Q4 2026 forecast to $80/bbl)",
+        "Maersk、MSC、CMA CGM、Hapag-Lloyd四大蓝筹班轮公司维持霍尔木兹过境暂停，均表示须等待安全团队确认全面安全方可复航 (Big-4 carriers Maersk/MSC/CMA CGM/Hapag-Lloyd maintain Hormuz suspension)",
+        "战争险保费仍高达船舶价值约4%/7天（VLCC单航次约80万至逾200万美元），伦敦市场条约定价预计需12-36个月理赔历史积累方可实质回落 (war-risk premium still ~4% of hull value, structural repricing takes 12-36 months)",
+        "防务股全线承压：LMT单日跌至505美元低位（从3月峰值693美元已跌约27%），RTX、NOC、Northrop Grumman等同步下行，市场定价剔除地缘冲突溢价 (defense stocks LMT/RTX/NOC decline on peace deal, geopolitical premium unwound)"
       ]
     }
   ]
