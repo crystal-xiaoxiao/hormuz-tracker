@@ -1,0 +1,56 @@
+{
+  "report_date": "2026-06-21",
+  "data_window": "June 19-21, 2026",
+  "daily_transits": {
+    "count": 55,
+    "inbound": null,
+    "outbound": null,
+    "source": "美国中央司令部 (CENTCOM) 声明：6月20日（周六）55艘商船通过霍尔木兹海峡",
+    "confidence": "medium"
+  },
+  "cross_validation": [
+    {
+      "source": "Windward MIOC",
+      "count": 26,
+      "note": "Windward 6月18日数据：26艘（7艘入境、19艘出境），出境流量较前日激增46%，由伊朗籍货轮、中国散货船及欧洲油轮主导；3艘暗船通过"
+    },
+    {
+      "source": "IMF PortWatch / straits.live",
+      "count": 0,
+      "note": "IMF PortWatch 6月14日最终确认数据为0艘，占正常通量0%；straits.live实时状态显示为「有效封闭」，但CENTCOM数据指向更高的实际通量，两者存在显著差异"
+    },
+    {
+      "source": "伊朗国家媒体 (Fars/IRGC)",
+      "count": 0,
+      "note": "IRGC 6月20日（周六）通过Far新闻台向海上无线电广播重新关闭声明，警告所有船只不得接近海峡，否则将遭到打击；伊朗外交部随后澄清称海峡「依据MOU正在运作」，官方口径自相矛盾"
+    }
+  ],
+  "milestones": {
+    "bluechip_operators_returning": "partial — Frontline CEO Lars Barstad 表示5艘油轮被困波斯湾，公司尚未为开放场景部署船只；CENTCOM 提及逾55艘商船通行，但蓝筹运营商身份未经独立核实；MSC Sariska V 于6月3日在伊拉克近海遭受攻击，MSC 仍回避常规通行",
+    "war_risk_premium_status": "peak — 战争险保费较危机前高出约4000倍（The National/maritime risk reports）；Lloyd's 联合战争委员会已将整个波斯湾列为冲突区；6个 P&I Club 已撤销承保；DFC 已建立400亿美元再保险设施作为政府兜底，私人市场仍处于结构性极端定价",
+    "non_iran_inbound_share_pct": null,
+    "negotiation_progress": "巴基斯坦调解的美伊谈判已取得阶段性成果：6月15日双方宣布初步协议框架，6月18日特朗普与伊朗总统佩泽什基安正式签署谅解备忘录（MOU），协议含60天停火延期，霍尔木兹将无过路费开放，并启动伊朗核计划谈判。6月20日，伊朗谈判团队飞抵瑞士苏黎世，美国副总统万斯亦前往参加周日开幕的技术级会谈，紧急议题聚焦黎巴嫩停火（以色列持续空袭致停火濒临破裂）",
+    "iran_toll_status": "negotiating — 伊朗国家媒体（Tasnim）最初宣布60天免费过境后将由伊朗与阿曼共管并征收通行费；特朗普6月20日发帖表示60天停火期内及期后均不设过路费，但如谈判失败美方可能征收「服务费」；最终安排尚待正式确定"
+  },
+  "recovery_score": {
+    "transit_volume_score": 12,
+    "balance_score": 0,
+    "non_iran_share_score": 0,
+    "bluechip_score": 0,
+    "insurance_score": 0,
+    "total": 12
+  },
+  "market_signals": {
+    "brent_spot": 80.57,
+    "brent_change_pct": -4.47,
+    "wti_midland_premium": null,
+    "defense_stocks_note": "6月18-19日收盘：LMT -4.01%（约510.95美元），RTX -3.62%（约185.60美元），NOC -5.21%（约521.50美元）。防务股全线大幅下挫，与和平协议预期推进、战争风险降低直接相关；Brent 同期周跌幅约8.5%，油价和防务股同步承压，反映市场对冲突降级的定价"
+  },
+  "trading_signal": "美伊MOU于6月18日签署后市场出现「卖出和平」交易：Brent 24小时跌4.47%至80.57美元，LMT/RTX/NOC 单日跌3-5%；但IRGC 6月20日再次宣布关闭海峡（随后伊朗外交部反驳），以色列持续轰炸黎巴嫩导致停火协议岌岌可危，CENTCOM 同日报告55艘船只已通行，凸显「官方关闭 vs 实际部分通行」的信息不对称——Brent 或已超跌，若瑞士谈判破裂存在回弹风险",
+  "verdict": "MOU 签署后出现短暂通行脉冲（CENTCOM 报告55艘），但 IRGC 当日再度宣布关闭、黎巴嫩停火崩溃威胁协议完整性，实际恢复程度极为有限且高度脆弱，综合评分仅12/100。",
+  "key_news": [
+    "IRGC 于6月20日（周六）再次宣布关闭霍尔木兹海峡，理由是以色列持续在黎巴嫩实施空袭、美国违反MOU承诺；随后伊朗外交部澄清海峡「依MOU仍在运作」，官方口径严重矛盾 (IRGC re-declares Hormuz closed, Iranian Foreign Ministry contradicts)",
+    "CENTCOM 报告称6月20日（周六）共有55艘商船通过霍尔木兹海峡，运输超过1700万桶原油，美国海军将确保商业通行持续进行 (CENTCOM: 55 vessels transited Saturday carrying 17M+ barrels)",
+    "美伊谈判代表团于6月20日抵达瑞士苏黎世，副总统万斯亦飞赴参会，巴基斯坦称周日正式谈判将启动，核计划与黎巴嫩停火为首要议题 (Vance and Iran delegation arrive in Switzerland for Sunday talks)"
+  ]
+}
