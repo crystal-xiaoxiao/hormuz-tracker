@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-21T06:10:00.770256+00:00",
-  "report_count": 53,
+  "updated_at": "2026-06-22T06:35:30.771861+00:00",
+  "report_count": 54,
   "reports": [
     {
       "report_date": "2026-04-09",
@@ -3058,6 +3058,64 @@
         "IRGC 于6月20日（周六）再次宣布关闭霍尔木兹海峡，理由是以色列持续在黎巴嫩实施空袭、美国违反MOU承诺；随后伊朗外交部澄清海峡「依MOU仍在运作」，官方口径严重矛盾 (IRGC re-declares Hormuz closed, Iranian Foreign Ministry contradicts)",
         "CENTCOM 报告称6月20日（周六）共有55艘商船通过霍尔木兹海峡，运输超过1700万桶原油，美国海军将确保商业通行持续进行 (CENTCOM: 55 vessels transited Saturday carrying 17M+ barrels)",
         "美伊谈判代表团于6月20日抵达瑞士苏黎世，副总统万斯亦飞赴参会，巴基斯坦称周日正式谈判将启动，核计划与黎巴嫩停火为首要议题 (Vance and Iran delegation arrive in Switzerland for Sunday talks)"
+      ]
+    },
+    {
+      "report_date": "2026-06-22",
+      "data_window": "June 20-22, 2026",
+      "daily_transits": {
+        "count": 32,
+        "inbound": 17,
+        "outbound": 15,
+        "source": "Windward MIOC卫星+AIS融合评估（2026-06-20，最近可用完整日数据）",
+        "confidence": "medium"
+      },
+      "cross_validation": [
+        {
+          "source": "Windward",
+          "count": 32,
+          "note": "6月20日AIS确认32艘过境（含17艘入港、15艘出港），另记录11次暗船过境（8入3出），实际流量可能被低估"
+        },
+        {
+          "source": "IMF PortWatch / straits.live",
+          "count": 0,
+          "note": "IMF PortWatch最新发布数据截至6月14日，记录0艘AIS广播过境；straits.live追踪器于6月22日亦显示商业通航实际为零，但独立湾口到港抓取器录得过去24小时139艘次（方法论不可直接比较）"
+        },
+        {
+          "source": "Kpler / Bloomberg",
+          "count": null,
+          "note": "Bloomberg报道6月21日周末期间仍有数百万桶石油持续流过海峡，Kpler预估若无意外30天内每日可达约40艘次（战前约50%）；伊朗重新宣布关闭后具体逐日数字未经确认"
+        }
+      ],
+      "milestones": {
+        "bluechip_operators_returning": "partial — 沙特阿拉伯国家航运公司Bahri（Shaden、Jaham、Awtad三艘超级油轮于6月18日携约600万桶原油过境）；印度国家航运公司（Shipping Corporation of India）两艘VLCC于6月20日协同出港；COSCO中远海运一艘中国国家油轮6月20日过境。Maersk、MSC、CMA CGM、Hapag-Lloyd等西方蓝筹班轮运营商仍暂停通航",
+        "war_risk_premium_status": "elevated — 6月2026年战争险保费仍约为船舶价值的2.5%-3%/航次（船险基线0.1%的25-30倍）；6月中JMIC威胁评级从Severe降至Substantial，对部分PGSA豁免船只产生轻微下行压力，但Lloyd's保险商警告溢价仍超战前30倍；P&I俱乐部已有6家暂停承保",
+        "non_iran_inbound_share_pct": null,
+        "negotiation_progress": "6月17日特朗普与伊朗总统佩泽希齐扬在凡尔赛宫G7晚宴期间签署谅解备忘录（MoU），14条款要求伊朗在30天内重开霍尔木兹海峡，美国同步解除海上封锁。但6月19日瑞士谈判首先被取消，6月20日伊朗以黎巴嫩停火协议遭以色列违反为由再次宣布关闭海峡；6月21日瑞士谈判重启但气氛紧张，巴基斯坦内政部长Mohsin Naqvi居中调解，美国副总统JD Vance出席，巴基斯坦总理夏巴兹·谢里夫亦赴瑞士",
+        "iran_toll_status": "negotiating — 伊朗经Tasnim报道称过境船只须购买「强制保险」（目前免费，后期或收费）；伊朗PGSA（波斯湾海峡管理局）已建立两级过境体系，对俄罗斯、中国、印度、伊拉克、巴基斯坦豁免收费；美国财政部已对PGSA实施制裁；特朗普威胁若达不成协议将对海峡征收美方通行费"
+      },
+      "recovery_score": {
+        "transit_volume_score": 7,
+        "balance_score": 19,
+        "non_iran_share_score": 0,
+        "bluechip_score": 5,
+        "insurance_score": 5,
+        "total": 36
+      },
+      "market_signals": {
+        "brent_spot": 81.45,
+        "brent_change_pct": 1.4,
+        "wti_midland_premium": null,
+        "defense_stocks_note": "6月18-19日最新数据：LMT约510.95美元（-4.01%）、RTX约185.60美元（-3.62%）、NOC约521.50美元（-5.21%）；防务股普遍下跌，反映MoU签署后市场对冲突降级的定价；Goldman Sachs下调Brent第四季度目标价至80美元/桶，预计波斯湾出口7月底前恢复战前水平"
+      },
+      "trading_signal": "伊朗6月20日再次宣布关闭海峡（以黎巴嫩冲突为由），Brent在$81.45反弹+1.4%；瑞士谈判6月21日重启但陷僵局。通航量（Windward：32艘/日）已从战前94-138艘/日大幅萎缩，仅有Bahri、SCI、COSCO等国家级运营商部分过境；蓝筹西方班轮仍观望；战争险保费居高（船值2.5-3%/航次）且短期不具备大幅下行条件。防务股随和平预期升温而走弱，但若谈判再度破裂可能迅速反弹。投资人须密切追踪瑞士谈判结果与黎巴嫩停火可持续性",
+      "verdict": "霍尔木兹海峡处于「有限争议性通航」状态——MoU框架下Bahri等国家承运人实现历史性突破，但伊朗再度关闭声明、持续高企的战争险保费及瑞士谈判僵局令蓝筹商业运营商继续观望，整体恢复程度仍不足战前的25%",
+      "key_news": [
+        "伊朗6月20日以以色列违反黎巴嫩停火为由再次宣布关闭霍尔木兹海峡，但CENTCOM否认实质封锁，Brent油价应声上涨1.4%至约81.45美元 (Iran re-declares Hormuz closed citing Lebanon ceasefire violations)",
+        "6月21日美伊瑞士谈判重启但气氛剑拔弩张，特朗普警告称若伊朗关闭海峡将「把他们炸飞」，巴基斯坦斡旋代表赴日内瓦紧急挽留伊朗代表团留场 (US-Iran Switzerland talks resume under strain, Trump threatens military response over Hormuz)",
+        "Windward卫星+AIS融合数据显示6月20日共32艘船过境（含印度国营SCI两艘VLCC及COSCO一艘中国国家油轮），11次为暗船过境，流量仍仅约战前24%-34%，Maersk/MSC等西方蓝筹班轮全数缺席 (Windward: 32 vessels on June 20, dominated by Chinese and Indian state operators, Western bluechips absent)",
+        "Goldman Sachs下调Brent第四季度目标价至80美元/桶（前值90美元），预计波斯湾原油出口7月底前恢复战前水平；防务股LMT/RTX/NOC本周跌幅介于3.6%-5.2%，反映和平溢价缩减 (Goldman Sachs cuts Q4 Brent forecast to $80, defense stocks LMT/RTX/NOC drop 3-5% on peace deal pricing)",
+        "战争险保费6月仍维持船舶价值2.5-3%/航次（战前基线0.1%的25-30倍），JMIC将威胁评级从Severe下调至Substantial但分析师警告保险市场正式正常化最早需等到2027年1-2月续约周期 (War-risk premiums still 25-30x pre-crisis at 2.5-3% hull value per voyage; market normalization unlikely before Q1 2027)"
       ]
     }
   ]
