@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-22T06:35:30.771861+00:00",
-  "report_count": 54,
+  "updated_at": "2026-06-23T05:09:06.438347+00:00",
+  "report_count": 55,
   "reports": [
     {
       "report_date": "2026-04-09",
@@ -3116,6 +3116,63 @@
         "Windward卫星+AIS融合数据显示6月20日共32艘船过境（含印度国营SCI两艘VLCC及COSCO一艘中国国家油轮），11次为暗船过境，流量仍仅约战前24%-34%，Maersk/MSC等西方蓝筹班轮全数缺席 (Windward: 32 vessels on June 20, dominated by Chinese and Indian state operators, Western bluechips absent)",
         "Goldman Sachs下调Brent第四季度目标价至80美元/桶（前值90美元），预计波斯湾原油出口7月底前恢复战前水平；防务股LMT/RTX/NOC本周跌幅介于3.6%-5.2%，反映和平溢价缩减 (Goldman Sachs cuts Q4 Brent forecast to $80, defense stocks LMT/RTX/NOC drop 3-5% on peace deal pricing)",
         "战争险保费6月仍维持船舶价值2.5-3%/航次（战前基线0.1%的25-30倍），JMIC将威胁评级从Severe下调至Substantial但分析师警告保险市场正式正常化最早需等到2027年1-2月续约周期 (War-risk premiums still 25-30x pre-crisis at 2.5-3% hull value per voyage; market normalization unlikely before Q1 2027)"
+      ]
+    },
+    {
+      "report_date": "2026-06-23",
+      "data_window": "June 21-23, 2026",
+      "daily_transits": {
+        "count": 12,
+        "inbound": 8,
+        "outbound": 4,
+        "source": "Windward Maritime Intelligence (6月22日数据，CNBC引用)",
+        "confidence": "medium"
+      },
+      "cross_validation": [
+        {
+          "source": "Windward",
+          "count": 12,
+          "note": "6月22日（周日）共12艘过境，较前一日21艘明显下降；5艘入港船只中有5艘处于AIS关闭（暗船）状态，交通画像仍以伊朗关联暗船为主"
+        },
+        {
+          "source": "Lloyd's List / Kpler",
+          "count": 20,
+          "note": "Kpler数据显示6月19日（周四）至少20艘油轮过境，为6月2日以来最高；Lloyd's List周一确认商业交通持续流动，截至周六夜间仍有至少15艘伊朗籍Suezmax及VLCC在阿曼湾外向外行驶"
+        },
+        {
+          "source": "Iranian state media (Fars/Tasnim)",
+          "count": null,
+          "note": "伊朗军方于6月20日宣布海峡关闭，但伊朗外交部同日内部矛盾地表示航运「正常运作」；Tasnim/Mehr未发布具体过境数字，官方口径前后不一"
+        }
+      ],
+      "milestones": {
+        "bluechip_operators_returning": "no + Maersk、MSC、CMA CGM、Hapag-Lloyd均维持好望角绕行，未恢复霍尔木兹过境",
+        "war_risk_premium_status": "peak + 仍处8倍战前水平（约3%-8%船舶价值/每次过境，单艘VLCC保费高达800万美元），6个P&I俱乐部已撤回承保",
+        "non_iran_inbound_share_pct": 35,
+        "negotiation_progress": "6月21-22日瑞士伯根施托克（Lake Lucerne）高级别会谈：美副总统万斯与伊朗外长阿拉格齐在巴基斯坦和卡塔尔调停下就60天路线图达成初步共识，建立霍尔木兹「避免误判通信线」，万斯宣布「实现所有四项谈判目标」；但伊朗核浓缩立场分歧犹存，黎巴嫩停火脆弱仍构成MOU最大变数",
+        "iran_toll_status": "negotiating"
+      },
+      "recovery_score": {
+        "transit_volume_score": 3,
+        "balance_score": 11,
+        "non_iran_share_score": 7,
+        "bluechip_score": 0,
+        "insurance_score": 0,
+        "total": 21
+      },
+      "market_signals": {
+        "brent_spot": 78.14,
+        "brent_change_pct": -4.34,
+        "wti_midland_premium": null,
+        "defense_stocks_note": "LMT -4.01%（约510.95美元），RTX -3.62%（约185.60美元），NOC -5.21%（约521.50美元）；防务股随停火/MOU信号普跌，符合「和平利空防务」的历史规律；多年积压订单提供下行缓冲"
+      },
+      "trading_signal": "瑞士谈判建立霍尔木兹通信机制推动Brent单日下跌逾4%至78美元区间，但物理层面交通仍受制于战争险高企（8倍峰值）、海峡中央航道布雷未清除及四大班轮公司拒绝复航三重障碍；伊朗6月20日再度宣布关闭与美方CENTCOM「实际畅通」声明的持续矛盾，令多头保持谨慎；防务股同步走软，提示市场正在对冲地缘溢价回落风险",
+      "verdict": "霍尔木兹海峡处于「名义关闭、实质争议通行」阶段，总恢复得分仅21/100，主要由伊朗关联暗船支撑极低流量，蓝筹航运商、保险市场与扫雷进程三项核心前提均未就绪，距实质性恢复尚有数周至数月差距",
+      "key_news": [
+        "伊朗于6月20日以以色列违反黎巴嫩停火为由再度宣布关闭海峡，但CENTCOM否认并称6月20日仍有55艘商船过境、运输逾1700万桶原油，中央航道布雷状态维持未变 (Iran re-declares Hormuz closed, CENTCOM disputes with 55-ship transit record)",
+        "美副总统万斯与伊朗代表团6月21-22日在瑞士完成首轮高级别会谈，双方就60天最终协议路线图及霍尔木兹「避免意外通信线」达成共识，卡塔尔和巴基斯坦联合声明称取得「鼓励性进展」 (US-Iran Lake Lucerne Summit agrees 60-day roadmap and Hormuz incident-avoidance hotline)",
+        "Windward数据显示6月22日（周日）过境船只骤降至12艘，较前日21艘大幅回落，暗船占比高达5/8入境，交通画像与战时封锁基线高度雷同，Brent随之下跌4.34%至78.14美元 (Windward: Sunday transits drop to 12, dark-vessel-dominated traffic profile, Brent -4.34%)",
+        "四大班轮公司Maersk、MSC、CMA CGM、Hapag-Lloyd维持好望角绕行，战争险保费仍处战前8倍峰值，中央航道布雷未清、蓝筹船东拒绝复航，Hapag-Lloyd预估正常化至少需6周 (Big-4 container carriers stay Cape-routed; war-risk premium 8x pre-war; mine clearance pending)"
       ]
     }
   ]
