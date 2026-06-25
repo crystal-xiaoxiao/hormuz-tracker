@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-23T05:09:06.438347+00:00",
-  "report_count": 55,
+  "updated_at": "2026-06-25T05:10:54.101954+00:00",
+  "report_count": 56,
   "reports": [
     {
       "report_date": "2026-04-09",
@@ -3173,6 +3173,64 @@
         "美副总统万斯与伊朗代表团6月21-22日在瑞士完成首轮高级别会谈，双方就60天最终协议路线图及霍尔木兹「避免意外通信线」达成共识，卡塔尔和巴基斯坦联合声明称取得「鼓励性进展」 (US-Iran Lake Lucerne Summit agrees 60-day roadmap and Hormuz incident-avoidance hotline)",
         "Windward数据显示6月22日（周日）过境船只骤降至12艘，较前日21艘大幅回落，暗船占比高达5/8入境，交通画像与战时封锁基线高度雷同，Brent随之下跌4.34%至78.14美元 (Windward: Sunday transits drop to 12, dark-vessel-dominated traffic profile, Brent -4.34%)",
         "四大班轮公司Maersk、MSC、CMA CGM、Hapag-Lloyd维持好望角绕行，战争险保费仍处战前8倍峰值，中央航道布雷未清、蓝筹船东拒绝复航，Hapag-Lloyd预估正常化至少需6周 (Big-4 container carriers stay Cape-routed; war-risk premium 8x pre-war; mine clearance pending)"
+      ]
+    },
+    {
+      "report_date": "2026-06-25",
+      "data_window": "June 23-25, 2026",
+      "daily_transits": {
+        "count": 25,
+        "inbound": 12,
+        "outbound": 13,
+        "source": "Windward Maritime AI / insights.windward.ai（2026年6月23日数据，为最新已确认日报）",
+        "confidence": "high"
+      },
+      "cross_validation": [
+        {
+          "source": "Windward",
+          "count": 25,
+          "note": "6月23日日报确认25艘通过，12艘入向、13艘出向；中央航道自「Operation Epic Fury」以来首次重新启用"
+        },
+        {
+          "source": "Kpler",
+          "count": 25,
+          "note": "Kpler于6月19日确认6月18日过境达25艘，与Windward数据吻合；6月23日数据未单独公布，但趋势一致"
+        },
+        {
+          "source": "Iranian state media (Fars/Tasnim)",
+          "count": null,
+          "note": "伊朗官方媒体（Tasnim）6月20日援引伊朗外交部声明称航运「正常运营」，与IRGC宣布再关闭海峡相矛盾，未提供具体过境数"
+        }
+      ],
+      "milestones": {
+        "bluechip_operators_returning": "partial — South Korean、Liberian、Marshall Islands旗船只已出向过境，French和Qatari关联LNG运输船携带主动AIS信号过境Ras Laffan，但Frontline等西方主流油轮公司仍未恢复常规运营",
+        "war_risk_premium_status": "elevated — 高峰时期单航次保费高达船舶价值的4-5%（约80万至逾200万美元/航次），美伊备忘录签署后市场预计逐步回落，但行业分析师警告正常化滞后数个季度，当前仍远高于战前0.001-0.125%水平",
+        "non_iran_inbound_share_pct": 48,
+        "negotiation_progress": "美伊双方于2026年6月17日在凡尔赛宫签署谅解备忘录，美方于6月18日正式解除封锁；6月21日在Bürgenstock谈判结束，建立去冲突化通信热线；伊朗IRGC于6月20日以黎巴嫩停火争议为由宣布再关闭海峡，但实际过境流量未中断；IMO于6月23日宣布正式东向疏散走廊，预计清理逾11000名滞留船员",
+        "iran_toll_status": "negotiating — 伊朗「波斯湾海峡管理局」(PGSA)坚持要求注册及过境收费，但美国总统Trump于6月17日宣布60天免费过境期（费用由伊朗政府承担），双方围绕海峡管控权的分歧持续"
+      },
+      "recovery_score": {
+        "transit_volume_score": 6,
+        "balance_score": 19,
+        "non_iran_share_score": 10,
+        "bluechip_score": 5,
+        "insurance_score": 5,
+        "total": 45
+      },
+      "market_signals": {
+        "brent_spot": 75.57,
+        "brent_change_pct": -3.15,
+        "wti_midland_premium": null,
+        "defense_stocks_note": "截至6月23-24日收盘：LMT -2.09%（约503.67美元）、RTX -0.61%（约186.39美元）、NOC -1.72%；防务股随和平外交进展承压下行，市场对战争溢价持续收缩，但分析师指出多年订单积压支撑基本面"
+      },
+      "trading_signal": "Brent现货6月24日跌破74美元、日内最低触及约70美元区间，较战时峰值累计下跌约40%；Brent远期价差首度转入Contango（战后首次），反映市场对供应恢复的信心大幅提升；防务股同步走软（LMT/NOC/RTX集体回落1-2%），呈现「和平红利」轮动特征；IEA数据显示UAE石油出口已恢复至战前水平约85%；油价与防务股反向走势是当前主导的跨资产信号",
+      "verdict": "霍尔木兹海峡处于「争议通航」状态——实际过境量约为战前的18-19%，西方旗船只重新出现、外交去冲突化机制初步建立，但伊朗IRGC二次关闭声明、中央航道地雷未清、战争险保费居高不下，海峡仍未实现真正意义上的商业正常化",
+      "key_news": [
+        "Windward日报确认6月23日25艘船只过境（12艘入向、13艘出向），中央航道自「Operation Epic Fury」以来首次重新启用，韩国旗和利比里亚旗船只出向过境显示市场信心回升 (center-corridor routing re-emerged, South Korean and Liberian operators transiting outbound)",
+        "伊朗IRGC于6月20日以以色列违反黎巴嫩停火协议为由宣布再度关闭海峡，但美国CENTCOM报告当日仍有55艘商船（逾1700万桶石油）通过——为战前以来最高单日记录，副总统Vance称为「创纪录」(Iran re-declared closure June 20; CENTCOM reported 55 merchant ships and record 17M barrels transited)",
+        "IMO于6月23日宣布正式东向疏散走廊，预计清运逾11000名滞留船员；丹麦宣布加入国际重开海峡联合任务 (IMO formal evacuation corridor announced June 23; Denmark joins international reopening mission)",
+        "Brent原油6月24日跌破74美元至战前以来最低，远期价差首次转入Contango，IEA数据显示UAE出口已达战前85%，油价较战时峰值累跌约40% (Brent fell below $74, first contango since conflict began, UAE exports at 85% pre-war levels)",
+        "美伊谅解备忘录明确60天过境免费期，但伊朗「波斯湾海峡管理局」坚持注册及收费要求，双方对海峡管控权归属分歧持续，中央航道仍有约80枚待清除水雷 (US-Iran MOU provides 60-day toll-free passage; PGSA toll demands persist; ~80 mines remain in central channel)"
       ]
     }
   ]
