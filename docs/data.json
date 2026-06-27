@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-25T05:10:54.101954+00:00",
-  "report_count": 56,
+  "updated_at": "2026-06-27T04:58:17.489211+00:00",
+  "report_count": 57,
   "reports": [
     {
       "report_date": "2026-04-09",
@@ -3231,6 +3231,62 @@
         "IMO于6月23日宣布正式东向疏散走廊，预计清运逾11000名滞留船员；丹麦宣布加入国际重开海峡联合任务 (IMO formal evacuation corridor announced June 23; Denmark joins international reopening mission)",
         "Brent原油6月24日跌破74美元至战前以来最低，远期价差首次转入Contango，IEA数据显示UAE出口已达战前85%，油价较战时峰值累跌约40% (Brent fell below $74, first contango since conflict began, UAE exports at 85% pre-war levels)",
         "美伊谅解备忘录明确60天过境免费期，但伊朗「波斯湾海峡管理局」坚持注册及收费要求，双方对海峡管控权归属分歧持续，中央航道仍有约80枚待清除水雷 (US-Iran MOU provides 60-day toll-free passage; PGSA toll demands persist; ~80 mines remain in central channel)"
+      ]
+    },
+    {
+      "report_date": "2026-06-27",
+      "data_window": "June 25-27, 2026",
+      "daily_transits": {
+        "count": 5,
+        "inbound": null,
+        "outbound": null,
+        "source": "PortWatch (IMF) — 覆盖2026-06-21数据；straits.live综合追踪显示6月26日约5次通行；6月24日AXSMarine确认62次（周内高点73次出现在6月25日Wednesday）；6月26日受Ever Lovely被袭事件冲击后骤降约50%",
+        "confidence": "low"
+      },
+      "cross_validation": [
+        {
+          "source": "MarineTraffic / AXSMarine",
+          "count": 73,
+          "note": "6月25日（星期三）单日最高纪录，为战争爆发以来最高值，约为2025年同日的53%；6月26日（星期五）受袭击事件影响骤降约一半"
+        },
+        {
+          "source": "PortWatch (IMF) / straits.live",
+          "count": 5,
+          "note": "PortWatch最新公开数据覆盖至6月21日，显示仅5次通行；straits.live综合追踪亦引用该数字作为6月26日当日基准，与AXSMarine口径差异巨大，反映统计方法与地理范围不同"
+        },
+        {
+          "source": "伊朗国家媒体 (IRNA/Tasnim)",
+          "count": null,
+          "note": "伊朗国家媒体未公布具体每日通行数；IRGC于6月25日警告称，未经伊朗许可经南部Oman航线通行属「非法且危险」，并于6月26日对Evergreen旗下Ever Lovely发动无人机袭击"
+        }
+      ],
+      "milestones": {
+        "bluechip_operators_returning": "partial — Evergreen (台湾长荣) 旗下Ever Lovely已尝试通行但遭袭；Hapag-Lloyd曾借助美国海军引导通过；Frontline、MSC等主流蓝筹船东仍处于「观望」模式，尚未恢复常规班期",
+        "war_risk_premium_status": "peak — 战争险保费仍处于峰值区间。单次VLCC航次保费为80万至逾200万美元（船舶价值的约4%），较战前约0.001%上涨约4000倍；ceasefire签署后有望逐步回落，但历史经验表明正常化通常滞后于物理通航恢复12至18个月",
+        "non_iran_inbound_share_pct": null,
+        "negotiation_progress": "美伊于2026年6月17日签署60天谅解备忘录（MOU），美方于6月18日解除对伊朗港口封锁，海峡于6月19日重新开放并出现流量激增；6月20日伊朗以以色列违反黎巴嫩停火协议为由再度宣布关闭海峡，但美国中央司令部否认实际关闭；6月21日美伊谈判代表在布尔根施托克建立「通信热线」；6月25日IRGC警告使用Oman航线的船只；6月26日US CENTCOM宣布对伊朗军事目标实施报复性打击（针对Ever Lovely袭击事件）；Secretary Rubio同日在巴林会见海湾阿拉伯国家领导人以安抚其对MOU条款的关切",
+        "iran_toll_status": "negotiating — MOU约定60天内免费通行，费用由伊朗政府承担；但IRGC坚持要求船只必须向伊朗申报并使用伊方指定航线，美国财政部已制裁伊朗「波斯湾海峡管理局」，美方明确拒绝任何收费方案"
+      },
+      "recovery_score": {
+        "transit_volume_score": 1,
+        "balance_score": 0,
+        "non_iran_share_score": 0,
+        "bluechip_score": 5,
+        "insurance_score": 0,
+        "total": 6
+      },
+      "market_signals": {
+        "brent_spot": 72.86,
+        "brent_change_pct": -3.5,
+        "wti_midland_premium": null,
+        "defense_stocks_note": "6月26日数据：LMT约514.90美元 (+1.96%)、RTX约186.59至189.77美元区间 (+约1.70%)、NOC约499.33美元 (-0.73%)。防务股整体表现分化：LMT与RTX因Ever Lovely袭击事件及CENTCOM报复性打击消息短暂走强，NOC小幅回落；Brent油价当周下跌逾10%（创近一个月最大单周跌幅），反映市场对海峡重开供应增加的预期压倒了地缘风险溢价"
+      },
+      "trading_signal": "Brent本周暴跌逾10%，重返战前水平（2月27日以来最低），反映市场押注霍尔木兹海峡供应恢复；但Ever Lovely遭袭（6月25日）及CENTCOM报复性打击（6月26日）引发新一轮不确定性，油价短暂反弹后再次回落。防务股呈现「escalation对冲」特征：LMT/RTX受益于紧张局势重燃而小幅走高；战争险保费依然高企（约为战前4000倍），保险市场正常化预计仍需数月。蓝筹船东主流运力尚未回归，AXSMarine显示峰值通行量（73艘/日）仅为战前约53%，且6月26日因袭击事件重跌约50%。核心信号：MOU框架脆弱性高，IRGC的「单边路线控制」主张构成复苏最大结构性障碍，投资人应警惕油价因海峡再关闭而急速反弹的尾部风险",
+      "verdict": "霍尔木兹海峡处于「名义重开、实质动荡」阶段——60天MOU支撑基本通行，但Ever Lovely遭袭及IMO撤援计划使日均通行量大幅回落至个位数，蓝筹船东仍未归队，恢复进程极度脆弱",
+      "key_news": [
+        "伊朗IRGC无人机袭击Evergreen旗下集装箱船Ever Lovely（新加坡籍），导致IMO立即暂停霍尔木兹撤援计划 (IRGC drone strike on Evergreen Ever Lovely forces IMO to suspend evacuation plan)",
+        "美国中央司令部于6月26日宣布对伊朗军事目标实施报复性打击，以回应Ever Lovely袭击事件，紧张局势再度升级 (CENTCOM retaliatory strikes on Iranian military targets following Ever Lovely attack)",
+        "6月25日（星期三）MarineTraffic确认单日73艘船只通行，为战争爆发以来最高纪录，约达战前水平的53%；但6月26日受袭击事件影响骤降约50% (Wednesday peak of 73 transits, highest since war began, halved Friday after attack)"
       ]
     }
   ]
