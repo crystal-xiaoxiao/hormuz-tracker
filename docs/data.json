@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-27T04:58:17.489211+00:00",
-  "report_count": 57,
+  "updated_at": "2026-06-30T05:11:44.101638+00:00",
+  "report_count": 58,
   "reports": [
     {
       "report_date": "2026-04-09",
@@ -3287,6 +3287,64 @@
         "伊朗IRGC无人机袭击Evergreen旗下集装箱船Ever Lovely（新加坡籍），导致IMO立即暂停霍尔木兹撤援计划 (IRGC drone strike on Evergreen Ever Lovely forces IMO to suspend evacuation plan)",
         "美国中央司令部于6月26日宣布对伊朗军事目标实施报复性打击，以回应Ever Lovely袭击事件，紧张局势再度升级 (CENTCOM retaliatory strikes on Iranian military targets following Ever Lovely attack)",
         "6月25日（星期三）MarineTraffic确认单日73艘船只通行，为战争爆发以来最高纪录，约达战前水平的53%；但6月26日受袭击事件影响骤降约50% (Wednesday peak of 73 transits, highest since war began, halved Friday after attack)"
+      ]
+    },
+    {
+      "report_date": "2026-06-30",
+      "data_window": "June 28-30, 2026",
+      "daily_transits": {
+        "count": 25,
+        "inbound": 11,
+        "outbound": 11,
+        "source": "MarineTraffic / CNN (June 29报告：过去24小时逾25艘商船过境，其中6艘油轮+8艘货轮出港、5艘油轮+6艘货轮入港)",
+        "confidence": "medium"
+      },
+      "cross_validation": [
+        {
+          "source": "Windward",
+          "count": 7,
+          "note": "Windward追踪数据显示6月1-15日日均7艘过境，18%为暗船（AIS关闭），与峰值期相比显著偏低"
+        },
+        {
+          "source": "IMF PortWatch / straits.live",
+          "count": 5,
+          "note": "PortWatch 6月21日最新公布数据仅5艘（占战前基准93艘/天的5%），为最保守口径；6月29日straits.live显示Brent $74.06不变，危机指数90（极端）"
+        },
+        {
+          "source": "Iranian state media (Tasnim/IRGC)",
+          "count": null,
+          "note": "伊朗国家媒体未公布独立过境船只统计数据；IRGC于6月25日声称命令三艘油轮调头，伊朗外交部则称航运「正常运营」，官方声明自相矛盾"
+        }
+      ],
+      "milestones": {
+        "bluechip_operators_returning": "no — Maersk、MSC、CMA CGM、Hapag-Lloyd四大班轮公司仍全部维持好望角绕行，暂无恢复霍尔木兹过境计划",
+        "war_risk_premium_status": "peak — 战争险保费仍处峰值，当前区间为船舶价值的3%-8%（高峰时达10%），较战前0.25%飙升约4000%；6家P&I俱乐部已撤销承保；6月28日续报称6月27日新一轮交火使任何短期保费回落预期落空",
+        "non_iran_inbound_share_pct": null,
+        "negotiation_progress": "6月17日美伊于凡尔赛宫签署60天框架备忘录（MoU）；6月20日伊朗宣布重新关闭海峡并恢复PGSA收费制度；6月25-27日双方爆发新一轮交火（Ever Lovely被袭、美国反击伊朗沿海雷达和导弹设施）；6月28日美伊同意暂停打击并协商在多哈会谈；6月29日伊朗否认已安排会谈、Trump声称会议将于6月30日在多哈举行；Witkoff与Kushner飞赴多哈；伊朗-阿曼首次举行「霍尔木兹联合委员会」会议；技术谈判焦点已从核问题移至海峡管理",
+        "iran_toll_status": "negotiating — MoU规定60天免费窗口（约至8月17日），PGSA保留届时收费权利；伊朗高级顾问Velayati 6月29日再次强调收费诉求；Oman公开反对收费；美方声明不支持任何过境收费方案"
+      },
+      "recovery_score": {
+        "transit_volume_score": 6,
+        "balance_score": 19,
+        "non_iran_share_score": 0,
+        "bluechip_score": 0,
+        "insurance_score": 0,
+        "total": 25
+      },
+      "market_signals": {
+        "brent_spot": 74.06,
+        "brent_change_pct": 2.01,
+        "wti_midland_premium": null,
+        "defense_stocks_note": "6月28日数据：LMT +0.47%、RTX +0.75%、NOC +0.14%，防务板块整体小幅收涨；美伊谈判重启预期压制了防务股进一步上行空间，但持续的海峡不确定性维持市场对防务股的结构性溢价"
+      },
+      "trading_signal": "美伊于6月28-29日同意暂停打击并拟6月30日在多哈重启谈判，Brent从四个月低位小幅反弹至74.06美元（+2.01%）；但日均过境量仍仅约为战前水平5%-25%，四大班轮公司零复航、战争险保费仍在峰值区间（3%-8%）、IRGC坚持单独指定过境路线，海峡通航恢复处于「战术暂停」而非结构性好转阶段；短期内油价及防务股对谈判进展高度敏感，任何会谈破裂将触发油价上行与防务股上涨的双重信号",
+      "verdict": "霍尔木兹海峡处于「竞争性通航」状态：美伊虽临时停火并启动多哈谈判，但日均过境量仍不足战前5%-25%，四大班轮公司未复航、战争险保费维持峰值，通航实质性恢复尚未发生。",
+      "key_news": [
+        "美伊同意暂停互相打击并于6月30日在多哈举行高级别会谈，美方特使Witkoff和Kushner已飞赴卡塔尔，但伊朗方面否认正式安排任何会议 (US-Iran agree to halt strikes, Doha talks June 30, Iran denies scheduled meeting)",
+        "6月25日Ever Lovely在阿曼海岸被IRGC无人机袭击，6月26日美军随即对伊朗Qeshm岛雷达和导弹设施实施报复性打击，导致过境秩序再度恶化 (Ever Lovely attack June 25, US retaliatory CENTCOM strikes June 26)",
+        "伊朗-阿曼举行首次「霍尔木兹联合委员会」会议，伊朗外长Araghchi警告任何绕过伊朗的独立航道安排「只会加剧紧张局势」，而Oman公开反对伊朗收费方案 (Iran-Oman first Joint Hormuz Committee, Araghchi warns against alternative routes, Oman rejects toll)",
+        "战争险保费仍处峰值区间3%-8%（较战前0.25%高约4000%），6月28日保险业报告指6月27日新一轮交火使任何近期保费回落预期彻底落空 (War risk premium still 3-8% of hull value, June 27 escalation kills near-term reversal prospects)",
+        "Maersk、MSC、CMA CGM、Hapag-Lloyd四大班轮公司仍维持好望角绕行，ADNOC预测即便协议持续，霍尔木兹正常通航最早也要等到2027年 (Big-4 carriers still on Cape routing, ADNOC forecasts no full Hormuz normalcy before 2027)"
       ]
     }
   ]
