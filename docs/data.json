@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-30T05:11:44.101638+00:00",
-  "report_count": 58,
+  "updated_at": "2026-07-01T05:46:10.523285+00:00",
+  "report_count": 59,
   "reports": [
     {
       "report_date": "2026-04-09",
@@ -3345,6 +3345,62 @@
         "伊朗-阿曼举行首次「霍尔木兹联合委员会」会议，伊朗外长Araghchi警告任何绕过伊朗的独立航道安排「只会加剧紧张局势」，而Oman公开反对伊朗收费方案 (Iran-Oman first Joint Hormuz Committee, Araghchi warns against alternative routes, Oman rejects toll)",
         "战争险保费仍处峰值区间3%-8%（较战前0.25%高约4000%），6月28日保险业报告指6月27日新一轮交火使任何近期保费回落预期彻底落空 (War risk premium still 3-8% of hull value, June 27 escalation kills near-term reversal prospects)",
         "Maersk、MSC、CMA CGM、Hapag-Lloyd四大班轮公司仍维持好望角绕行，ADNOC预测即便协议持续，霍尔木兹正常通航最早也要等到2027年 (Big-4 carriers still on Cape routing, ADNOC forecasts no full Hormuz normalcy before 2027)"
+      ]
+    },
+    {
+      "report_date": "2026-07-01",
+      "data_window": "June 29-30, 2026",
+      "daily_transits": {
+        "count": 5,
+        "inbound": null,
+        "outbound": null,
+        "source": "IMF PortWatch（经 straits.live 及 Polymarket 交叉引用，基准日期2026-06-21，为最新公布数据）",
+        "confidence": "medium"
+      },
+      "cross_validation": [
+        {
+          "source": "Windward",
+          "count": null,
+          "note": "检索期间未找到 Windward 当日发布的具体数字，数据缺失"
+        },
+        {
+          "source": "Lloyd's List / Kpler",
+          "count": 5,
+          "note": "Kpler 数据经 Al Jazeera 及 CNN 引用，4月份全月仅191艘；6月中旬评估认为若停火持续每日最多10-15艘通行；straits.live 引用 IMF PortWatch 6月21日数据为5艘，与 Kpler 量级一致"
+        },
+        {
+          "source": "Iranian state media (Fars/Tasnim)",
+          "count": null,
+          "note": "检索期间未找到 Fars 或 Tasnim 当日公布的具体过境船数，伊朗官方媒体数据缺失"
+        }
+      ],
+      "milestones": {
+        "bluechip_operators_returning": "no — Frontline 明确表示尚未在霍尔木兹海峡附近预置船只，其CEO Lars Barstad称除非美伊达成稳定协议否则交通不会恢复至战前水平",
+        "war_risk_premium_status": "peak — Lloyd's 报告高风险保费最低10%船值起，比战前0.125%-0.25%高出约8倍（straits.live 显示8.0×战前水平），6个P&I俱乐部已撤保",
+        "non_iran_inbound_share_pct": null,
+        "negotiation_progress": "美伊于6月29日同意暂停交火并于6月30日在多哈重启会谈；伊朗同时寻求强化对海峡的管控权；现行临时协议规定60天内不征收过境费，但此后保留收费权，遭美国、欧盟及海湾阿拉伯国家反对；阿曼公开拒绝任何过境收费制度但表示愿意讨论海事服务合作",
+        "iran_toll_status": "negotiating"
+      },
+      "recovery_score": {
+        "transit_volume_score": 1,
+        "balance_score": 0,
+        "non_iran_share_score": 0,
+        "bluechip_score": 0,
+        "insurance_score": 0,
+        "total": 1
+      },
+      "market_signals": {
+        "brent_spot": 73.02,
+        "brent_change_pct": -0.18,
+        "wti_midland_premium": 6.51,
+        "defense_stocks_note": "LMT +0.47%、RTX +0.75%、NOC +0.14%（Motley Fool 6月28日数据），防务股整体温和上涨；分析师指出美伊停火及多哈和谈预期压制了防务股战争溢价，RTX 因弹药补给周期敞口最大对和平预期最敏感，LMT 因 F-35 积压订单（416架）结构上更抗跌，NOC 因 B-21/Sentinel 项目周期横跨数十年最为抗压"
+      },
+      "trading_signal": "多哈谈判重启叠加60天免费过境临时协议推动 Brent 从6月峰值约105美元/桶暴跌至约73美元（单月跌幅约25%），为2020年以来最差季度表现；但周末袭击事件致两艘船只受损再度打击市场信心，通行量仍停留在正常水平的5%；WTI Midland 溢价约+6.5美元对 Brent，反映美湾原油替代需求仍强劲；防务股战争溢价被压缩但尚未完全释放，RTX 为和平/升级两向最敏感标的",
+      "verdict": "霍尔木兹海峡实质上仍处于封锁状态（每日仅约5艘通行，正常水平的5%），多哈外交重启提供微弱希望，但战争险保费维持峰值、蓝筹船东缺席、周末船只受损事件表明通航恢复距实质性突破仍遥远",
+      "key_news": [
+        "美伊于6月29日同意暂停交火并在6月30日多哈重启和平谈判，伊朗同时寻求在谈判前强化对海峡的管控权 (US-Iran agree to halt attacks, resume Doha talks June 30)",
+        "现行临时协议规定60天内不征收过境费但保留此后收费权，遭美国、欧洲及海湾国家反对；阿曼拒绝收费方案 (Iran 60-day toll-free interim deal, Oman rejects toll regime)",
+        "straits.live 显示截至6月30日每日仅5艘过境（IMF PortWatch 最新数据），战争险保费维持战前8倍高位，6个P&I俱乐部仍撤保，485艘船只停泊于区域内待命 (5 transits/day, war-risk premium 8x pre-crisis, 485 vessels anchored)"
       ]
     }
   ]
