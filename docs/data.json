@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-01T05:46:10.523285+00:00",
-  "report_count": 59,
+  "updated_at": "2026-07-02T05:04:14.605895+00:00",
+  "report_count": 60,
   "reports": [
     {
       "report_date": "2026-04-09",
@@ -3401,6 +3401,65 @@
         "美伊于6月29日同意暂停交火并在6月30日多哈重启和平谈判，伊朗同时寻求在谈判前强化对海峡的管控权 (US-Iran agree to halt attacks, resume Doha talks June 30)",
         "现行临时协议规定60天内不征收过境费但保留此后收费权，遭美国、欧洲及海湾国家反对；阿曼拒绝收费方案 (Iran 60-day toll-free interim deal, Oman rejects toll regime)",
         "straits.live 显示截至6月30日每日仅5艘过境（IMF PortWatch 最新数据），战争险保费维持战前8倍高位，6个P&I俱乐部仍撤保，485艘船只停泊于区域内待命 (5 transits/day, war-risk premium 8x pre-crisis, 485 vessels anchored)"
+      ]
+    },
+    {
+      "report_date": "2026-07-02",
+      "data_window": "July 1-2, 2026",
+      "daily_transits": {
+        "count": 35,
+        "inbound": 20,
+        "outbound": 15,
+        "source": "MarineTraffic（CNN报道，2026-07-01 24小时数据）",
+        "confidence": "medium"
+      },
+      "cross_validation": [
+        {
+          "source": "Windward",
+          "count": null,
+          "note": "未能获取Windward最新日报数据，暂无可用数字"
+        },
+        {
+          "source": "Lloyd's List 或 Kpler",
+          "count": 5,
+          "note": "IMF PortWatch最新已确认数据为6月21日，当日过境仅5艘，约为战前均值93艘/天的5%；Kpler预计若无意外，30天内可恢复至约40艘/天"
+        },
+        {
+          "source": "Iranian state media (Fars/Tasnim)",
+          "count": null,
+          "note": "伊朗官方媒体（IRIB）报道一艘外国集装箱船因未使用德黑兰批准路线而搁浅，以此强调伊朗对海峡的管控权；未公布具体过境数量"
+        }
+      ],
+      "milestones": {
+        "bluechip_operators_returning": "partial：MSC已宣布通过好望角改道，仅限护航船队进入波斯湾；Frontline有5艘船被困湾内，尚未恢复正常商业过境；主流蓝筹航运公司（MSC、Frontline等）整体仍处于观望或绕道状态",
+        "war_risk_premium_status": "peak：战争险保费仍处于峰值区间，据Lloyd's List报道高达10%起步（每艘VLCC单次过境保费可达1000万至1400万美元），较战前水平（约0.001%）高出约4000倍；6家P&I俱乐部已撤销承保",
+        "non_iran_inbound_share_pct": 45,
+        "negotiation_progress": "多哈间接技术谈判于2026年7月1日进行，卡塔尔和巴基斯坦担任调停方；卡塔尔外交部表示谈判取得「积极进展」，双方同意继续磋商；伊朗议长Qalibaf表示伊朗「目前未与美国进行任何谈判」，立场存在明显落差；6月17日签署的谅解备忘录（MOU）规定伊朗承诺60天内免通行费，但伊朗官员持续声明将征收「服务费」",
+        "iran_toll_status": "negotiating：6月17日MOU明确60天免费窗口，但伊朗方面反复声明后续将实施收费，IRGC坚持船只只能走伊朗领水路线，拒绝南部阿曼走廊"
+      },
+      "recovery_score": {
+        "transit_volume_score": 8,
+        "balance_score": 16,
+        "non_iran_share_score": 9,
+        "bluechip_score": 5,
+        "insurance_score": 0,
+        "total": 38
+      },
+      "market_signals": {
+        "brent_spot": 73.05,
+        "brent_change_pct": 0.77,
+        "wti_midland_premium": null,
+        "defense_stocks_note": "LMT、RTX、NOC整体小幅震荡：LMT当日+0.47%，RTX +0.75%，NOC +0.14%（截至6月28日数据）；和平谈判预期压制防务股大幅上行，但多年积压订单支撑估值；RTX对停火消息最敏感，NOC因Sentinel ICBM和B-21项目受影响最小；Brent本季度大跌约20%，为2020年以来最差季度表现，油价持续下压能源相关防务需求预期"
+      },
+      "trading_signal": "多哈间接技术谈判7月1日传出「积极进展」信号，35艘船/天的过境量较峰值危机期有所改善但仍仅为战前均值（约110艘）的32%；Brent守稳73美元关口但本季度跌幅已近20%，供应过剩风险升温；战争险保费仍在峰值令蓝筹船东无法商业性恢复过境；MOU的60天免费窗口与伊朗持续声索收费之间的矛盾是当前最大尾部风险，若谈判破裂需警惕油价反弹和防务股补涨",
+      "verdict": "霍尔木兹海峡通航处于极度受限的局部恢复阶段——每日约35艘船通过阿曼南部走廊，仅为战前三分之一水平，战争险保费仍在峰值、蓝筹船东缺席，恢复真正正常化有赖多哈谈判取得实质突破",
+      "key_notes_source_warning": "注：因windward.ai/blog、gcaptain.com、tradewindsnews.com、lloydslist.com付费墙限制，本报告主要依据CNN MarineTraffic数据、AGBI、RFERL、TradingEconomics及Wikipedia综合交叉验证，各数字置信度为medium",
+      "key_news": [
+        "多哈间接技术谈判于7月1日取得「积极进展」，卡塔尔和巴基斯坦调停下双方同意继续磋商，但伊朗议长表示伊朗「目前未与美国谈判」(Doha indirect talks positive progress, Iran parliament speaker says no talks)",
+        "7月1日MarineTraffic数据显示过去24小时至少35艘商船过境霍尔木兹，其中入湾20艘（11艘货船+9艘油轮），出湾15艘，仍远低于战前约110艘/天的正常水平 (35 commercial vessels in 24h vs ~110 pre-war)",
+        "6月17日美伊MOU规定60天免通行费，但IRGC持续坚持船只只能走伊朗领水路线、拒绝南部阿曼走廊，并新设「波斯湾海峡管理局」（PGSA）强化管控 (Iran PGSA asserts route control, rejects Omani southern corridor)",
+        "战争险保费仍高达船值10%起步，每艘VLCC单次过境保费或超1000万美元，较危机前高出约4000倍，6家P&I俱乐部已撤销承保 (war risk premium 4000x pre-crisis, 6 P&I clubs withdrawn)",
+        "Brent原油收于约73美元/桶，本季度跌幅约20%为2020年以来最差季度，分析师警告伊朗和俄罗斯出口激增正酝酿供应过剩 (Brent worst quarter since 2020, supply glut risk rising)"
       ]
     }
   ]
